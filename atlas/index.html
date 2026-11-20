@@ -1,0 +1,793 @@
+<title>Атлас Readymag</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Spectral:wght@500&display=swap">
+<style>
+/* Лист обмеров: узкая колонка-рейка с ролью слева, содержание справа, все числа моноширинно */
+:root{
+  --paper:#FAFAFB; --surface:#F1F1F4; --raised:#FFFFFF;
+  --ink:#16161A; --muted:#67676F; --faint:#9A9AA3;
+  --line:#E3E3E9; --rule:#C9C9D2;
+  --accent:#EC520B; --accent-ink:#C2440A; --on-accent:#FFFFFF;
+  --measured:#1B7A4B; --measured-bg:#E7F3EC;
+  --eyed:#8A6A12; --eyed-bg:#F6EFDC;
+  --ff-text:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --ff-mono:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,monospace;
+  --ff-serif:"Spectral",Georgia,serif;
+  --maxw:1180px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#121110; --surface:#1B1917; --raised:#232019;
+    --ink:#EFEBE4; --muted:#9E978B; --faint:#78726A;
+    --line:#2C2823; --rule:#3C372F;
+    --accent:#FF6A1F; --accent-ink:#FF9153; --on-accent:#17120D;
+    --measured:#6FD39B; --measured-bg:#15291E;
+    --eyed:#E3BE68; --eyed-bg:#2A2314;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#121110; --surface:#1B1917; --raised:#232019;
+  --ink:#EFEBE4; --muted:#9E978B; --faint:#78726A;
+  --line:#2C2823; --rule:#3C372F;
+  --accent:#FF6A1F; --accent-ink:#FF9153; --on-accent:#17120D;
+  --measured:#6FD39B; --measured-bg:#15291E;
+  --eyed:#E3BE68; --eyed-bg:#2A2314;
+  color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:var(--ff-text); font-size:16px; line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{
+  max-width:var(--maxw); margin:0 auto;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));
+  padding-right:max(16px, env(safe-area-inset-right, 0px));
+  padding-block:0;
+}
+h1,h2,h3,h4{margin:0; text-wrap:balance; letter-spacing:-0.02em; font-weight:600}
+p{margin:0}
+a{color:var(--accent-ink); text-decoration:none; border-bottom:1px solid color-mix(in oklab, var(--accent-ink) 35%, transparent)}
+a:hover{border-bottom-color:var(--accent-ink)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent); outline-offset:3px}
+code,.mono{font-family:var(--ff-mono); font-variant-numeric:tabular-nums}
+
+/* ——— шапка ——— */
+.masthead{border-bottom:1px solid var(--rule); padding-block:56px 28px}
+.kicker{font-family:var(--ff-mono); font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent-ink)}
+.masthead h1{font-size:clamp(38px,7vw,76px); line-height:.98; letter-spacing:-0.035em; margin-top:14px}
+.masthead .lede{margin-top:20px; max-width:62ch; font-size:clamp(16px,2vw,19px); color:var(--muted)}
+.meta-row{display:flex; flex-wrap:wrap; gap:8px 28px; margin-top:26px; font-family:var(--ff-mono); font-size:12px; color:var(--faint)}
+
+/* ——— легенда ——— */
+.tag{display:inline-flex; align-items:center; gap:6px; font-family:var(--ff-mono); font-size:11px; letter-spacing:.04em; padding:2px 8px; border-radius:3px; white-space:nowrap}
+.tag.m{color:var(--measured); background:var(--measured-bg)}
+.tag.e{color:var(--eyed); background:var(--eyed-bg)}
+
+section{padding-block:56px; border-bottom:1px solid var(--line)}
+.sec-head{display:grid; grid-template-columns:140px 1fr; gap:28px; align-items:start}
+.sec-num{font-family:var(--ff-mono); font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--faint); padding-top:10px}
+.sec-head h2{font-size:clamp(26px,3.6vw,40px); line-height:1.05}
+.sec-head .sub{margin-top:14px; max-width:68ch; color:var(--muted)}
+@media (max-width:760px){.sec-head{grid-template-columns:1fr; gap:10px}.sec-num{padding-top:0}}
+
+.body-col{max-width:68ch; margin-top:26px; display:flex; flex-direction:column; gap:16px}
+.body-col p{color:var(--ink)}
+
+/* ——— карточки тезисов ——— */
+.keys{display:grid; grid-template-columns:repeat(auto-fit,minmax(248px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line); margin-top:34px}
+.key{background:var(--paper); padding:22px 20px; display:flex; flex-direction:column; gap:8px}
+.key .n{font-family:var(--ff-mono); font-size:11px; color:var(--accent-ink); letter-spacing:.1em}
+.key h4{font-size:17px; line-height:1.25}
+.key p{font-size:14px; color:var(--muted); line-height:1.5}
+
+/* ——— таблицы обмеров ——— */
+.tbl-wrap{overflow-x:auto; margin-top:22px; border:1px solid var(--line)}
+table{border-collapse:collapse; width:100%; min-width:520px; font-size:13.5px}
+th,td{text-align:left; padding:9px 14px; border-bottom:1px solid var(--line); vertical-align:top}
+thead th{font-family:var(--ff-mono); font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--faint); background:var(--surface); white-space:nowrap}
+tbody tr:last-child td{border-bottom:0}
+td.num,th.num{font-family:var(--ff-mono); font-variant-numeric:tabular-nums; white-space:nowrap}
+td strong{font-weight:600}
+
+/* ——— шаблон ——— */
+.tpl{padding-block:52px; border-bottom:1px solid var(--line)}
+.tpl:last-of-type{border-bottom:0}
+.tpl-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:10px 16px}
+.tpl-head h3{font-size:clamp(23px,3vw,32px); letter-spacing:-0.03em}
+.tpl-by{font-family:var(--ff-mono); font-size:12.5px; color:var(--muted)}
+.tpl-links{margin-top:10px; font-family:var(--ff-mono); font-size:12px; display:flex; flex-wrap:wrap; gap:6px 18px}
+.claim{margin-top:20px; font-size:clamp(17px,2.2vw,21px); line-height:1.4; max-width:56ch; letter-spacing:-0.015em}
+.claim b{color:var(--accent-ink); font-weight:600}
+
+.pair{display:grid; grid-template-columns:1fr; gap:26px; margin-top:28px}
+@media (min-width:860px){.pair.two{grid-template-columns:1fr 1fr}.pair.wide{grid-template-columns:2fr 1fr}}
+figure{margin:0; display:flex; flex-direction:column}
+figure img{display:block; width:100%; height:auto; background:var(--surface); border:1px solid var(--line)}
+/* подпись приклеена к кадру — приём, измеренный в A—BUREAU: 4 px до подписи, 39 px до следующего блока */
+figcaption{margin-top:4px; font-family:var(--ff-mono); font-size:11.5px; line-height:1.45; color:var(--muted)}
+figcaption b{color:var(--ink); font-weight:500}
+
+.cols2{display:grid; grid-template-columns:1fr; gap:26px; margin-top:26px}
+@media (min-width:860px){.cols2{grid-template-columns:1fr 1fr; gap:40px}}
+.note{border-left:2px solid var(--accent); padding:2px 0 2px 16px; color:var(--muted); font-size:14.5px; margin-top:20px}
+.apply{margin-top:24px; background:var(--surface); padding:20px; display:flex; flex-direction:column; gap:8px}
+.apply .lbl{font-family:var(--ff-mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--accent-ink)}
+.apply p{font-size:15px}
+
+/* ——— схемы ——— */
+.scheme{margin-top:28px; border:1px solid var(--line); background:var(--raised); padding:20px}
+.scheme svg{display:block; width:100%; height:auto; max-width:100%}
+
+/* ——— живые кнопки ——— */
+.demo{margin-top:26px; border:1px solid var(--line); background:var(--raised)}
+.demo-bar{display:flex; flex-wrap:wrap; gap:8px 10px; align-items:center; padding:22px 20px; background:#282828}
+.demo-cap{padding:10px 20px; border-top:1px solid var(--line); font-family:var(--ff-mono); font-size:11.5px; color:var(--muted)}
+.rm-pill{height:40px; padding:0 24px; border-radius:200px; border:0; font:400 16px/1 var(--ff-text); background:rgba(244,244,244,.96); color:#000; cursor:pointer; transition:all .1s}
+.rm-pill.accent{background:#EC520B; color:#fff}
+.rm-pill:hover{background:#8C8C8C; color:#fff}
+.rm-pill.accent:hover{background:#C2440A; color:#fff}
+.rm-filter{height:40px; padding:0 23px; border-radius:40px; border:1px solid #fff; background:transparent; color:#fff; font:400 16px/20px var(--ff-text); letter-spacing:-0.04px; cursor:pointer; transition:color .1s, background-color .1s}
+.rm-filter[data-c="grey"]:hover{background:#8C8C8C; color:#fff}
+.rm-filter[data-c="yellow"]:hover{background:#FFCB00; color:#fff}
+.rm-filter[data-c="green"]:hover{background:#408D27; color:#fff}
+.rm-filter[data-c="pink"]:hover{background:#FF7CBE; color:#fff}
+.rm-filter[data-c="blue"]:hover{background:#0080FF; color:#fff}
+.rm-filter[data-c="red"]:hover{background:#FF0000; color:#fff}
+.rm-prod{height:40px; padding:0 20px; border-radius:8px; border:0; font:400 16px/20px var(--ff-text); background:#0080FF; color:#fff; cursor:pointer; transition:background-color .1s}
+.rm-prod:hover{background:#0066CC}
+.rm-prod.ghost{background:transparent; color:var(--ink); border:1px solid rgba(162,162,162,.4)}
+.rm-prod.ghost:hover{background:color-mix(in oklab, var(--ink) 8%, transparent)}
+.rm-outline{height:29px; padding:0 18px; border-radius:164px; border:1px solid #333; background:transparent; color:#333; font:400 11px/1 var(--ff-text); cursor:pointer}
+.demo-bar.light{background:#FAFAFA}
+.demo-bar.light .rm-outline:hover{opacity:.6}
+.swatches{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line); margin-top:22px}
+.sw{background:var(--paper); padding:14px}
+.sw .chip{height:34px; border-radius:4px; margin-bottom:8px}
+.sw .nm{font-size:13px}
+.sw .hex{font-family:var(--ff-mono); font-size:11px; color:var(--faint)}
+
+/* ——— образец длинного текста ——— */
+.sample{margin-top:24px; border:1px solid var(--line); padding:26px 22px; background:var(--raised)}
+.sample .srv{font-family:var(--ff-mono); font-size:11px; color:var(--faint); letter-spacing:.02em}
+.sample .lead{font-family:var(--ff-serif); font-size:32px; line-height:36px; letter-spacing:-1px; margin-top:18px; max-width:390px}
+.sample .lead .hl{color:var(--accent-ink)}
+.sample .bodytext{font-family:var(--ff-serif); font-size:24px; line-height:30px; letter-spacing:-1px; margin-top:16px; max-width:390px}
+.sample .rule{margin-top:18px; font-family:var(--ff-mono); font-size:11.5px; color:var(--muted)}
+@media (max-width:520px){
+  .sample .lead{font-size:21px; line-height:24px}
+  .sample .bodytext{font-size:16px; line-height:20px}
+}
+
+/* ——— финал ——— */
+.dont{display:grid; grid-template-columns:1fr; gap:1px; background:var(--line); border:1px solid var(--line); margin-top:28px}
+@media (min-width:760px){.dont{grid-template-columns:1fr 1fr}}
+.dont div{background:var(--paper); padding:20px; display:flex; flex-direction:column; gap:7px}
+.dont h4{font-size:16px}
+.dont p{font-size:14px; color:var(--muted)}
+footer{padding-block:48px 72px; color:var(--muted); font-size:13.5px}
+footer ul{margin:14px 0 0; padding-left:18px; display:flex; flex-direction:column; gap:5px}
+footer a{font-family:var(--ff-mono); font-size:12.5px}
+</style>
+
+<div class="wrap">
+
+<header class="masthead">
+  <div class="kicker">Визуальное исследование · для «Сайта всех»</div>
+  <h1>Атлас Readymag</h1>
+  <p class="lede">Семь шаблонов из официального каталога, открытых в живом предпросмотре и обмеренных прямо в DOM, плюс разбор самого интерфейса Readymag: кнопки, скругления, состояния. Для каждого приёма — что он решает и куда его можно поставить у нас.</p>
+  <div class="meta-row">
+    <span>19 ноября 2026</span>
+    <span>Десктоп 1440×900 · телефон 375×812</span>
+    <span>Источник: readymag.com/templates</span>
+    <span><span class="tag m">измерено</span> — из&nbsp;getComputedStyle / getBoundingClientRect</span>
+    <span><span class="tag e">на глаз</span> — со скриншота</span>
+  </div>
+</header>
+
+<section>
+  <div class="sec-head">
+    <div class="sec-num">Главное</div>
+    <div>
+      <h2>Шесть выводов, ради которых стоило лезть в код</h2>
+      <p class="sub">Readymag устроен принципиально иначе, чем наш Nuxt: там не поток с брейкпоинтами, а холст фиксированной ширины, который целиком масштабируется. Это меняет смысл всех чисел — и даёт несколько приёмов, которые у нас воспроизводимы.</p>
+    </div>
+  </div>
+
+  <div class="keys">
+    <div class="key"><div class="n">01</div><h4>Холст и зум вместо брейкпоинтов</h4><p>У контейнера страницы стоит <code>zoom: viewport / canvas</code>. На холсте 1024 при окне 1440 это ровно 1,40625. Внутри десктопа пропорции не меняются никогда.</p></div>
+    <div class="key"><div class="n">02</div><h4>Телефон — вторая ручная раскладка</h4><p>В данных каждого виджета лежит блок <code>phone_portrait</code> со своими координатами. Не перестроение потока, а второй макет: часть элементов просто выключают.</p></div>
+    <div class="key"><div class="n">03</div><h4>Ховер — только цвет и прозрачность</h4><p>Во всех шаблонах: <code>opacity .7</code>, альфа 0,6, смена цвета за 0,1–0,2 с. Ни сдвигов, ни увеличения кадра. Ровно то, что записано в нашем DESIGN.md.</p></div>
+    <div class="key"><div class="n">04</div><h4>Переход между разделами без анимации</h4><p>Замер каждые 60–80 мс: <code>opacity</code> не меняется, страница подменяется мгновенно. Спокойствие даёт не анимация, а то, что шапка стоит на тех же координатах.</p></div>
+    <div class="key"><div class="n">05</div><h4>Скругление кодирует слой, а не размер</h4><p>8 px стоит и на кнопке 126×32, и на карточке 1333×629. Пилюля 200 px — маркетинг, 8 px — продукт, 4 px — превью. Три языка на одном сайте.</p></div>
+    <div class="key"><div class="n">06</div><h4>Кегль на телефоне падает непропорционально</h4><p>В лонгриде дисплей ужали на 15 %, основной текст — на 33 %, служебный не трогали вовсе. Мера строки при этом осталась прежней: ~35 знаков.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="sec-num">00 · Механика</div>
+    <div>
+      <h2>Как Readymag кладёт страницу</h2>
+      <p class="sub">Это нужно понимать, прежде чем переносить любые числа: все размеры в шаблонах — не экранные пиксели, а единицы холста.</p>
+    </div>
+  </div>
+
+  <div class="scheme">
+    <svg viewBox="0 0 760 270" role="img" aria-label="Схема: холст 1024 масштабируется в окно 1440 с коэффициентом 1,40625; телефонный холст 375 рендерится один к одному">
+      <g font-family="IBM Plex Mono, monospace" font-size="12">
+        <!-- desktop -->
+        <rect x="40" y="56" width="430" height="190" fill="none" stroke="currentColor" stroke-opacity=".25"/>
+        <rect x="70" y="76" width="370" height="150" fill="currentColor" fill-opacity=".06" stroke="#EC520B" stroke-width="1.5"/>
+        <text x="40" y="44" fill="currentColor" fill-opacity=".55">ОКНО 1440 × 900</text>
+        <text x="80" y="100" fill="#EC520B">ХОЛСТ 1024</text>
+        <text x="80" y="124" fill="currentColor" fill-opacity=".75">заголовок 100 px на холсте</text>
+        <text x="80" y="144" fill="currentColor" fill-opacity=".75">→ 141 px на экране</text>
+        <text x="80" y="176" fill="currentColor" fill-opacity=".75">поле 64 px на холсте</text>
+        <text x="80" y="196" fill="currentColor" fill-opacity=".75">→ 90 px на экране</text>
+        <text x="80" y="222" fill="#EC520B">zoom = 1440 / 1024 = 1,40625</text>
+
+        <!-- arrow -->
+        <line x1="492" y1="150" x2="548" y2="150" stroke="currentColor" stroke-opacity=".4"/>
+        <polygon points="548,150 540,146 540,154" fill="currentColor" fill-opacity=".4"/>
+        <text x="486" y="138" fill="currentColor" fill-opacity=".5">другой холст</text>
+
+        <!-- phone -->
+        <rect x="580" y="56" width="150" height="190" fill="none" stroke="currentColor" stroke-opacity=".25"/>
+        <rect x="584" y="60" width="142" height="182" fill="currentColor" fill-opacity=".06" stroke="#EC520B" stroke-width="1.5"/>
+        <text x="580" y="44" fill="currentColor" fill-opacity=".55">ОКНО 375 × 812</text>
+        <text x="594" y="86" fill="#EC520B">ХОЛСТ 375</text>
+        <text x="594" y="112" fill="currentColor" fill-opacity=".75">zoom = 1</text>
+        <text x="594" y="138" fill="currentColor" fill-opacity=".75">9 px остаются</text>
+        <text x="594" y="156" fill="currentColor" fill-opacity=".75">9 пикселями</text>
+        <text x="594" y="186" fill="currentColor" fill-opacity=".75">поле 23 px</text>
+        <text x="594" y="204" fill="currentColor" fill-opacity=".75">остаётся 23 px</text>
+      </g>
+    </svg>
+  </div>
+  <p class="note" style="margin-top:18px">Один и тот же кегль, записанный в шаблоне, на десктопе вырастает, а на телефоне — нет. Отсюда все беды с мелкими подписями: 9 px на макете дизайнера превращаются в 12,7 px на мониторе и остаются 9 px в руке. <span class="tag m">измерено</span></p>
+
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>Шаблон</th><th class="num">Холст десктопа</th><th class="num">zoom при 1440</th><th class="num">Холст телефона</th><th class="num">Высота страницы</th></tr></thead>
+      <tbody>
+        <tr><td>Editorial Stack</td><td class="num">1024</td><td class="num">1,40625</td><td class="num">375</td><td class="num">565 → 1570 (телефон)</td></tr>
+        <tr><td>Calendar</td><td class="num">1024</td><td class="num">1,40625</td><td class="num">375</td><td class="num">719 (обложка) / 1011 (месяц)</td></tr>
+        <tr><td>Grid · A—BUREAU</td><td class="num">1024</td><td class="num">1,40625</td><td class="num">375</td><td class="num">2265 → 3530 (телефон)</td></tr>
+        <tr><td>Planet Earth</td><td class="num">1024</td><td class="num">1,40625</td><td class="num">375</td><td class="num">640 — ровно экран</td></tr>
+        <tr><td>Unveil</td><td class="num">1024</td><td class="num">1,40625</td><td class="num">375</td><td class="num">640 / 812 — без прокрутки</td></tr>
+        <tr><td>Nordic</td><td class="num">1024</td><td class="num">1,40625</td><td class="num">375</td><td class="num">2248 → 2752 (телефон)</td></tr>
+        <tr><td>Read&nbsp;Me: Magazine</td><td class="num"><strong>1440</strong></td><td class="num"><strong>1,0</strong></td><td class="num">375</td><td class="num">2492 → 2264 (телефон)</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Холст — не константа Readymag. Старые шаблоны рисовались на 1440, новые на 1024. Прежде чем переносить любое число из чужого макета, надо знать, на какой ширине оно записано. <span class="tag m">измерено</span></p>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="sec-num">01–07</div>
+    <div>
+      <h2>Семь шаблонов, семь способов положить страницу</h2>
+      <p class="sub">Отбирал по разным подходам к вёрстке, а не по красоте: коллаж, календарная сетка, колоночная сетка, модульный брендбук, маска-коллаж, корпоративный сайт и журнальный лонгрид. Каждый открыт в предпросмотре, прокручен, понажиман.</p>
+    </div>
+  </div>
+
+  <!-- 1 -->
+  <article class="tpl">
+    <div class="tpl-head"><h3>1 · Editorial Stack</h3><span class="tpl-by">sainthelenastudio · $25 · microsites / photo_stories / longreads</span></div>
+    <div class="tpl-links"><a href="https://readymag.com/templates/details/6414547" target="_blank" rel="noopener">каталог</a><a href="https://readymag.com/6414547" target="_blank" rel="noopener">живой просмотр</a></div>
+    <p class="claim">Коллаж держится не на сетке, а на <b>наклонах и перекрытиях</b>: у семи картинок из одиннадцати собственный поворот от 3° до 10°. Сетки нет вообще — и это сознательно.</p>
+
+    <div class="pair two">
+      <figure>
+        <img src="img/editorial-desktop.jpg" alt="Editorial Stack на десктопе: крупный засечный заголовок, под ним три рисунка в ряд на жёлтом фоне">
+        <figcaption><b>Десктоп 1440×900.</b> Холст 1024×565, страница не прокручивается — это разворот. Поля 64 px холста (6,3 %). Заголовок Nanum&nbsp;Myeongjo 100/66, трекинг −9 px: интерлиньяж 0,66 от кегля. <span class="tag m">измерено</span></figcaption>
+      </figure>
+      <figure>
+        <img src="img/editorial-mobile.jpg" alt="Editorial Stack на телефоне: заголовок в три строки, один рисунок вместо трёх">
+        <figcaption><b>Телефон 375×812.</b> Холст 375, прокрутка 1570 px = 1,93 экрана. Видимых виджетов 25 из 33 — восемь элементов коллажа выключены. Поля выросли до 60 px = 16 % ширины. <span class="tag m">измерено</span></figcaption>
+      </figure>
+    </div>
+
+    <div class="cols2">
+      <div>
+        <h4 style="font-size:16px">Что происходит при взаимодействии</h4>
+        <div class="body-col" style="margin-top:12px">
+          <p><b>Меню.</b> Клик по слову «Menu» разворачивает список прямо под ним: бокс 159×51 на холсте, три строки с шагом 17 px. Ни оверлея, ни затемнения, ни сдвига контента. Кегль пунктов 18/17 — интерлиньяж меньше кегля.</p>
+          <p><b>Переход на другую страницу.</b> Замер класса <code>article.page</code> каждые 60 мс в течение 2,6 с: прозрачность всё время 1, трансформации нет. Анимации перехода не существует — ощущение плавности создаёт то, что заголовок и навигация нарисованы на каждой странице в одних и тех же координатах.</p>
+        </div>
+      </div>
+      <figure>
+        <img src="img/editorial-gallery.jpg" alt="Галерея Selected Works: ряд постеров одинаковой высоты, обрезанный правым краем экрана">
+        <figcaption><b>Раздел Selected Works.</b> 25 изображений в один ряд, шаг ровно 239 px, зазор 0, каждое 239×298 (4:5), <code>object-fit: cover</code>. Исходники 0,71 / 0,75 / 1,0 — все приведены к одному кадру. Лента шириной 6040 px обрезана правым краем. <span class="tag m">измерено</span></figcaption>
+      </figure>
+    </div>
+
+    <p class="note">Вертикальное колесо мыши двигает эту ленту <b>по горизонтали</b>. Приём эффектный, но он отбирает у человека привычную прокрутку; на тачпаде и на телефоне ведёт себя по-разному. <span class="tag e">на глаз, по поведению</span></p>
+
+    <div class="apply">
+      <div class="lbl">Что отсюда брать</div>
+      <p><b>Единый кадр для разнородных фотографий.</b> У нас в галерее строительства и в карточках людей исходники приходят в чём угодно. Приведение к одному отношению сторон через <code>object-fit: cover</code> — это то, что уже умеет <code>ResponsiveImage</code>; стоит закрепить один формат на блок (4:5 для людей, 3:2 для хроники) и не отступать от него.</p>
+      <p><b>Обрезанный правый край как знак продолжения.</b> Для ленты «предстоящие события» это честнее, чем стрелки: сразу видно, что карточек больше, чем помещается. Горизонтальную прокрутку колесом при этом не перехватывать.</p>
+    </div>
+  </article>
+
+  <!-- 2 -->
+  <article class="tpl">
+    <div class="tpl-head"><h3>2 · Calendar</h3><span class="tpl-by">Readymag ambassadors · бесплатный · presentations · 13 страниц</span></div>
+    <div class="tpl-links"><a href="https://readymag.com/templates/details/6124192" target="_blank" rel="noopener">каталог</a><a href="https://readymag.com/6124192" target="_blank" rel="noopener">живой просмотр</a></div>
+    <p class="claim">Самый близкий к нашей задаче шаблон: <b>сетка недели, события как плашки внутри дня</b> и двенадцать месяцев, сшитых в одну прокрутку, но с отдельным адресом у каждого.</p>
+
+    <div class="pair two">
+      <figure>
+        <img src="img/calendar-desktop.jpg" alt="Обложка Calendar: оранжевая сетка 7 колонок на всю ширину, вводный текст в две колонки сверху">
+        <figcaption><b>Десктоп, обложка.</b> 7 колонок, шаг 145 px, ячейка 127×126, зазор 18 по горизонтали и 14 по вертикали. Поля страницы — 14 px на холсте 1024, то есть 1,4 %: сетка идёт почти от края до края. <span class="tag m">измерено</span></figcaption>
+      </figure>
+      <figure>
+        <img src="img/calendar-january.jpg" alt="Страница января: тёмная сетка дней, цветные плашки событий, название месяца из разноцветных кружков">
+        <figcaption><b>Страница месяца.</b> Название набрано одиннадцатью кружками 41×40 с шагом 41 — буквами J A N U A R Y 2 0 2 6. События — плашки с цветной засечкой слева; есть полосы на всю неделю. <span class="tag m">измерено</span></figcaption>
+      </figure>
+    </div>
+
+    <div class="cols2">
+      <figure>
+        <img src="img/calendar-mobile.jpg" alt="Calendar на телефоне: три колонки дней вместо семи, кружки месяца в два ряда">
+        <figcaption><b>Телефон 375×812.</b> Неделя <b>не ломается на отдельные дни</b>: сетка остаётся семидневной, видно 3 колонки из 7, <code>.content-bounds</code> шириной 934 px листается вбок. Ячейка 115 px, шаг 124,5. Кружки выросли до 52×51, радиус 30 px, перенеслись в два ряда 7 + 4. <span class="tag m">измерено</span></figcaption>
+      </figure>
+      <div>
+        <h4 style="font-size:16px">Переход между разделами</h4>
+        <div class="body-col" style="margin-top:12px">
+          <p>Домотав обложку до конца, попадаешь на <code>/january/</code> — <b>адрес меняется сам</b>, разрыва не видно. Двенадцать месяцев читаются как одна лента, но на каждый можно дать ссылку.</p>
+          <p>Подсказка прокрутки — тонкая галочка внизу по центру — появляется только после движения мыши, а не висит постоянно.</p>
+        </div>
+        <div class="apply">
+          <div class="lbl">Что отсюда брать</div>
+          <p>Для <b>расписания богослужений</b>: неделя как горизонтально листаемая лента вместо схлопывания в список. Семидневный ритм — часть смысла; потеряв его, расписание перестаёт читаться как неделя.</p>
+          <p>Для <b>анонса события</b>: плашка с цветной засечкой слева внутри дня. У нас уже есть пять цветов направлений в <code>DirectionMark</code> — это ровно тот же механизм, только у Readymag он применён в календаре.</p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- 3 -->
+  <article class="tpl">
+    <div class="tpl-head"><h3>3 · Grid · A—BUREAU</h3><span class="tpl-by">Readymag · бесплатный · company_website / microsites</span></div>
+    <div class="tpl-links"><a href="https://readymag.com/templates/details/4493616" target="_blank" rel="noopener">каталог</a><a href="https://readymag.com/designs/grids/" target="_blank" rel="noopener">живой просмотр</a></div>
+    <p class="claim">Противоположность первому шаблону: ритм держат <b>колонки, а не одинаковые рамки</b>. Кадры в одном ряду разной высоты и разных пропорций — 1:1, 3:2 и 0,68.</p>
+
+    <div class="pair two">
+      <figure>
+        <img src="img/grid-hero.jpg" alt="Первый экран A—BUREAU: светлый засечный логотип слева вверху на чёрном, цитата по центру">
+        <figcaption><b>Первый экран.</b> Логотип Austin 68/64 на поле 30 px. Цитата Inter 13/15, трекинг −0,2, по центру, бокс 531 px = 52 % холста. На экране 1440 эти 13 px становятся 18,3 px. <span class="tag m">измерено</span></figcaption>
+      </figure>
+      <figure>
+        <img src="img/grid-columns.jpg" alt="Три колонки с архитектурными фотографиями разной высоты и подписями под ними">
+        <figcaption><b>Сетка.</b> 3 колонки по 314–316, межколонник 10, поля 30/30 (2,9 %). Высоты кадров 315 / 210 / 465 — выравнивания по низу нет. Правый край подписи «Architectural studio» совпадает с правым краем сетки. <span class="tag m">измерено</span></figcaption>
+      </figure>
+    </div>
+
+    <div class="cols2">
+      <figure>
+        <img src="img/grid-mobile.jpg" alt="A—BUREAU на телефоне: одна колонка, логотип во всю ширину">
+        <figcaption><b>Телефон.</b> Три колонки → одна: все кадры 328 px при полях 23/24 (6,1 %). Пропорции кадров сохранены, к общему формату ничего не приводится. Прокрутка 3530 px. <span class="tag m">измерено</span></figcaption>
+      </figure>
+      <div>
+        <h4 style="font-size:16px">Ритм подписи — самое полезное здесь</h4>
+        <div class="body-col" style="margin-top:12px">
+          <p>От низа кадра до подписи — <b>4 px</b>. От подписи до следующего кадра — <b>39 px</b>. Отношение примерно 1:10. Подпись физически приклеена к своему изображению, и ни одна пара не слипается с соседней.</p>
+          <p>Обратная сторона: кегль подписи падает с 13/15 на десктопе (18,3 px на экране) до 10/12 на телефоне — почти вдвое. Это уже не решение, а недосмотр.</p>
+        </div>
+        <div class="apply">
+          <div class="lbl">Что отсюда брать</div>
+          <p>Правило <b>4 / 39</b> для всех подписей под фотографиями — в хронике строительства, в галереях, в карточках людей. У нас 8-пиксельный ритм, поэтому ближайшее: <code>4px</code> до подписи и <code>40px</code> до следующего блока.</p>
+          <p>И обратное правило: <b>кегль подписи на телефоне не уменьшать</b>. Служебный текст и так на пределе.</p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- 4 -->
+  <article class="tpl">
+    <div class="tpl-head"><h3>4 · Planet Earth</h3><span class="tpl-by">Readymag · бесплатный · брендбук · 5 страниц</span></div>
+    <div class="tpl-links"><a href="https://readymag.com/templates/details/5738206" target="_blank" rel="noopener">каталог</a><a href="https://readymag.com/5738206" target="_blank" rel="noopener">живой просмотр</a></div>
+    <p class="claim">Здесь самое ценное — <b>полная система состояний ссылки</b>, выписанная в CSS: обычное, наведение, текущий раздел и неактивный пункт. И сетка рядами, а не колонками.</p>
+
+    <div class="pair two">
+      <figure>
+        <img src="img/planet-desktop.jpg" alt="Обложка брендбука Planet Earth: линейки-разделители, четыре модуля в ряд, список кнопок загрузки">
+        <figcaption><b>Обложка, холст 1024×640 — ровно экран.</b> Линейки на y=0, 96 и 217 режут страницу на полосы. Модули в ряду неравной ширины: 303 / 200 / 198 / 298 — широкий, узкий, узкий, широкий. <span class="tag m">измерено</span></figcaption>
+      </figure>
+      <figure>
+        <img src="img/planet-color-desktop.jpg" alt="Страница Color: ряд из десяти цветных кругов с подписями, под ними колонки оттенков">
+        <figcaption><b>Раздел Color.</b> Текущий пункт навигации — оранжевый <code>#FF4D00</code>, остальные <code>#333</code>, неактивный «Illustrations» — <code>rgba(51,51,51,.25)</code> с пометкой. Четыре состояния видно одновременно. <span class="tag m">измерено</span></figcaption>
+      </figure>
+    </div>
+
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Состояние ссылки</th><th>Как сделано</th><th>Что видит человек</th></tr></thead>
+        <tbody>
+          <tr><td>обычное</td><td class="num">color #333 · padding-bottom 1px</td><td>без подчёркивания</td></tr>
+          <tr><td>наведение</td><td class="num">rgba(51,51,51,<strong>.6</strong>)</td><td>тот же цвет гаснет, ничего не движется</td></tr>
+          <tr><td>текущий раздел</td><td class="num">#FF4D00</td><td>единственное место акцента</td></tr>
+          <tr><td>неактивный</td><td class="num">rgba(51,51,51,<strong>.25</strong>)</td><td>виден, но не кликается, рядом «comming soon»</td></tr>
+          <tr><td>подчёркивание (второй стиль)</td><td class="num">background: linear-gradient(...) 0 100% / 1px 1px repeat-x</td><td>линия ровно 1 px под базовой линией; на ховере убирается</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="cols2">
+      <figure>
+        <img src="img/planet-mobile-sheet.jpg" alt="Телефонное меню Planet Earth: белая шторка снизу с пунктами, текущий оранжевый">
+        <figcaption><b>Телефон: меню шторкой.</b> Панель <code>#FAFAFA</code> высотой 475 px из 812 — <b>58 % экрана</b>, верхние 42 % страницы остаются видимыми, затемнения нет. Пункты 14/18, шаг строки 48 px — это и есть тач-цель. <span class="tag m">измерено</span></figcaption>
+      </figure>
+      <div>
+        <h4 style="font-size:16px">Кнопка, у которой толщина линии подогнана под зум</h4>
+        <div class="body-col" style="margin-top:12px">
+          <p>Кнопки загрузки (Logos / Colors / Fonts / Figma / PDF) — 377×21 на холсте, радиус 164 px, фон прозрачный. Обводка задана как <b>0,711 px</b>. Это не случайность: 0,711 × 1,40625 = ровно 1 физический пиксель на экране.</p>
+          <p>Высота кнопки — примерно 2,1 кегля текста, шаг между кнопками 24,7 при высоте 21, то есть зазор 3,7 px. Список кнопок читается как один блок, а не как пять отдельных объектов.</p>
+        </div>
+        <div class="demo">
+          <div class="demo-bar light">
+            <button class="rm-outline" type="button">Logos</button>
+            <button class="rm-outline" type="button">Colors</button>
+            <button class="rm-outline" type="button">Fonts</button>
+          </div>
+          <div class="demo-cap">Воспроизведено по замерам: h 29 px (21 × 1,40625), радиус 164, обводка 1 px, ховер — гашение до 60 %.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="apply">
+      <div class="lbl">Что отсюда брать</div>
+      <p><b>Четыре состояния вместо двух.</b> У нас в <code>SectionPillNav</code> и в меню сейчас живут «обычное» и «ховер». Добавить «текущий» на <code>--color-accent-ink</code> и «недоступно» на 25 % — и навигация по разделам начинает сама отвечать на вопрос «где я».</p>
+      <p><b>Шторка снизу на 58 %, без затемнения.</b> Для мобильного меню прихода это лучше полноэкранного оверлея: страница остаётся на виду, человек не теряет место, куда вернётся.</p>
+      <p><b>Сетка рядами с неравными модулями.</b> Прямо отвечает нашему правилу «секция — полоса, а не карточка в карточке»: линейки делят страницу на полосы, внутри полосы модули разной ширины по важности.</p>
+    </div>
+  </article>
+
+  <!-- 5 -->
+  <article class="tpl">
+    <div class="tpl-head"><h3>5 · Unveil</h3><span class="tpl-by">Readymag · бесплатный · microsites / photo_stories</span></div>
+    <div class="tpl-links"><a href="https://readymag.com/templates/details/6248752" target="_blank" rel="noopener">каталог</a><a href="https://readymag.com/6248752" target="_blank" rel="noopener">живой просмотр</a></div>
+    <p class="claim">Вся страница — <b>одна картина и тринадцать белых прямоугольников поверх неё</b>. Движение мыши мгновенно подменяет картину, маска остаётся неподвижной.</p>
+
+    <div class="pair two">
+      <figure>
+        <img src="img/unveil-hover-a.jpg" alt="Unveil: сквозь белые вырезы видна картина с пальмами и фигурой">
+        <figcaption><b>Курсор слева.</b> Белые плашки 135×150, 238×45, 97×110, 189×149, 63×80, 64×84, 135×70, 62×182, 156×70, 140×61, 250×61 — все с нулевым скруглением. <span class="tag m">измерено</span></figcaption>
+      </figure>
+      <figure>
+        <img src="img/unveil-hover-b.jpg" alt="Unveil: та же маска, но за ней уже другая картина с беседкой и прогуливающимися людьми">
+        <figcaption><b>Курсор в центре.</b> Подложка другая, рамка та же. <code>transition-duration</code> у контейнеров анимации — <b>0 с</b>: подмена без плавности, как перелистывание. <span class="tag m">измерено</span></figcaption>
+      </figure>
+    </div>
+
+    <div class="cols2">
+      <figure>
+        <img src="img/unveil-mobile.jpg" alt="Unveil на телефоне: вертикальный кадр, разреженная маска, мелкий моноширинный текст">
+        <figcaption><b>Телефон.</b> Остаётся 11 виджетов из 17, и <b>4 из 7 плашек вынесены за кадр</b> (x = −263, −172, −149, 406, 633 при ширине 375). Композиция разрежается, а не пересобирается. <span class="tag m">измерено</span></figcaption>
+      </figure>
+      <div>
+        <h4 style="font-size:16px">Один кегль на всю страницу</h4>
+        <div class="body-col" style="margin-top:12px">
+          <p>Навигация, имя, биография — всё набрано <b>Courier New 9/10</b>, трекинг −0,4. Иерархию держат положение и пустота, а не размер шрифта. На десктопе это 12,7 px после зума, а на телефоне — ровно 9 px.</p>
+          <p>Это самый наглядный пример того, чем оборачивается «один макет на двух холстах»: приём, выстроенный под масштабирование, на телефоне ломается первым.</p>
+        </div>
+        <div class="apply">
+          <div class="lbl">Что отсюда брать — и чего не брать</div>
+          <p><b>Брать:</b> идею неподвижной рамки, внутри которой меняется содержимое. Для блока «святыни» или «иконы храма» — одна композиция окон, в которых по наведению и по клику меняется изображение, без движения самих окон.</p>
+          <p><b>Не брать:</b> единственный кегль 9 px и подмену без перехода. У нас есть <code>NavigationProgress</code> и правило о том, что предыдущая страница остаётся видимой — мгновенная подмена сюда не ложится.</p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- 6 -->
+  <article class="tpl">
+    <div class="tpl-head"><h3>6 · Nordic</h3><span class="tpl-by">Readymag · бесплатный · company_website · ресторан</span></div>
+    <div class="tpl-links"><a href="https://readymag.com/templates/details/5991161" target="_blank" rel="noopener">каталог</a><a href="https://readymag.com/5991161" target="_blank" rel="noopener">живой просмотр</a></div>
+    <p class="claim">Единственный из семи, кто <b>всерьёз скругляет</b>: 40 px у подложки секции, 15 px у фотографий и у кнопки, 100 % у кругов. И ровно два кегля на весь сайт — 12 и 118.</p>
+
+    <div class="pair two">
+      <figure>
+        <img src="img/nordic-desktop.jpg" alt="Nordic на десктопе: синий экран, логотип ATELIER из светлых клякс с буквами, под ним строка текста и ссылка">
+        <figcaption><b>Десктоп.</b> Контентная колонка 676 px = 66 % холста при полях 174/174 (по 17 %). Внутри — две колонки по 328 с межколонником 20, строки меню высотой 24. <span class="tag m">измерено</span></figcaption>
+      </figure>
+      <figure>
+        <img src="img/nordic-mobile.jpg" alt="Nordic на телефоне: логотип в два ряда 4+3 буквы, под ним крупная кнопка BOOK A TABLE">
+        <figcaption><b>Телефон.</b> Логотип ломается на два ряда 4 + 3, Bungee с 118 → 96 (0,81). Кнопка 328×61, радиус 15, обводка 2 px, заливка <code>#3A92FF</code>, поля 23/24. <span class="tag m">измерено</span></figcaption>
+      </figure>
+    </div>
+
+    <div class="note">Та же кнопка на десктопе — 676×80 внутри полей 174. То есть при переходе на телефон она растёт с <b>66 % до 87 %</b> ширины экрана. Кнопка-действие — единственный элемент, который на телефоне занимает больше места, чем на десктопе. <span class="tag m">измерено</span></div>
+
+    <div class="apply">
+      <div class="lbl">Что отсюда брать</div>
+      <p><b>Главное действие на телефоне шире, чем на десктопе.</b> Для «записаться на требу» и для пожертвования это прямое указание: на узких ширинах <code>OrangeButton</code> и <code>DonationCta</code> должны занимать почти всю строку, а не повторять десктопную ширину.</p>
+      <p><b>Скругления по ролям, а не по привычке.</b> У Nordic их ровно три: 40 — подложка, 15 — изображение и кнопка, 100 % — круг. У нас в токенах 2 / 3 / 4 и 999. Третьего значения для «большой подложки» нет, и, судя по DESIGN.md, его и не нужно: большие скруглённые плашки у нас запрещены сознательно.</p>
+    </div>
+  </article>
+
+  <!-- 7 -->
+  <article class="tpl">
+    <div class="tpl-head"><h3>7 · Read Me: Magazine</h3><span class="tpl-by">Readymag · бесплатный · longreads</span></div>
+    <div class="tpl-links"><a href="https://readymag.com/templates/details/1961938" target="_blank" rel="noopener">каталог</a><a href="https://readymag.com/designs/readme/" target="_blank" rel="noopener">живой просмотр</a></div>
+    <p class="claim">Главный ориентир для длинного текста. <b>При прокрутке движется только колонка текста</b>: заголовок, оглавление и фактурная полоса стоят на месте — замерено на четырёх положениях прокрутки, координаты не изменились ни на пиксель.</p>
+
+    <div class="pair two">
+      <figure>
+        <img src="img/readme-desktop.jpg" alt="Read Me Magazine: слева оранжевый заголовок и оглавление, посередине фактурная полоса, справа колонка текста">
+        <figcaption><b>Первый экран.</b> Холст 1440, zoom 1. Колонка текста x=832, ширина 388–390 — <b>27 % ширины</b>. Оглавление слева 224 px. Вверху колонки — «8 min read». <span class="tag m">измерено</span></figcaption>
+      </figure>
+      <figure>
+        <img src="img/readme-pinned-toc.jpg" alt="Та же страница, прокрученная: текст ушёл вперёд, заголовок и оглавление остались на месте">
+        <figcaption><b>Прокрутка 1592 px.</b> Текст сменился, рама цела. Цитата внутри текста выделена оранжевым прямо в потоке — без врезки, рамки и кавычек. <span class="tag m">измерено</span></figcaption>
+      </figure>
+    </div>
+
+    <div class="cols2">
+      <div>
+        <h4 style="font-size:16px">Шкала пересчитана непропорционально</h4>
+        <div class="tbl-wrap" style="margin-top:14px">
+          <table>
+            <thead><tr><th>Роль</th><th class="num">Десктоп</th><th class="num">Телефон</th><th class="num">Коэфф.</th></tr></thead>
+            <tbody>
+              <tr><td>дисплей Druk Condensed</td><td class="num">240 / 240</td><td class="num">204 / 204</td><td class="num">0,85</td></tr>
+              <tr><td>лид Spectral</td><td class="num">32 / 36</td><td class="num">21 / 24</td><td class="num">0,66</td></tr>
+              <tr><td>текст Spectral</td><td class="num">24 / 30</td><td class="num">16 / 20</td><td class="num">0,67</td></tr>
+              <tr><td>служебное Graphik</td><td class="num">11 / 12</td><td class="num">11 / 12</td><td class="num"><strong>1,00</strong></td></tr>
+              <tr><td>колонка</td><td class="num">390 (27 %)</td><td class="num">314–353 (84–94 %)</td><td class="num">—</td></tr>
+              <tr><td>мера строки</td><td class="num">≈ 34 знака</td><td class="num">≈ 35–36 знаков</td><td class="num"><strong>1,00</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note">Интерлиньяж основного текста сохранён точно: 30/24 = 20/16 = 1,25. Кегль уменьшали ровно настолько, чтобы в строку входило столько же слов. <span class="tag m">измерено</span></p>
+      </div>
+      <figure>
+        <img src="img/readme-mobile.jpg" alt="Read Me на телефоне: заголовок во всю ширину, лид, под ним оглавление в потоке">
+        <figcaption><b>Телефон.</b> Оглавление уезжает с закреплённого левого поля <b>в поток, под лид</b>. Прокрутка 2264 px. <span class="tag m">измерено</span></figcaption>
+      </figure>
+    </div>
+
+    <div class="sample">
+      <div class="srv">8 min read</div>
+      <div class="lead"><span class="hl">More and more text-based content is shared over the Internet, but not everything is thoroughly read.</span> In fact, by the time this article reaches the next screen, a significant share of you will have already stopped reading.</div>
+      <div class="bodytext">Still, to increase the chances of their work being seen, great creators work hard to create good content.</div>
+      <div class="rule">Воспроизведено по замерам: Spectral 32/36 и 24/30, трекинг −1, колонка 390 px, служебная строка 11/12. На узком экране блок сам переходит на 21/24 и 16/20 — ровно так, как это сделано в шаблоне.</div>
+    </div>
+
+    <div class="apply">
+      <div class="lbl">Что отсюда брать</div>
+      <p><b>Закреплённая рама у длинного материала.</b> Для статей, бесед и «Летописи»: слева остаются название материала и оглавление по частям, справа едет текст. У нас для этого уже есть <code>SprintEditorContent</code> с заголовками — оглавление собирается из них само.</p>
+      <p><b>Постоянная мера строки.</b> Правило для <code>content_width=text</code>: при смене ширины экрана менять кегль так, чтобы в строке оставалось 34–36 знаков, а интерлиньяж держать на 1,25. Это конкретнее, чем «ограничить читаемой колонкой».</p>
+      <p><b>Время чтения над текстом.</b> Одна строка служебным кеглем 11/12 — дешёвый и честный сигнал длины. Для бесед и больших материалов это заметно снижает порог.</p>
+      <p><b>Выделение цитаты цветом прямо в потоке</b> — без врезки и рамки. Ложится на наш запрет декоративных линеек и вложенных карточек.</p>
+    </div>
+  </article>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="sec-num">08 · Интерфейс</div>
+    <div>
+      <h2>Сам Readymag: кнопки, скругления, состояния</h2>
+      <p class="sub">Отдельная история. На одном сайте уживаются три разных языка скругления, и видно, что они не из одной системы, а из разных слоёв продукта.</p>
+    </div>
+  </div>
+
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>Слой</th><th class="num">Радиус</th><th>Чем оформлен</th><th class="num">Размер элемента</th></tr></thead>
+      <tbody>
+        <tr><td>маркетинговая шапка и CTA</td><td class="num"><strong>200 px</strong></td><td>Solutions, Pricing, Examples, Templates, Learn, Log in, Sign up</td><td class="num">все 40 px высотой</td></tr>
+        <tr><td>фильтры каталога</td><td class="num"><strong>40 px</strong></td><td>Company website, Landing page, Presentation, Portfolio, Editorial, All sources, Free+Paid</td><td class="num">тоже 40 px высотой</td></tr>
+        <tr><td>превью шаблона в каталоге</td><td class="num"><strong>4 px</strong></td><td>карточка превью (126 штук на странице)</td><td class="num">309×203</td></tr>
+        <tr><td>тег категории</td><td class="num"><strong>4 px</strong></td><td>«Presentation»</td><td class="num">88×24</td></tr>
+        <tr><td>продуктовый слой</td><td class="num"><strong>8 px</strong></td><td>большая карточка, Open in Editor, Preview, Contact support, превью страниц</td><td class="num">от 126×32 до 1333×629</td></tr>
+        <tr><td>плавающая кнопка в просмотре</td><td class="num"><strong>28 px</strong></td><td>«Copy template»</td><td class="num">160×56 — ровно половина высоты</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="body-col">
+    <p><b>Три вещи, которые видно только в цифрах.</b></p>
+    <p>Первое: <b>200 px и 40 px при высоте 40 дают одну и ту же форму</b> — полную пилюлю. Это два разных способа сказать одно и то же. Единого токена у Readymag нет, есть исторические слои, которые никто не свёл.</p>
+    <p>Второе: <b>радиус не зависит от размера элемента</b>. Восемь пикселей стоят и на кнопке 126×32, и на карточке 1333×629. Радиус кодирует слой интерфейса, а не величину объекта. Это противоположно популярному «чем больше блок, тем больше скругление» — и выглядит собраннее.</p>
+    <p>Третье: на странице шаблона <b>радиус 8 равен зазору 8</b>. Превью страниц идут с шагом 447 при ширине 439 и с шагом 166 при ширине 158 — зазор в обоих случаях ровно 8.</p>
+  </div>
+
+  <h3 style="font-size:20px; margin-top:40px">Кнопки: высота, кегль, внутренние отступы</h3>
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>Кнопка</th><th class="num">Размер</th><th class="num">Радиус</th><th class="num">Кегль / интерл.</th><th class="num">Боковой отступ</th><th class="num">Заливка</th></tr></thead>
+      <tbody>
+        <tr><td>Sign up</td><td class="num">102×40</td><td class="num">200</td><td class="num">16</td><td class="num">24</td><td class="num">#EC520B</td></tr>
+        <tr><td>Log in</td><td class="num">91×40</td><td class="num">200</td><td class="num">16</td><td class="num">24</td><td class="num">#F4F4F4 96 %</td></tr>
+        <tr><td>пункт меню</td><td class="num">88–122×40</td><td class="num">200</td><td class="num">16</td><td class="num">24</td><td class="num">#F4F4F4 96 %</td></tr>
+        <tr><td>фильтр каталога</td><td class="num">106–177×40</td><td class="num">40</td><td class="num">16 / 20</td><td class="num">23</td><td class="num">прозрачная, обводка 1 px</td></tr>
+        <tr><td>Open in Editor</td><td class="num">152×40</td><td class="num">8</td><td class="num">16</td><td class="num">—</td><td class="num">#0080FF</td></tr>
+        <tr><td>Preview</td><td class="num">153×40</td><td class="num">8</td><td class="num">16 / 20</td><td class="num">—</td><td class="num">обводка rgba(162,162,162,.196)</td></tr>
+        <tr><td>Contact support</td><td class="num">126×32</td><td class="num">8</td><td class="num">12 / 16</td><td class="num">—</td><td class="num">#4E4E4E</td></tr>
+        <tr><td>Copy template</td><td class="num">160×56</td><td class="num">28</td><td class="num">—</td><td class="num">—</td><td class="num">#808080 → #313131</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="keys" style="margin-top:22px">
+    <div class="key"><div class="n">Отношение 1</div><h4>Высота = 2,5 кегля</h4><p>40 / 16 по всей основной линейке. Мелкая кнопка держит ту же логику: 32 / 12 = 2,67.</p></div>
+    <div class="key"><div class="n">Отношение 2</div><h4>Боковой отступ = 1,44–1,5 кегля</h4><p>23–24 px при кегле 16. Отступ привязан к шрифту, а не к высоте.</p></div>
+    <div class="key"><div class="n">Отношение 3</div><h4>Воздух над текстом — 10 px</h4><p>(40 − 20) / 2 при интерлиньяже 20. Ровно столько же, сколько у нас даёт один шаг ритма 8 плюс 2.</p></div>
+  </div>
+
+  <div class="demo">
+    <div class="demo-bar">
+      <button class="rm-pill" type="button">Pricing</button>
+      <button class="rm-pill" type="button">Templates</button>
+      <button class="rm-pill accent" type="button">Sign up</button>
+      <span style="width:16px"></span>
+      <button class="rm-filter" data-c="grey" type="button">Company website</button>
+      <button class="rm-filter" data-c="yellow" type="button">Landing page</button>
+      <button class="rm-filter" data-c="green" type="button">Presentation</button>
+      <button class="rm-filter" data-c="pink" type="button">Portfolio</button>
+      <button class="rm-filter" data-c="blue" type="button">Editorial</button>
+      <button class="rm-filter" data-c="red" type="button">All sources</button>
+    </div>
+    <div class="demo-bar light" style="background:var(--raised)">
+      <button class="rm-prod" type="button">Open in Editor</button>
+      <button class="rm-prod ghost" type="button">Preview</button>
+    </div>
+    <div class="demo-cap">Наведите курсор. Всё воспроизведено по замеренным значениям: высота 40, радиусы 200 / 40 / 8, отступы 24 и 23, переход <code>color .1s</code>. У каждого фильтра свой цвет наведения — это не украшение, а кодировка категории.</div>
+  </div>
+
+  <div class="swatches">
+    <div class="sw"><div class="chip" style="background:#8C8C8C"></div><div class="nm">Company website</div><div class="hex">#8C8C8C</div></div>
+    <div class="sw"><div class="chip" style="background:#FFCB00"></div><div class="nm">Landing page</div><div class="hex">#FFCB00</div></div>
+    <div class="sw"><div class="chip" style="background:#408D27"></div><div class="nm">Presentation</div><div class="hex">#408D27</div></div>
+    <div class="sw"><div class="chip" style="background:#FF7CBE"></div><div class="nm">Portfolio</div><div class="hex">#FF7CBE</div></div>
+    <div class="sw"><div class="chip" style="background:#0080FF"></div><div class="nm">Editorial</div><div class="hex">#0080FF</div></div>
+    <div class="sw"><div class="chip" style="background:#FF0000"></div><div class="nm">All sources</div><div class="hex">#FF0000</div></div>
+  </div>
+
+  <div class="pair two" style="margin-top:34px">
+    <figure>
+      <img src="img/ui-filter-hover.jpg" alt="Каталог Readymag: фильтр Editorial залит синим под курсором">
+      <figcaption><b>Наведение на фильтр.</b> Пилюля заливается цветом своей категории, текст становится белым, переход 0,1 с. <span class="tag m">измерено</span></figcaption>
+    </figure>
+    <figure>
+      <img src="img/ui-dropdown-blur.jpg" alt="Открытый фильтр: вся страница размыта, под пилюлей простой текстовый список">
+      <figcaption><b>Открытый фильтр.</b> Всё позади уходит в <code>backdrop-filter: blur(10px)</code>, пилюля заливается своим цветом. Меню как панели нет: ни фона, ни тени, ни скругления — список текстом 26/26, текущий пункт оранжевый. <span class="tag m">измерено</span></figcaption>
+    </figure>
+  </div>
+
+  <div class="pair two">
+    <figure>
+      <img src="img/ui-detail-desktop.jpg" alt="Страница шаблона: слева панель с описанием и кнопками, справа большое превью">
+      <figcaption><b>Страница шаблона.</b> Одна карточка 1333×629, разрезанная на 373 + 959 (28 % / 72 %). Радиус 8 нарисован только по внешним углам: <code>8px 0 0 8px</code> и <code>0 8px 8px 0</code>. <span class="tag m">измерено</span></figcaption>
+    </figure>
+    <figure>
+      <img src="img/ui-pages-phone.jpg" alt="Блок Pages в телефонном режиме: восемь вертикальных превью страниц в ряд">
+      <figcaption><b>Переключатель десктоп / телефон.</b> Две иконки 23×23 с шагом 35. Превью меняется с 439×289 (1,52:1, три в ряд) на 158×280 (0,56:1, восемь в ряд). Радиус 8 и зазор 8 остаются теми же. <span class="tag m">измерено</span></figcaption>
+    </figure>
+  </div>
+
+  <div class="note">Одна ошибка, которую повторять не нужно: у фильтров стоит <code>:focus { outline: none }</code>. Клавиатурная навигация по каталогу теряет фокус полностью. У нас в DESIGN.md на этот счёт есть прямое правило — focus-состояния остаются доступными без ховера. <span class="tag m">измерено</span></div>
+
+  <h3 style="font-size:20px; margin-top:40px">Карточка каталога</h3>
+  <div class="pair wide">
+    <figure>
+      <img src="img/catalog.png" alt="Каталог шаблонов Readymag: четыре колонки карточек на тёмном фоне">
+      <figcaption><b>Сетка каталога.</b> 4 колонки по 309, межколонник 32, контейнер 1332 по центру 1440 → поля 54. Шаг ряда 284 при высоте превью 203. <span class="tag m">измерено</span></figcaption>
+    </figure>
+    <div>
+      <div class="body-col" style="margin-top:0">
+        <p>Карточка задана как <code>aspect-ratio: 1.52/1; border-radius: 4px; overflow: hidden</code>, ховер — <code>opacity: .7</code>. Больше ничего: ни подъёма, ни тени, ни увеличения кадра внутри рамки.</p>
+        <p>Подпись — название и цена в одной строке, автор во второй — лежит под превью отдельным блоком, а не поверх изображения. Карточка остаётся изображением, а не плашкой.</p>
+        <p>Readymag показывает ровно <b>два формата кадра</b> — 1,52:1 и 0,56:1 — и ничего между ними. Это и есть вся его «адаптивность» на уровне превью.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="sec-num">09 · Применение</div>
+    <div>
+      <h2>Куда это ставить у нас</h2>
+      <p class="sub">Три задачи, которые стоят перед «Сайтом всех» прямо сейчас, и конкретные приёмы под каждую — с источником.</p>
+    </div>
+  </div>
+
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>Задача</th><th>Приём</th><th>Откуда</th><th>Конкретно</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Длинный текст</strong><br><span style="color:var(--muted)">беседы, материалы, летопись</span></td>
+          <td>Закреплённая рама: название и оглавление стоят, текст едет</td>
+          <td>Read Me: Magazine</td>
+          <td>Оглавление собирается из заголовков <code>SprintEditorContent</code>. Колонка — постоянная мера 34–36 знаков, интерлиньяж 1,25, кегль меняется под ширину. Над текстом — время чтения служебным кеглем.</td>
+        </tr>
+        <tr>
+          <td><strong>Анонс события</strong></td>
+          <td>Плашка с цветной засечкой внутри дня; неделя листается вбок, а не схлопывается</td>
+          <td>Calendar</td>
+          <td>Цвет засечки берём из существующих пяти цветов <code>DirectionMark</code>. На телефоне показываем 3 дня из 7 с горизонтальной прокруткой — семидневный ритм сохраняется.</td>
+        </tr>
+        <tr>
+          <td><strong>Переход к сервису</strong><br><span style="color:var(--muted)">требы, пожертвование, запись</span></td>
+          <td>Главное действие на телефоне шире, чем на десктопе</td>
+          <td>Nordic</td>
+          <td>66 % ширины на десктопе → 87 % на телефоне. Для <code>OrangeButton</code> и <code>DonationCta</code> это означает почти полную строку на узких ширинах.</td>
+        </tr>
+        <tr>
+          <td><strong>Навигация по разделу</strong></td>
+          <td>Четыре состояния ссылки вместо двух</td>
+          <td>Planet Earth</td>
+          <td>обычное → ховер на альфе 0,6 → текущий на <code>--color-accent-ink</code> → недоступный на 25 %. Для <code>SectionPillNav</code> и меню.</td>
+        </tr>
+        <tr>
+          <td><strong>Мобильное меню</strong></td>
+          <td>Шторка снизу на 58 % экрана, без затемнения</td>
+          <td>Planet Earth</td>
+          <td>Пункты 14/18 с шагом строки 48 px — тач-цель выходит сама собой. Страница остаётся видна сверху.</td>
+        </tr>
+        <tr>
+          <td><strong>Галереи и хроника</strong></td>
+          <td>Единый кадр для разнородных исходников + ритм подписи 4 / 40</td>
+          <td>Editorial Stack, A—BUREAU</td>
+          <td>Один формат на блок через <code>ResponsiveImage</code>. Подпись в 4 px от кадра, следующий блок — в 40.</td>
+        </tr>
+        <tr>
+          <td><strong>Разделение секций</strong></td>
+          <td>Сетка рядами: линейки делят полосу, модули внутри разной ширины по важности</td>
+          <td>Planet Earth</td>
+          <td>Ложится на наш <code>SectionCutDivider</code> и на правило «секция — полоса, а не карточка в карточке».</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="sec-num">10 · Границы</div>
+    <div>
+      <h2>Чего отсюда брать не нужно</h2>
+      <p class="sub">Readymag — инструмент для одностраничных витрин. Половина его приёмов прямо противоречит тому, что уже записано в нашем DESIGN.md, и это хорошо: значит, правила написаны не зря.</p>
+    </div>
+  </div>
+
+  <div class="dont">
+    <div><h4>Перехват прокрутки</h4><p>Колесо мыши, двигающее ленту по горизонтали (Editorial Stack). Отбирает привычное управление и по-разному ведёт себя на тачпаде, мыши и телефоне.</p></div>
+    <div><h4>Мгновенная подмена содержимого</h4><p>Переходы с нулевой длительностью (Unveil, все переходы между страницами). У нас <code>NavigationProgress</code> и правило о том, что предыдущая страница остаётся видимой и доступной.</p></div>
+    <div><h4>Единственный кегль 9 px</h4><p>Красиво на мониторе дизайнера, нечитаемо на телефоне, где холст 375 рендерится один к одному.</p></div>
+    <div><h4>Большие скруглённые подложки</h4><p>Радиус 40 на блоке шире экрана (Nordic). У нас это прямо запрещено: токены 2 / 3 / 4 и пилюля 999 — и этого хватает.</p></div>
+    <div><h4>Снятый контур фокуса</h4><p><code>:focus { outline: none }</code> на фильтрах каталога. Повторять нельзя.</p></div>
+    <div><h4>Тач-цели по 24–26 px</h4><p>Пункты меню в Editorial Stack и кнопка меню в Planet Earth. Наш порог — 44 px, и Readymag его сам же соблюдает только в шторке (шаг 48).</p></div>
+  </div>
+</section>
+
+<footer class="wrap" style="padding-left:0; padding-right:0">
+  <p><b>Метод.</b> Каждый шаблон открыт по адресу <code>readymag.com/&lt;id&gt;</code> — это то же, что кнопка Preview в каталоге. Размеры снимались в живом DOM через <code>getComputedStyle</code> и <code>getBoundingClientRect</code>, прокрутка и наведение выполнялись настоящими событиями мыши. Значения, помеченные <span class="tag m">измерено</span>, взяты из кода; <span class="tag e">на глаз</span> — сняты со скриншота. Размеры в шаблонах приведены в единицах холста, если не сказано иное.</p>
+  <p style="margin-top:14px"><b>Источники.</b></p>
+  <ul>
+    <li><a href="https://readymag.com/templates" target="_blank" rel="noopener">readymag.com/templates</a> — каталог</li>
+    <li><a href="https://readymag.com/6414547" target="_blank" rel="noopener">Editorial Stack</a> · sainthelenastudio</li>
+    <li><a href="https://readymag.com/6124192" target="_blank" rel="noopener">Calendar</a> · Readymag ambassadors</li>
+    <li><a href="https://readymag.com/designs/grids/" target="_blank" rel="noopener">Grid · A—BUREAU</a> · Readymag</li>
+    <li><a href="https://readymag.com/5738206" target="_blank" rel="noopener">Planet Earth</a> · Readymag</li>
+    <li><a href="https://readymag.com/6248752" target="_blank" rel="noopener">Unveil</a> · Readymag</li>
+    <li><a href="https://readymag.com/5991161" target="_blank" rel="noopener">Nordic</a> · Readymag</li>
+    <li><a href="https://readymag.com/designs/readme/" target="_blank" rel="noopener">Read Me: Magazine</a> · Readymag</li>
+  </ul>
+  <p style="margin-top:16px">Скриншоты приведены как материал разбора; права на шаблоны принадлежат их авторам, указанным рядом с каждым.</p>
+</footer>
+
+</div>

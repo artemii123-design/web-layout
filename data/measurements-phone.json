@@ -1,0 +1,9551 @@
+[
+ {
+  "id": 6414547,
+  "title": "Editorial Stack",
+  "cats": "microsites/photo_stories/longreads",
+  "by": "sainthelenastudio",
+  "price": 25,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6414547/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 24,
+  "visible": 24,
+  "kinds": {
+   "background": 1,
+   "shape": 4,
+   "text-v3": 9,
+   "picture": 10
+  },
+  "marginL": -31,
+  "marginR": -2,
+  "contentW": 408,
+  "colEdges": [
+   -31,
+   24,
+   33,
+   50,
+   83,
+   119,
+   135,
+   171,
+   194,
+   236,
+   281
+  ],
+  "type": [
+   {
+    "spec": "gzjd|19|19|500",
+    "n": 1,
+    "boxW": 56
+   },
+   {
+    "spec": "Nanum Myeongjo|18|17|700",
+    "n": 2,
+    "boxW": 208
+   },
+   {
+    "spec": "Nanum Myeongjo|9|11|700",
+    "n": 1,
+    "boxW": 66
+   },
+   {
+    "spec": "gzjd|6|6|500",
+    "n": 1,
+    "boxW": 62
+   }
+  ],
+  "typeCount": 4,
+  "fonts": [
+   "gzjd",
+   "Nanum Myeongjo"
+  ],
+  "radii": {},
+  "pics": 10,
+  "aspect": {
+   "0.87": 1,
+   "1.01": 1,
+   "0.80": 1,
+   "1.15": 2,
+   "1.21": 1,
+   "1.00": 2,
+   "1.44": 1,
+   "7.07": 1
+  },
+  "crop": 10,
+  "rotated": 10,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(0, 0, 0)",
+    "rgb(255, 255, 204)"
+   ],
+   "hover": [
+    "rgba(0, 0, 0, 0.8) ",
+    "rgba(255, 255, 204, 0.5) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 204)"
+ },
+ {
+  "id": 6411032,
+  "title": "Neonflux",
+  "cats": "company_website/microsites/photo_stories",
+  "by": "Ansel",
+  "price": 39,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6411032/",
+  "pageH": 2718,
+  "screens": 3.35,
+  "hscroll": 1024,
+  "widgets": 41,
+  "visible": 41,
+  "kinds": {
+   "background": 1,
+   "text-v3": 17,
+   "picture": 23
+  },
+  "marginL": 2,
+  "marginR": 2,
+  "contentW": 371,
+  "colEdges": [
+   2,
+   11,
+   92,
+   141,
+   187
+  ],
+  "type": [
+   {
+    "spec": "xgnl|442|528|500",
+    "n": 1,
+    "boxW": 338
+   },
+   {
+    "spec": "xgnl|28|34|700",
+    "n": 2,
+    "boxW": 9
+   },
+   {
+    "spec": "xgnl|21|21|500",
+    "n": 1,
+    "boxW": 92
+   },
+   {
+    "spec": "xgnl|18|32|500",
+    "n": 1,
+    "boxW": 15
+   },
+   {
+    "spec": "xgnl|18|22|500",
+    "n": 4,
+    "boxW": 31
+   },
+   {
+    "spec": "xgnl|16|16|400",
+    "n": 4,
+    "boxW": 15
+   }
+  ],
+  "typeCount": 6,
+  "fonts": [
+   "xgnl"
+  ],
+  "radii": {},
+  "pics": 23,
+  "aspect": {
+   "1.62": 1,
+   "1.05": 1,
+   "0.78": 2,
+   "0.79": 1,
+   "0.80": 12,
+   "1.00": 1,
+   "1.66": 1,
+   "0.90": 1,
+   "0.89": 1,
+   "0.74": 1,
+   "0.85": 1
+  },
+  "crop": 23,
+  "rotated": 1,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(255, 255, 255)"
+   ],
+   "hover": [
+    "rgba(202, 202, 202, 0.8) "
+   ],
+   "current": [
+    "rgb(221, 221, 221)"
+   ]
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(0, 0, 0)"
+ },
+ {
+  "id": 6314353,
+  "title": "Photography",
+  "cats": "microsites",
+  "by": "Daria",
+  "price": 19,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6314353/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 32,
+  "visible": 32,
+  "kinds": {
+   "background": 1,
+   "button": 6,
+   "shape": 4,
+   "shots": 1,
+   "picture": 6,
+   "text-v3": 14
+  },
+  "marginL": 3,
+  "marginR": 3,
+  "contentW": 369,
+  "colEdges": [
+   3,
+   96,
+   183,
+   252,
+   282
+  ],
+  "type": [
+   {
+    "spec": "Montserrat|8|11|400",
+    "n": 18,
+    "boxW": 69
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "Montserrat"
+  ],
+  "radii": {
+   "5px": 6
+  },
+  "pics": 6,
+  "aspect": {
+   "0.72": 6
+  },
+  "crop": 6,
+  "rotated": 2,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(0, 0, 0)"
+ },
+ {
+  "id": 6397265,
+  "title": "ROBY",
+  "cats": "company_website/microsites/photo_stories",
+  "by": "Ansel",
+  "price": 39,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6397265/",
+  "pageH": 2429,
+  "screens": 2.99,
+  "hscroll": 1275,
+  "widgets": 121,
+  "visible": 121,
+  "kinds": {
+   "background": 1,
+   "text-v3": 87,
+   "picture": 31,
+   "shape": 1,
+   "form": 1
+  },
+  "marginL": -51,
+  "marginR": -900,
+  "contentW": 1326,
+  "colEdges": [
+   -51,
+   -4,
+   5,
+   15,
+   27,
+   36,
+   51,
+   65,
+   75,
+   84,
+   99,
+   108
+  ],
+  "type": [
+   {
+    "spec": "xgnl|92|75|400",
+    "n": 11,
+    "boxW": 366
+   },
+   {
+    "spec": "Geist Mono|11|10|400",
+    "n": 17,
+    "boxW": 70
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Geist Mono",
+   "xgnl"
+  ],
+  "radii": {},
+  "pics": 31,
+  "aspect": {
+   "2.30": 16,
+   "2.31": 1,
+   "7.68": 1,
+   "1.27": 1,
+   "1.95": 6,
+   "1.75": 1,
+   "1.09": 4,
+   "1.00": 1
+  },
+  "crop": 31,
+  "rotated": 4,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(0, 0, 0)",
+    "rgb(255, 255, 255)"
+   ],
+   "hover": [
+    "rgba(255, 255, 255, 0.8) ",
+    "rgba(158, 158, 158, 0.8) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)",
+    "rgb(255, 255, 255)"
+   ]
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(246, 246, 246)"
+ },
+ {
+  "id": 6315390,
+  "title": "Clara Arias",
+  "cats": "microsites/longreads",
+  "by": "Santé Studio®",
+  "price": 52,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6315390/",
+  "pageH": 1375,
+  "screens": 1.69,
+  "hscroll": 1024,
+  "widgets": 23,
+  "visible": 23,
+  "kinds": {
+   "background": 1,
+   "text-v3": 11,
+   "picture": 11
+  },
+  "marginL": 4,
+  "marginR": 4,
+  "contentW": 367,
+  "colEdges": [
+   4,
+   65,
+   96,
+   220,
+   251,
+   283
+  ],
+  "type": [],
+  "typeCount": 0,
+  "fonts": [],
+  "radii": {},
+  "pics": 11,
+  "aspect": {
+   "1.76": 1,
+   "0.76": 4,
+   "0.75": 1,
+   "0.70": 3,
+   "0.72": 1,
+   "0.77": 1
+  },
+  "crop": 11,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgba(0, 0, 0, 0.3)"
+   ],
+   "hover": [
+    "rgb(0, 0, 0) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 6146106,
+  "title": "Origami",
+  "cats": "microsites/photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6146106/",
+  "pageH": 1049,
+  "screens": 1.29,
+  "hscroll": 1024,
+  "widgets": 30,
+  "visible": 30,
+  "kinds": {
+   "background": 1,
+   "picture": 8,
+   "shape": 9,
+   "text-v3": 12
+  },
+  "marginL": -34,
+  "marginR": 2,
+  "contentW": 407,
+  "colEdges": [
+   -34,
+   -20,
+   0,
+   12,
+   101,
+   113,
+   135,
+   283
+  ],
+  "type": [
+   {
+    "spec": "wtqc|14|19|700",
+    "n": 27,
+    "boxW": 15
+   },
+   {
+    "spec": "tscy|10|12|700",
+    "n": 7,
+    "boxW": 83
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "wtqc",
+   "tscy"
+  ],
+  "radii": {},
+  "pics": 8,
+  "aspect": {
+   "1.27": 1,
+   "1.31": 1,
+   "1.26": 1,
+   "1.20": 1,
+   "1.61": 1,
+   "1.33": 1,
+   "1.02": 1,
+   "1.06": 1
+  },
+  "crop": 4,
+  "rotated": 23,
+  "fixed": 8,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(0, 0, 0)",
+    "rgb(255, 255, 255)"
+   ],
+   "hover": [
+    "rgba(0, 0, 0, 0.6) ",
+    "rgb(255, 255, 255) ",
+    "rgb(0, 0, 0) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)",
+    "rgb(255, 255, 255)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(0, 0, 0)"
+ },
+ {
+  "id": 6371957,
+  "title": "Lumark",
+  "cats": "company_website/microsites/presentations/photo_stories",
+  "by": "Templout",
+  "price": 39,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6371957/",
+  "pageH": 1726,
+  "screens": 2.13,
+  "hscroll": 768,
+  "widgets": 111,
+  "visible": 111,
+  "kinds": {
+   "background": 1,
+   "button": 10,
+   "picture": 33,
+   "text-v3": 50,
+   "shape": 17
+  },
+  "marginL": -34,
+  "marginR": -30,
+  "contentW": 439,
+  "colEdges": [
+   -34,
+   -24,
+   6,
+   19,
+   30,
+   42,
+   51,
+   72,
+   81,
+   90,
+   138,
+   147
+  ],
+  "type": [
+   {
+    "spec": "Geist|80|80|400",
+    "n": 2,
+    "boxW": 149
+   },
+   {
+    "spec": "Geist|70|70|400",
+    "n": 5,
+    "boxW": 204
+   },
+   {
+    "spec": "Geist|32|43|400",
+    "n": 3,
+    "boxW": 193
+   },
+   {
+    "spec": "Geist|26|26|400",
+    "n": 1,
+    "boxW": 61
+   },
+   {
+    "spec": "Geist|16|32|400",
+    "n": 1,
+    "boxW": 41
+   },
+   {
+    "spec": "Geist|14|14|400",
+    "n": 1,
+    "boxW": 29
+   },
+   {
+    "spec": "Geist|12|12|400",
+    "n": 8,
+    "boxW": 69
+   },
+   {
+    "spec": "Geist|12|20|400",
+    "n": 1,
+    "boxW": 181
+   }
+  ],
+  "typeCount": 14,
+  "fonts": [
+   "Geist"
+  ],
+  "radii": {
+   "111px": 4,
+   "22px": 1,
+   "100%": 6
+  },
+  "pics": 33,
+  "aspect": {
+   "1.00": 26,
+   "1.36": 4,
+   "1.03": 1,
+   "4.67": 2
+  },
+  "crop": 18,
+  "rotated": 1,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(1, 1, 1)"
+ },
+ {
+  "id": 6305294,
+  "title": "Depot",
+  "cats": "company_website/microsites/photo_stories",
+  "by": "Ansel",
+  "price": 20,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6305294/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 9,
+  "visible": 9,
+  "kinds": {
+   "background": 1,
+   "button": 4,
+   "text-v3": 2,
+   "iframe": 1,
+   "picture": 1
+  },
+  "marginL": 7,
+  "marginR": 7,
+  "contentW": 361,
+  "colEdges": [
+   7,
+   144,
+   181
+  ],
+  "type": [
+   {
+    "spec": "Geist Mono|9|9|400",
+    "n": 1,
+    "boxW": 44
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "Geist Mono"
+  ],
+  "radii": {},
+  "pics": 1,
+  "aspect": {
+   "1.75": 1
+  },
+  "crop": 1,
+  "rotated": 8,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(0, 0, 0)"
+ },
+ {
+  "id": 6297326,
+  "title": "Raise",
+  "cats": "presentations",
+  "by": "Victoria Chek",
+  "price": 25,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6297326/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 4,
+  "visible": 4,
+  "kinds": {
+   "background": 1,
+   "text-v3": 3
+  },
+  "marginL": 38,
+  "marginR": 38,
+  "contentW": 299,
+  "colEdges": [
+   38
+  ],
+  "type": [
+   {
+    "spec": "Inter|93|84|800",
+    "n": 1,
+    "boxW": 112
+   },
+   {
+    "spec": "Inter|9|13|400",
+    "n": 1,
+    "boxW": 7
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 1,
+  "fixed": 1,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(157, 157, 157)"
+ },
+ {
+  "id": 6263403,
+  "title": "North Bureau",
+  "cats": "company_website/microsites/photo_stories/longreads",
+  "by": "Alexandra Elisa",
+  "price": 30,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6263403/",
+  "pageH": 439,
+  "screens": 0.54,
+  "hscroll": 1024,
+  "widgets": 16,
+  "visible": 16,
+  "kinds": {
+   "background": 1,
+   "text-v3": 10,
+   "picture": 5
+  },
+  "marginL": 86,
+  "marginR": 7,
+  "contentW": 282,
+  "colEdges": [
+   86,
+   156,
+   272,
+   287,
+   305
+  ],
+  "type": [
+   {
+    "spec": "Inter|9|11|400",
+    "n": 2,
+    "boxW": 88
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {},
+  "pics": 5,
+  "aspect": {
+   "0.73": 5
+  },
+  "crop": 5,
+  "rotated": 15,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(0, 0, 0)"
+   ],
+   "hover": [
+    "rgba(0, 0, 0, 0.8) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 6268201,
+  "title": "Clara",
+  "cats": "microsites/longreads",
+  "by": "Pixasquare",
+  "price": 25,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6268201/",
+  "pageH": 1208,
+  "screens": 1.49,
+  "hscroll": 1024,
+  "widgets": 77,
+  "visible": 77,
+  "kinds": {
+   "background": 1,
+   "shape": 7,
+   "text-v3": 40,
+   "picture": 29
+  },
+  "marginL": 7,
+  "marginR": 7,
+  "contentW": 361,
+  "colEdges": [
+   7,
+   26,
+   68,
+   99,
+   122,
+   153,
+   180,
+   191,
+   208,
+   222,
+   252,
+   272
+  ],
+  "type": [
+   {
+    "spec": "Inter|132|100|700",
+    "n": 1,
+    "boxW": 355
+   },
+   {
+    "spec": "Inter|16|16|400",
+    "n": 5,
+    "boxW": 115
+   },
+   {
+    "spec": "Inter|11|14|400",
+    "n": 10,
+    "boxW": 85
+   },
+   {
+    "spec": "Inter|10|12|400",
+    "n": 14,
+    "boxW": 53
+   }
+  ],
+  "typeCount": 4,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {},
+  "pics": 29,
+  "aspect": {
+   "1.19": 7,
+   "1.13": 5,
+   "1.12": 5,
+   "1.05": 10,
+   "1.04": 2
+  },
+  "crop": 29,
+  "rotated": 2,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(255, 255, 255)"
+   ],
+   "hover": [
+    "rgb(255, 255, 255) ",
+    "rgba(255, 255, 255, 0.8) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 6124192,
+  "title": "Calendar",
+  "cats": "presentations",
+  "by": "Readymag ambassadors",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6124192/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 67,
+  "visible": 67,
+  "kinds": {
+   "background": 1,
+   "button": 28,
+   "shape": 1,
+   "text-v3": 9,
+   "picture": 28
+  },
+  "marginL": 3,
+  "marginR": 4,
+  "contentW": 368,
+  "colEdges": [
+   3,
+   56,
+   110,
+   163,
+   216,
+   269,
+   322
+  ],
+  "type": [],
+  "typeCount": 0,
+  "fonts": [],
+  "radii": {},
+  "pics": 28,
+  "aspect": {
+   "1.01": 28
+  },
+  "crop": 0,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(62, 62, 62)",
+    "rgb(140, 255, 0)",
+    "rgb(255, 85, 0)"
+   ],
+   "hover": [
+    "rgba(0, 0, 0, 0.8) ",
+    "rgb(140, 255, 0) ",
+    "rgb(0, 0, 0) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 6257209,
+  "title": "Kino",
+  "cats": "company_website/microsites/photo_stories/longreads",
+  "by": "Ansel",
+  "price": 25,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6257209/",
+  "pageH": 1738,
+  "screens": 2.14,
+  "hscroll": 1068,
+  "widgets": 120,
+  "visible": 120,
+  "kinds": {
+   "background": 1,
+   "text-v3": 35,
+   "shape": 32,
+   "picture": 28,
+   "button": 17,
+   "form": 1,
+   "?": 6
+  },
+  "marginL": -4,
+  "marginR": -693,
+  "contentW": 1072,
+  "colEdges": [
+   -4,
+   5,
+   14,
+   66,
+   84,
+   102,
+   123,
+   136,
+   156,
+   187,
+   202,
+   249
+  ],
+  "type": [
+   {
+    "spec": "Instrument Serif|64|96|400",
+    "n": 5,
+    "boxW": 827
+   },
+   {
+    "spec": "Geist|64|96|400",
+    "n": 1,
+    "boxW": 39
+   },
+   {
+    "spec": "Geist|25|38|400",
+    "n": 9,
+    "boxW": 75
+   },
+   {
+    "spec": "Geist|25|38|700",
+    "n": 3,
+    "boxW": 70
+   },
+   {
+    "spec": "Geist|24|37|400",
+    "n": 1,
+    "boxW": 164
+   },
+   {
+    "spec": "Geist|21|33|400",
+    "n": 3,
+    "boxW": 26
+   }
+  ],
+  "typeCount": 6,
+  "fonts": [
+   "Instrument Serif",
+   "Geist"
+  ],
+  "radii": {
+   "20px": 22,
+   "36px": 2,
+   "30px": 1,
+   "84px": 2,
+   "21px": 1
+  },
+  "pics": 28,
+  "aspect": {
+   "1.43": 15,
+   "1.47": 6,
+   "1.45": 6,
+   "1.00": 1
+  },
+  "crop": 28,
+  "rotated": 18,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(0, 0, 0)"
+   ],
+   "hover": [
+    "rgba(244, 10, 10, 0.8) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(244, 10, 10)"
+ },
+ {
+  "id": 6241480,
+  "title": "Craflux",
+  "cats": "company_website/microsites",
+  "by": "Templout",
+  "price": 29,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6241480/",
+  "pageH": 3123,
+  "screens": 3.85,
+  "hscroll": 768,
+  "widgets": 142,
+  "visible": 142,
+  "kinds": {
+   "background": 1,
+   "button": 15,
+   "picture": 36,
+   "text-v3": 55,
+   "shape": 35
+  },
+  "marginL": 9,
+  "marginR": 9,
+  "contentW": 357,
+  "colEdges": [
+   9,
+   18,
+   27,
+   36,
+   45,
+   111,
+   126,
+   225,
+   286,
+   300,
+   311
+  ],
+  "type": [
+   {
+    "spec": "Google Sans|100|100|400",
+    "n": 3,
+    "boxW": 97
+   },
+   {
+    "spec": "Google Sans|70|70|400",
+    "n": 2,
+    "boxW": 114
+   },
+   {
+    "spec": "Google Sans|70|80|400",
+    "n": 1,
+    "boxW": 168
+   },
+   {
+    "spec": "Google Sans|60|70|400",
+    "n": 2,
+    "boxW": 252
+   },
+   {
+    "spec": "Google Sans|26|30|400",
+    "n": 3,
+    "boxW": 53
+   },
+   {
+    "spec": "Google Sans|24|40|400",
+    "n": 2,
+    "boxW": 57
+   },
+   {
+    "spec": "Google Sans|22|33|400",
+    "n": 1,
+    "boxW": 42
+   },
+   {
+    "spec": "Google Sans|18|23|400",
+    "n": 1,
+    "boxW": 17
+   }
+  ],
+  "typeCount": 18,
+  "fonts": [
+   "Google Sans",
+   "DM Mono"
+  ],
+  "radii": {
+   "111px": 7,
+   "100%": 8,
+   "100px": 14,
+   "20px": 12
+  },
+  "pics": 36,
+  "aspect": {
+   "0.97": 1,
+   "1.66": 3,
+   "1.54": 2,
+   "2.24": 1,
+   "1.00": 24,
+   "1.08": 3,
+   "1.13": 1,
+   "2.04": 1
+  },
+  "crop": 9,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(239, 240, 246)"
+ },
+ {
+  "id": 6229469,
+  "title": "KØBEN",
+  "cats": "company_website/microsites/photo_stories",
+  "by": "Ansel",
+  "price": 49,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6229469/",
+  "pageH": 1980,
+  "screens": 2.44,
+  "hscroll": 1024,
+  "widgets": 117,
+  "visible": 117,
+  "kinds": {
+   "background": 1,
+   "shots": 1,
+   "text-v3": 82,
+   "iframe": 8,
+   "shape": 9,
+   "button": 8,
+   "?": 8
+  },
+  "marginL": 3,
+  "marginR": -408,
+  "contentW": 780,
+  "colEdges": [
+   3,
+   12,
+   25,
+   96,
+   114,
+   132,
+   154,
+   181,
+   190,
+   252,
+   281,
+   300
+  ],
+  "type": [
+   {
+    "spec": "xgnl|80|65|500",
+    "n": 4,
+    "boxW": 144
+   },
+   {
+    "spec": "xgnl|40|28|500",
+    "n": 1,
+    "boxW": 63
+   },
+   {
+    "spec": "xgnl|40|44|500",
+    "n": 3,
+    "boxW": 83
+   },
+   {
+    "spec": "Geist Mono|10|28|400",
+    "n": 23,
+    "boxW": 39
+   },
+   {
+    "spec": "Geist Mono|10|13|400",
+    "n": 4,
+    "boxW": 109
+   },
+   {
+    "spec": "Geist Mono|7|28|400",
+    "n": 7,
+    "boxW": 7
+   }
+  ],
+  "typeCount": 6,
+  "fonts": [
+   "xgnl",
+   "Geist Mono"
+  ],
+  "radii": {
+   "15px": 1,
+   "8px": 15,
+   "12px": 1
+  },
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(0, 0, 0)"
+   ],
+   "hover": [
+    "rgba(53, 53, 53, 0.8) "
+   ],
+   "current": [
+    "rgb(126, 126, 126)"
+   ]
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(248, 248, 248)"
+ },
+ {
+  "id": 6236505,
+  "title": "Laura",
+  "cats": "company_website/microsites/presentations",
+  "by": "Templout",
+  "price": 29,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6236505/",
+  "pageH": 1386,
+  "screens": 1.71,
+  "hscroll": 768,
+  "widgets": 87,
+  "visible": 87,
+  "kinds": {
+   "background": 1,
+   "button": 9,
+   "shape": 37,
+   "picture": 23,
+   "text-v3": 17
+  },
+  "marginL": 8,
+  "marginR": 9,
+  "contentW": 358,
+  "colEdges": [
+   8,
+   18,
+   54,
+   110,
+   154,
+   191,
+   205,
+   302,
+   314
+  ],
+  "type": [
+   {
+    "spec": "Instrument Serif|180|160|400",
+    "n": 2,
+    "boxW": 260
+   },
+   {
+    "spec": "Instrument Serif|60|60|400",
+    "n": 2,
+    "boxW": 165
+   },
+   {
+    "spec": "Instrument Serif|34|34|400",
+    "n": 2,
+    "boxW": 62
+   },
+   {
+    "spec": "Instrument Serif|32|32|400",
+    "n": 2,
+    "boxW": 57
+   },
+   {
+    "spec": "Inter|12|12|400",
+    "n": 10,
+    "boxW": 52
+   }
+  ],
+  "typeCount": 5,
+  "fonts": [
+   "Inter",
+   "Instrument Serif"
+  ],
+  "radii": {
+   "111px": 2,
+   "18px": 4,
+   "100px": 4,
+   "100%": 4,
+   "32px": 2,
+   "24px": 4
+  },
+  "pics": 23,
+  "aspect": {
+   "0.83": 1,
+   "1.47": 1,
+   "0.75": 1,
+   "0.56": 1,
+   "1.46": 1,
+   "1.21": 1,
+   "0.60": 1,
+   "1.49": 2,
+   "1.80": 1,
+   "0.90": 1,
+   "1.36": 1,
+   "0.95": 1,
+   "0.87": 2,
+   "1.91": 1,
+   "1.54": 1,
+   "1.00": 3,
+   "1.13": 1,
+   "1.94": 1,
+   "1.77": 1
+  },
+  "crop": 5,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 6149307,
+  "title": "Millls",
+  "cats": "microsites/photo_stories",
+  "by": "Pixasquare",
+  "price": 25,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6149307/",
+  "pageH": 1660,
+  "screens": 2.04,
+  "hscroll": 768,
+  "widgets": 67,
+  "visible": 67,
+  "kinds": {
+   "background": 1,
+   "shape": 11,
+   "text-v3": 34,
+   "picture": 17,
+   "?": 1,
+   "button": 3
+  },
+  "marginL": 10,
+  "marginR": 10,
+  "contentW": 355,
+  "colEdges": [
+   10,
+   32,
+   53,
+   101,
+   146,
+   169,
+   192,
+   215,
+   226,
+   235,
+   259,
+   284
+  ],
+  "type": [
+   {
+    "spec": "Inter|132|132|400",
+    "n": 1,
+    "boxW": 125
+   },
+   {
+    "spec": "Inter|56|56|400",
+    "n": 1,
+    "boxW": 263
+   },
+   {
+    "spec": "Inter|48|60|400",
+    "n": 7,
+    "boxW": 397
+   },
+   {
+    "spec": "Inter|24|24|400",
+    "n": 2,
+    "boxW": 37
+   },
+   {
+    "spec": "Inter|21|24|400",
+    "n": 1,
+    "boxW": 185
+   },
+   {
+    "spec": "Inter|16|18|400",
+    "n": 5,
+    "boxW": 64
+   },
+   {
+    "spec": "Inter|16|16|400",
+    "n": 14,
+    "boxW": 82
+   },
+   {
+    "spec": "Inter|12|12|400",
+    "n": 2,
+    "boxW": 46
+   }
+  ],
+  "typeCount": 8,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {
+   "90px": 6,
+   "100%": 3
+  },
+  "pics": 17,
+  "aspect": {
+   "1.01": 1,
+   "1.00": 1,
+   "0.84": 1,
+   "0.72": 1,
+   "0.83": 3,
+   "0.93": 1,
+   "1.04": 1,
+   "0.64": 2,
+   "0.76": 2,
+   "0.82": 2,
+   "1.16": 1,
+   "1.46": 1
+  },
+  "crop": 17,
+  "rotated": 5,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(0, 0, 0)"
+   ],
+   "hover": [
+    "rgba(0, 0, 0, 0.8) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 6213011,
+  "title": "Frame",
+  "cats": "microsites",
+  "by": "Sasha Mikhedov",
+  "price": 45,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6213011/",
+  "pageH": 721,
+  "screens": 0.89,
+  "hscroll": 768,
+  "widgets": 27,
+  "visible": 27,
+  "kinds": {
+   "background": 1,
+   "text-v3": 19,
+   "?": 6,
+   "picture": 1
+  },
+  "marginL": 9,
+  "marginR": 9,
+  "contentW": 357,
+  "colEdges": [
+   9,
+   131,
+   192,
+   314,
+   325
+  ],
+  "type": [
+   {
+    "spec": "tcyz|12|12|400",
+    "n": 8,
+    "boxW": 173
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "tcyz"
+  ],
+  "radii": {},
+  "pics": 1,
+  "aspect": {
+   "1.77": 1
+  },
+  "crop": 1,
+  "rotated": 5,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(0, 0, 0)"
+ },
+ {
+  "id": 5991161,
+  "title": "Nordic",
+  "cats": "company_website/photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/5991161/",
+  "pageH": 823,
+  "screens": 1.01,
+  "hscroll": 1024,
+  "widgets": 53,
+  "visible": 53,
+  "kinds": {
+   "background": 1,
+   "picture": 10,
+   "text-v3": 25,
+   "shape": 15,
+   "button": 2
+  },
+  "marginL": 19,
+  "marginR": 18,
+  "contentW": 338,
+  "colEdges": [
+   19,
+   37,
+   55,
+   64,
+   94,
+   108,
+   117,
+   131,
+   152,
+   162,
+   176,
+   191
+  ],
+  "type": [
+   {
+    "spec": "Courier New|12|12|700",
+    "n": 17,
+    "boxW": 159
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "Courier New"
+  ],
+  "radii": {
+   "15px": 1,
+   "40px": 1,
+   "100%": 1
+  },
+  "pics": 10,
+  "aspect": {
+   "1.18": 1,
+   "0.98": 2,
+   "1.00": 2,
+   "1.02": 1,
+   "0.96": 1,
+   "1.08": 1,
+   "1.20": 1,
+   "0.99": 1
+  },
+  "crop": 10,
+  "rotated": 9,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(58, 146, 255)",
+    "rgb(230, 230, 230)"
+   ],
+   "hover": [
+    "rgba(58, 146, 255, 0.8) ",
+    "rgba(0, 0, 0, 0.8) "
+   ],
+   "current": [
+    "rgb(58, 146, 255)",
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(58, 146, 255)"
+ },
+ {
+  "id": 6161193,
+  "title": "Elias Rowen",
+  "cats": "microsites",
+  "by": "Gustavo Faria",
+  "price": 30,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6161193/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 32,
+  "visible": 32,
+  "kinds": {
+   "background": 1,
+   "shape": 14,
+   "picture": 7,
+   "text-v3": 10
+  },
+  "marginL": 5,
+  "marginR": 5,
+  "contentW": 365,
+  "colEdges": [
+   5,
+   58,
+   97,
+   191
+  ],
+  "type": [
+   {
+    "spec": "Space Mono|15|20|400",
+    "n": 6,
+    "boxW": 159
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "Space Mono"
+  ],
+  "radii": {},
+  "pics": 7,
+  "aspect": {
+   "1.00": 6,
+   "2.50": 1
+  },
+  "crop": 7,
+  "rotated": 1,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(0, 0, 0)"
+ },
+ {
+  "id": 6117595,
+  "title": "Spotlight",
+  "cats": "microsites",
+  "by": "bottegam.studio",
+  "price": 49,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6117595/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 768,
+  "widgets": 60,
+  "visible": 60,
+  "kinds": {
+   "background": 1,
+   "picture": 14,
+   "text-v3": 45
+  },
+  "marginL": 54,
+  "marginR": -29,
+  "contentW": 350,
+  "colEdges": [
+   54,
+   88,
+   106,
+   116,
+   126,
+   159,
+   250,
+   271,
+   281,
+   291,
+   300,
+   309
+  ],
+  "type": [],
+  "typeCount": 0,
+  "fonts": [],
+  "radii": {},
+  "pics": 14,
+  "aspect": {
+   "1.30": 1,
+   "0.80": 1,
+   "0.75": 5,
+   "0.76": 1,
+   "1.50": 1,
+   "1.09": 1,
+   "1.33": 1,
+   "1.44": 1,
+   "0.79": 1,
+   "1.52": 1
+  },
+  "crop": 14,
+  "rotated": 16,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgba(0, 0, 0, 0)",
+    "rgb(0, 0, 0)"
+   ],
+   "hover": [
+    "rgba(0, 0, 0, 0) ",
+    "rgba(0, 0, 0, 0.8) ",
+    "rgb(0, 0, 0) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 6148389,
+  "title": "Pulp",
+  "cats": "company_website",
+  "by": "Pixasquare",
+  "price": 25,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6148389/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 48,
+  "visible": 48,
+  "kinds": {
+   "background": 1,
+   "text-v3": 24,
+   "button": 2,
+   "shape": 8,
+   "form": 1,
+   "picture": 6,
+   "add-to-cart": 6
+  },
+  "marginL": 3,
+  "marginR": 7,
+  "contentW": 365,
+  "colEdges": [
+   3,
+   68,
+   130,
+   191,
+   214,
+   253,
+   314,
+   326
+  ],
+  "type": [
+   {
+    "spec": "Inter|126|126|400",
+    "n": 1,
+    "boxW": 240
+   },
+   {
+    "spec": "Inter|16|16|400",
+    "n": 14,
+    "boxW": 172
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {
+   "58px": 1,
+   "48px": 1
+  },
+  "pics": 6,
+  "aspect": {
+   "0.83": 5,
+   "0.82": 1
+  },
+  "crop": 6,
+  "rotated": 3,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(231, 0, 0)"
+   ],
+   "hover": [
+    "rgba(231, 0, 0, 0.8) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(248, 248, 248)"
+ },
+ {
+  "id": 6222842,
+  "title": "Noah",
+  "cats": "company_website/microsites/presentations",
+  "by": "Templout",
+  "price": 39,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6222842/",
+  "pageH": 1692,
+  "screens": 2.08,
+  "hscroll": 768,
+  "widgets": 52,
+  "visible": 52,
+  "kinds": {
+   "background": 1,
+   "shape": 10,
+   "picture": 20,
+   "text-v3": 15,
+   "button": 6
+  },
+  "marginL": 10,
+  "marginR": 10,
+  "contentW": 355,
+  "colEdges": [
+   10,
+   19,
+   34,
+   110,
+   153,
+   172,
+   293,
+   303,
+   319
+  ],
+  "type": [
+   {
+    "spec": "Inter|100|100|400",
+    "n": 2,
+    "boxW": 294
+   },
+   {
+    "spec": "Inter|80|80|400",
+    "n": 2,
+    "boxW": 248
+   },
+   {
+    "spec": "Inter|16|16|400",
+    "n": 8,
+    "boxW": 41
+   },
+   {
+    "spec": "Inter|10|10|400",
+    "n": 2,
+    "boxW": 56
+   },
+   {
+    "spec": "Inter|10|14|400",
+    "n": 2,
+    "boxW": 74
+   }
+  ],
+  "typeCount": 5,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {
+   "111px": 2,
+   "100%": 4
+  },
+  "pics": 20,
+  "aspect": {
+   "1.56": 1,
+   "1.68": 1,
+   "1.00": 5,
+   "1.50": 2,
+   "1.26": 2,
+   "1.05": 1,
+   "1.43": 1,
+   "1.48": 1,
+   "0.95": 1,
+   "0.87": 1,
+   "1.23": 2,
+   "1.54": 1,
+   "2.06": 1
+  },
+  "crop": 5,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(16, 14, 14)"
+ },
+ {
+  "id": 5887875,
+  "title": "Paper",
+  "cats": "presentations/longreads",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/paper/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 2,
+  "visible": 2,
+  "kinds": {
+   "background": 1,
+   "text-v3": 1
+  },
+  "marginL": 3,
+  "marginR": 4,
+  "contentW": 368,
+  "colEdges": [
+   3
+  ],
+  "type": [
+   {
+    "spec": "pffk|107|100|400",
+    "n": 1,
+    "boxW": 100
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "pffk"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(230, 229, 208)",
+    "rgba(38, 38, 38, 0.8)"
+   ],
+   "hover": [
+    "rgba(230, 229, 208, 0.69) ",
+    "rgba(38, 38, 38, 0.8) ",
+    "rgb(0, 0, 0) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)",
+    "rgba(38, 38, 38, 0.8)",
+    "rgba(0, 0, 0, 0.17)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 77, 0)"
+ },
+ {
+  "id": 6077655,
+  "title": "Theon",
+  "cats": "microsites/presentations/photo_stories",
+  "by": "Ansel",
+  "price": 57,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6077655/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 7,
+  "visible": 7,
+  "kinds": {
+   "background": 1,
+   "text-v3": 5,
+   "?": 1
+  },
+  "marginL": 147,
+  "marginR": 95,
+  "contentW": 133,
+  "colEdges": [
+   147
+  ],
+  "type": [],
+  "typeCount": 0,
+  "fonts": [],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 5,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(225, 222, 219)",
+    "rgb(0, 0, 0)"
+   ],
+   "hover": [
+    "rgb(225, 222, 219) ",
+    "rgba(225, 222, 219, 0.1) ",
+    "rgb(0, 21, 255) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)",
+    "rgb(225, 222, 219)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(0, 0, 0)"
+ },
+ {
+  "id": 6017708,
+  "title": "Photo",
+  "cats": "microsites",
+  "by": "Varvara Godovikova",
+  "price": 20,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6017708/",
+  "pageH": 1355,
+  "screens": 1.67,
+  "hscroll": 1024,
+  "widgets": 23,
+  "visible": 23,
+  "kinds": {
+   "background": 1,
+   "picture": 11,
+   "shots": 1,
+   "text-v3": 10
+  },
+  "marginL": 4,
+  "marginR": -965,
+  "contentW": 1336,
+  "colEdges": [
+   4,
+   127,
+   252,
+   375,
+   498,
+   622,
+   745,
+   869,
+   992,
+   1115,
+   1239
+  ],
+  "type": [
+   {
+    "spec": "Inter Tight|10|10|400",
+    "n": 20,
+    "boxW": 33
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "Inter Tight"
+  ],
+  "radii": {},
+  "pics": 11,
+  "aspect": {
+   "0.92": 1,
+   "0.91": 9,
+   "0.89": 1
+  },
+  "crop": 11,
+  "rotated": 22,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(0, 8, 255)"
+   ],
+   "hover": [
+    "rgba(0, 8, 255, 0.8) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 5963864,
+  "title": "Metal Playground",
+  "cats": "microsites/photo_stories",
+  "by": "sainthelenastudio",
+  "price": 23,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/5963864/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 116,
+  "visible": 116,
+  "kinds": {
+   "background": 1,
+   "text-v3": 5,
+   "picture": 110
+  },
+  "marginL": -62,
+  "marginR": -47,
+  "contentW": 484,
+  "colEdges": [
+   -20,
+   7,
+   118,
+   242,
+   255,
+   389
+  ],
+  "type": [
+   {
+    "spec": "gzjd|15|14|500",
+    "n": 6,
+    "boxW": 131
+   },
+   {
+    "spec": "gzjd|10|10|500",
+    "n": 2,
+    "boxW": 61
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "gzjd"
+  ],
+  "radii": {},
+  "pics": 110,
+  "aspect": {
+   "1.05": 2,
+   "1.00": 104,
+   "0.93": 1,
+   "0.86": 1,
+   "1.01": 1,
+   "1.02": 1
+  },
+  "crop": 110,
+  "rotated": 112,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(0, 0, 0)"
+   ],
+   "hover": [
+    "rgba(0, 0, 0, 0.8) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 6246196,
+  "title": "Ronda",
+  "cats": "microsites/presentations",
+  "by": "Pixasquare",
+  "price": 25,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6246196/",
+  "pageH": 2280,
+  "screens": 2.81,
+  "hscroll": 768,
+  "widgets": 31,
+  "visible": 31,
+  "kinds": {
+   "background": 1,
+   "shape": 4,
+   "picture": 8,
+   "text-v3": 16,
+   "button": 1,
+   "?": 1
+  },
+  "marginL": -55,
+  "marginR": 10,
+  "contentW": 420,
+  "colEdges": [
+   -55,
+   0,
+   10,
+   27,
+   141,
+   192,
+   272,
+   305
+  ],
+  "type": [
+   {
+    "spec": "Nekst|82|82|600",
+    "n": 2,
+    "boxW": 285
+   },
+   {
+    "spec": "Nekst|45|45|600",
+    "n": 3,
+    "boxW": 90
+   },
+   {
+    "spec": "Nekst|20|20|600",
+    "n": 1,
+    "boxW": 169
+   },
+   {
+    "spec": "Nekst|16|18|400",
+    "n": 2,
+    "boxW": 130
+   },
+   {
+    "spec": "Nekst|16|18|600",
+    "n": 1,
+    "boxW": 112
+   },
+   {
+    "spec": "Inter|11|12|400",
+    "n": 10,
+    "boxW": 44
+   },
+   {
+    "spec": "Nekst|11|12|400",
+    "n": 4,
+    "boxW": 78
+   },
+   {
+    "spec": "Nekst|11|12|600",
+    "n": 1,
+    "boxW": 89
+   }
+  ],
+  "typeCount": 8,
+  "fonts": [
+   "Nekst",
+   "Inter"
+  ],
+  "radii": {
+   "16px": 4,
+   "100px": 1
+  },
+  "pics": 8,
+  "aspect": {
+   "0.99": 1,
+   "0.76": 1,
+   "1.18": 3,
+   "2.10": 1,
+   "0.82": 1,
+   "1.23": 1
+  },
+  "crop": 8,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(225, 222, 219)",
+    "rgb(14, 14, 14)",
+    "rgb(0, 0, 0)"
+   ],
+   "hover": [
+    "rgb(225, 222, 219) ",
+    "rgb(14, 14, 14) ",
+    "rgba(0, 0, 0, 0.5) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)",
+    "rgb(225, 222, 219)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 5980184,
+  "title": "Sxydes",
+  "cats": "company_website/microsites/presentations/photo_stories",
+  "by": "Stefano Mazzucco aka Sxydes",
+  "price": 35,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/5980184/",
+  "pageH": 817,
+  "screens": 1.01,
+  "hscroll": 1225,
+  "widgets": 75,
+  "visible": 75,
+  "kinds": {
+   "background": 1,
+   "text-v3": 48,
+   "picture": 15,
+   "shape": 10,
+   "?": 1
+  },
+  "marginL": 17,
+  "marginR": 17,
+  "contentW": 341,
+  "colEdges": [
+   17,
+   87,
+   105,
+   189,
+   270,
+   279
+  ],
+  "type": [
+   {
+    "spec": "Hanken Grotesk|63|94|400",
+    "n": 1,
+    "boxW": 1557
+   },
+   {
+    "spec": "Hanken Grotesk|34|28|400",
+    "n": 2,
+    "boxW": 51
+   },
+   {
+    "spec": "IBM Plex Mono|10|10|700",
+    "n": 6,
+    "boxW": 22
+   },
+   {
+    "spec": "IBM Plex Mono|10|10|400",
+    "n": 6,
+    "boxW": 4
+   },
+   {
+    "spec": "Hanken Grotesk|8|8|400",
+    "n": 6,
+    "boxW": 30
+   },
+   {
+    "spec": "IBM Plex Mono|8|8|400",
+    "n": 50,
+    "boxW": 59
+   }
+  ],
+  "typeCount": 6,
+  "fonts": [
+   "Hanken Grotesk",
+   "IBM Plex Mono"
+  ],
+  "radii": {},
+  "pics": 15,
+  "aspect": {
+   "3.67": 1,
+   "1.72": 5,
+   "3.82": 1,
+   "1.73": 1,
+   "2.57": 1,
+   "5.36": 1,
+   "3.71": 1,
+   "1.77": 1,
+   "3.73": 1,
+   "1.31": 1,
+   "0.55": 1
+  },
+  "crop": 7,
+  "rotated": 7,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(255, 255, 255)",
+    "rgb(0, 0, 0)"
+   ],
+   "hover": [
+    "rgb(255, 106, 0) ",
+    "rgba(0, 0, 0, 0.5) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(0, 0, 0)"
+ },
+ {
+  "id": 5969202,
+  "title": "Radius",
+  "cats": "company_website/microsites/presentations/photo_stories/longreads",
+  "by": "Ansel",
+  "price": 35,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/5969202/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 52,
+  "visible": 52,
+  "kinds": {
+   "background": 1,
+   "text-v3": 30,
+   "shape": 13,
+   "picture": 8
+  },
+  "marginL": 3,
+  "marginR": -398,
+  "contentW": 770,
+  "colEdges": [
+   3,
+   53,
+   84,
+   130,
+   155,
+   199,
+   217,
+   244,
+   279,
+   289,
+   307,
+   341
+  ],
+  "type": [
+   {
+    "spec": "xgnl|14|28|700",
+    "n": 1,
+    "boxW": 11
+   },
+   {
+    "spec": "dyns|14|28|700",
+    "n": 4,
+    "boxW": 29
+   },
+   {
+    "spec": "Inter|10|28|400",
+    "n": 20,
+    "boxW": 41
+   }
+  ],
+  "typeCount": 3,
+  "fonts": [
+   "xgnl",
+   "Inter",
+   "dyns"
+  ],
+  "radii": {
+   "12px": 2,
+   "4px": 10,
+   "26px": 1
+  },
+  "pics": 8,
+  "aspect": {
+   "1.01": 8
+  },
+  "crop": 8,
+  "rotated": 7,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 5959211,
+  "title": "Simantic",
+  "cats": "company_website/microsites/presentations/photo_stories/longreads",
+  "by": "Ansel",
+  "price": 20,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/5959211/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 56,
+  "visible": 56,
+  "kinds": {
+   "background": 1,
+   "text-v3": 41,
+   "picture": 13,
+   "shape": 1
+  },
+  "marginL": 7,
+  "marginR": -229,
+  "contentW": 597,
+  "colEdges": [
+   13,
+   64,
+   101,
+   134,
+   148,
+   190,
+   233,
+   276,
+   321,
+   336,
+   390,
+   432
+  ],
+  "type": [
+   {
+    "spec": "Geist Mono|10|28|400",
+    "n": 8,
+    "boxW": 34
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "Geist Mono"
+  ],
+  "radii": {},
+  "pics": 13,
+  "aspect": {
+   "0.75": 6,
+   "0.74": 6,
+   "0.80": 1
+  },
+  "crop": 13,
+  "rotated": 10,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 5919959,
+  "title": "Conto",
+  "cats": "company_website/microsites/presentations/photo_stories/longreads",
+  "by": "Ansel",
+  "price": 35,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/5919959/",
+  "pageH": 1084,
+  "screens": 1.33,
+  "hscroll": 1024,
+  "widgets": 42,
+  "visible": 42,
+  "kinds": {
+   "background": 1,
+   "button": 3,
+   "form": 1,
+   "?": 6,
+   "text-v3": 31
+  },
+  "marginL": 4,
+  "marginR": 5,
+  "contentW": 366,
+  "colEdges": [
+   4,
+   155,
+   168,
+   188,
+   250,
+   260
+  ],
+  "type": [
+   {
+    "spec": "Inter|24|29|400",
+    "n": 1,
+    "boxW": 226
+   },
+   {
+    "spec": "Azeret Mono|20|28|100",
+    "n": 1,
+    "boxW": 61
+   },
+   {
+    "spec": "Azeret Mono|14|28|100",
+    "n": 2,
+    "boxW": 39
+   },
+   {
+    "spec": "Inter|12|28|400",
+    "n": 6,
+    "boxW": 38
+   },
+   {
+    "spec": "Inter|12|15|400",
+    "n": 1,
+    "boxW": 71
+   },
+   {
+    "spec": "Azeret Mono|10|20|100",
+    "n": 10,
+    "boxW": 25
+   },
+   {
+    "spec": "Inter|10|28|400",
+    "n": 4,
+    "boxW": 13
+   }
+  ],
+  "typeCount": 7,
+  "fonts": [
+   "Inter",
+   "Azeret Mono"
+  ],
+  "radii": {
+   "173px": 3
+  },
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(0, 0, 0)"
+ },
+ {
+  "id": 5869344,
+  "title": "Enver",
+  "cats": "microsites/presentations",
+  "by": "Ansel",
+  "price": 22,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/5869344/",
+  "pageH": 2604,
+  "screens": 3.21,
+  "hscroll": 1024,
+  "widgets": 16,
+  "visible": 16,
+  "kinds": {
+   "background": 1,
+   "picture": 10,
+   "text-v3": 5
+  },
+  "marginL": 178,
+  "marginR": 9,
+  "contentW": 188,
+  "colEdges": [
+   319
+  ],
+  "type": [
+   {
+    "spec": "rkwd|11|13|400",
+    "n": 7,
+    "boxW": 47
+   },
+   {
+    "spec": "rkwd|11|13|700",
+    "n": 2,
+    "boxW": 14
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "rkwd"
+  ],
+  "radii": {},
+  "pics": 10,
+  "aspect": {
+   "0.81": 10
+  },
+  "crop": 10,
+  "rotated": 14,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 5864763,
+  "title": "Signal Studio",
+  "cats": "company_website/microsites/presentations/photo_stories/longreads",
+  "by": "Ansel",
+  "price": 89,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/5864763/",
+  "pageH": 1944,
+  "screens": 2.39,
+  "hscroll": 1024,
+  "widgets": 135,
+  "visible": 135,
+  "kinds": {
+   "background": 1,
+   "text-v3": 104,
+   "iframe": 1,
+   "shape": 17,
+   "picture": 11,
+   "shots": 1
+  },
+  "marginL": -295,
+  "marginR": -372,
+  "contentW": 1042,
+  "colEdges": [
+   -295,
+   -234,
+   -186,
+   -154,
+   -138,
+   -128,
+   -110,
+   -81,
+   -32,
+   -6,
+   3,
+   29
+  ],
+  "type": [
+   {
+    "spec": "Inter|200|240|400",
+    "n": 4,
+    "boxW": 141
+   },
+   {
+    "spec": "Inter|96|115|400",
+    "n": 2,
+    "boxW": 30
+   },
+   {
+    "spec": "Inter|48|10|400",
+    "n": 23,
+    "boxW": 148
+   },
+   {
+    "spec": "Inter|48|42|400",
+    "n": 6,
+    "boxW": 145
+   },
+   {
+    "spec": "Inter|24|10|400",
+    "n": 36,
+    "boxW": 76
+   },
+   {
+    "spec": "Inter|16|19|400",
+    "n": 1,
+    "boxW": 3
+   },
+   {
+    "spec": "Inter|11|10|400",
+    "n": 7,
+    "boxW": 42
+   },
+   {
+    "spec": "Inter|11|13|400",
+    "n": 5,
+    "boxW": 34
+   }
+  ],
+  "typeCount": 9,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {
+   "30px": 11,
+   "300px": 1
+  },
+  "pics": 11,
+  "aspect": {
+   "1.93": 1,
+   "1.01": 4,
+   "1.00": 2,
+   "1.51": 4
+  },
+  "crop": 6,
+  "rotated": 10,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 5824161,
+  "title": "Sophia",
+  "cats": "microsites/photo_stories",
+  "by": "Templout",
+  "price": 29,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/5824161/",
+  "pageH": 2125,
+  "screens": 2.62,
+  "hscroll": 768,
+  "widgets": 105,
+  "visible": 105,
+  "kinds": {
+   "background": 1,
+   "button": 9,
+   "shape": 35,
+   "text-v3": 47,
+   "picture": 9,
+   "slideshow": 4
+  },
+  "marginL": 9,
+  "marginR": -45,
+  "contentW": 411,
+  "colEdges": [
+   9,
+   26,
+   49,
+   62,
+   71,
+   83,
+   95,
+   112,
+   121,
+   135,
+   167,
+   192
+  ],
+  "type": [
+   {
+    "spec": "Six Caps|120|120|400",
+    "n": 3,
+    "boxW": 167
+   },
+   {
+    "spec": "Six Caps|100|100|400",
+    "n": 2,
+    "boxW": 76
+   },
+   {
+    "spec": "Six Caps|60|60|400",
+    "n": 6,
+    "boxW": 132
+   },
+   {
+    "spec": "Inter|24|30|400",
+    "n": 2,
+    "boxW": 189
+   },
+   {
+    "spec": "Inter|12|16|400",
+    "n": 3,
+    "boxW": 192
+   },
+   {
+    "spec": "Inter|10|14|400",
+    "n": 30,
+    "boxW": 76
+   },
+   {
+    "spec": "Inter|10|12|400",
+    "n": 1,
+    "boxW": 51
+   }
+  ],
+  "typeCount": 7,
+  "fonts": [
+   "Six Caps",
+   "Inter"
+  ],
+  "radii": {
+   "100px": 20
+  },
+  "pics": 9,
+  "aspect": {
+   "0.53": 1,
+   "0.92": 1,
+   "0.88": 1,
+   "0.83": 1,
+   "1.00": 1,
+   "0.87": 1,
+   "0.99": 3
+  },
+  "crop": 7,
+  "rotated": 2,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(15, 15, 15)"
+ },
+ {
+  "id": 5828546,
+  "title": "CADDY",
+  "cats": "company_website/photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/caddy/",
+  "pageH": 510,
+  "screens": 0.63,
+  "hscroll": 1024,
+  "widgets": 29,
+  "visible": 29,
+  "kinds": {
+   "background": 1,
+   "picture": 13,
+   "text-v3": 14,
+   "button": 1
+  },
+  "marginL": 5,
+  "marginR": -279,
+  "contentW": 649,
+  "colEdges": [
+   5,
+   25,
+   56,
+   106,
+   140,
+   157,
+   192,
+   207,
+   230,
+   258,
+   294,
+   308
+  ],
+  "type": [
+   {
+    "spec": "Instrument Serif|120|110|400",
+    "n": 1,
+    "boxW": 108
+   },
+   {
+    "spec": "Instrument Serif|64|64|400",
+    "n": 12,
+    "boxW": 61
+   },
+   {
+    "spec": "Inter|24|29|400",
+    "n": 1,
+    "boxW": 365
+   }
+  ],
+  "typeCount": 3,
+  "fonts": [
+   "Instrument Serif",
+   "Inter"
+  ],
+  "radii": {
+   "100px": 1
+  },
+  "pics": 13,
+  "aspect": {
+   "1.00": 12,
+   "2.75": 1
+  },
+  "crop": 1,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(255, 255, 255)"
+   ],
+   "hover": [
+    "rgba(255, 255, 255, 0.8) "
+   ],
+   "current": [
+    "rgb(250, 103, 192)",
+    "rgb(255, 255, 255)"
+   ]
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(16, 16, 16)"
+ },
+ {
+  "id": 5820679,
+  "title": "Avalanche",
+  "cats": "company_website/microsites/photo_stories",
+  "by": "Ansel",
+  "price": 69,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/5820679/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 30,
+  "visible": 30,
+  "kinds": {
+   "background": 1,
+   "picture": 7,
+   "shape": 2,
+   "text-v3": 20
+  },
+  "marginL": 6,
+  "marginR": 4,
+  "contentW": 365,
+  "colEdges": [
+   6,
+   250,
+   265,
+   338
+  ],
+  "type": [
+   {
+    "spec": "Inter|48|56|400",
+    "n": 1,
+    "boxW": 99
+   },
+   {
+    "spec": "Inter|25|30|400",
+    "n": 1,
+    "boxW": 104
+   },
+   {
+    "spec": "Inter|10|12|400",
+    "n": 4,
+    "boxW": 12
+   },
+   {
+    "spec": "Inter|9|10|400",
+    "n": 5,
+    "boxW": 32
+   }
+  ],
+  "typeCount": 4,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {},
+  "pics": 7,
+  "aspect": {
+   "1.53": 5,
+   "1.52": 1,
+   "1.55": 1
+  },
+  "crop": 7,
+  "rotated": 1,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(0, 0, 0)"
+ },
+ {
+  "id": 5815870,
+  "title": "Harbor Creative Association",
+  "cats": "company_website/photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/HarborCreativeAssociation/",
+  "pageH": 1782,
+  "screens": 2.19,
+  "hscroll": 1024,
+  "widgets": 73,
+  "visible": 73,
+  "kinds": {
+   "background": 1,
+   "shape": 26,
+   "text-v3": 39,
+   "picture": 7
+  },
+  "marginL": 10,
+  "marginR": 11,
+  "contentW": 354,
+  "colEdges": [
+   10,
+   55,
+   99,
+   111,
+   168,
+   189,
+   235
+  ],
+  "type": [
+   {
+    "spec": "Inter|72|74|400",
+    "n": 1,
+    "boxW": 264
+   },
+   {
+    "spec": "Inter|26|31|400",
+    "n": 21,
+    "boxW": 175
+   },
+   {
+    "spec": "Inter|13|18|400",
+    "n": 19,
+    "boxW": 86
+   }
+  ],
+  "typeCount": 3,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {},
+  "pics": 7,
+  "aspect": {
+   "1.69": 1,
+   "2.99": 2,
+   "1.94": 4
+  },
+  "crop": 7,
+  "rotated": 16,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(77, 36, 0)"
+ },
+ {
+  "id": 6274850,
+  "title": "Bold",
+  "cats": "company_website/microsites/photo_stories",
+  "by": "Eugene Stratila",
+  "price": 59,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6274850/",
+  "pageH": 2417,
+  "screens": 2.98,
+  "hscroll": 1024,
+  "widgets": 61,
+  "visible": 61,
+  "kinds": {
+   "background": 1,
+   "picture": 11,
+   "text-v3": 28,
+   "shape": 16,
+   "button": 4,
+   "form": 1
+  },
+  "marginL": -37,
+  "marginR": -355,
+  "contentW": 767,
+  "colEdges": [
+   -37,
+   10,
+   20,
+   41,
+   132,
+   146,
+   162,
+   193,
+   203,
+   223,
+   233,
+   253
+  ],
+  "type": [
+   {
+    "spec": "Geist|120|160|400",
+    "n": 1,
+    "boxW": 164
+   },
+   {
+    "spec": "Geist|22|40|400",
+    "n": 3,
+    "boxW": 111
+   },
+   {
+    "spec": "Geist|20|40|400",
+    "n": 6,
+    "boxW": 170
+   },
+   {
+    "spec": "Geist|18|30|400",
+    "n": 3,
+    "boxW": 111
+   }
+  ],
+  "typeCount": 4,
+  "fonts": [
+   "Geist"
+  ],
+  "radii": {
+   "16px": 5,
+   "40px": 1
+  },
+  "pics": 11,
+  "aspect": {
+   "1.19": 1,
+   "0.79": 6,
+   "1.00": 4
+  },
+  "crop": 11,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(255, 255, 255)"
+   ],
+   "hover": [
+    "rgba(255, 255, 255, 0.9) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(0, 0, 0)"
+ },
+ {
+  "id": 5818706,
+  "title": "Creativos",
+  "cats": "company_website/microsites/photo_stories",
+  "by": "Ansel",
+  "price": 69,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/5818706/",
+  "pageH": 3399,
+  "screens": 4.19,
+  "hscroll": 1024,
+  "widgets": 153,
+  "visible": 153,
+  "kinds": {
+   "background": 1,
+   "text-v3": 66,
+   "shape": 51,
+   "picture": 17,
+   "?": 2,
+   "button": 15,
+   "form": 1
+  },
+  "marginL": -135,
+  "marginR": -9,
+  "contentW": 519,
+  "colEdges": [
+   -135,
+   1,
+   11,
+   22,
+   55,
+   65,
+   110,
+   122,
+   148,
+   160,
+   180,
+   189
+  ],
+  "type": [
+   {
+    "spec": "Inter|137|123|400",
+    "n": 2,
+    "boxW": 240
+   },
+   {
+    "spec": "Inter|128|154|400",
+    "n": 2,
+    "boxW": 70
+   },
+   {
+    "spec": "Inter|120|117|400",
+    "n": 1,
+    "boxW": 130
+   },
+   {
+    "spec": "Inter|40|42|400",
+    "n": 13,
+    "boxW": 242
+   },
+   {
+    "spec": "Inter|25|30|400",
+    "n": 1,
+    "boxW": 68
+   },
+   {
+    "spec": "Inter|20|24|400",
+    "n": 6,
+    "boxW": 42
+   },
+   {
+    "spec": "Inter|16|18|400",
+    "n": 2,
+    "boxW": 37
+   },
+   {
+    "spec": "Inter|14|17|400",
+    "n": 6,
+    "boxW": 21
+   }
+  ],
+  "typeCount": 13,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {
+   "10px": 10,
+   "15px": 4,
+   "70px": 16,
+   "52px": 4,
+   "56px": 5,
+   "66px": 15,
+   "8px": 3
+  },
+  "pics": 17,
+  "aspect": {
+   "0.80": 1,
+   "1.00": 2,
+   "1.19": 1,
+   "5.56": 1,
+   "1.01": 1,
+   "0.73": 1,
+   "0.74": 4,
+   "0.79": 1,
+   "0.75": 1,
+   "2.15": 2,
+   "1.87": 1,
+   "1.76": 1
+  },
+  "crop": 10,
+  "rotated": 1,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(0, 0, 0)"
+   ],
+   "hover": [
+    "rgb(53, 53, 53) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(248, 248, 248)"
+ },
+ {
+  "id": 5807552,
+  "title": "True Shot",
+  "cats": "company_website/microsites",
+  "by": "Victoria Chek",
+  "price": 23.39,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/5807552/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 42,
+  "visible": 42,
+  "kinds": {
+   "background": 1,
+   "picture": 18,
+   "text-v3": 23
+  },
+  "marginL": 7,
+  "marginR": 7,
+  "contentW": 361,
+  "colEdges": [
+   7,
+   68,
+   130,
+   192,
+   253,
+   314
+  ],
+  "type": [
+   {
+    "spec": "Inter|27|32|400",
+    "n": 1,
+    "boxW": 299
+   },
+   {
+    "spec": "Inter|8|10|400",
+    "n": 4,
+    "boxW": 54
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {},
+  "pics": 18,
+  "aspect": {
+   "1.11": 18
+  },
+  "crop": 18,
+  "rotated": 0,
+  "fixed": 2,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 6149593,
+  "title": "F/16",
+  "cats": "microsites/presentations",
+  "by": "Sasha Mikhedov",
+  "price": 30,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6149593/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 768,
+  "widgets": 10,
+  "visible": 10,
+  "kinds": {
+   "background": 1,
+   "picture": 9
+  },
+  "marginL": 15,
+  "marginR": 15,
+  "contentW": 345,
+  "colEdges": [
+   15,
+   43,
+   72
+  ],
+  "type": [],
+  "typeCount": 0,
+  "fonts": [],
+  "radii": {},
+  "pics": 9,
+  "aspect": {
+   "4.02": 1,
+   "0.68": 2,
+   "1.51": 2,
+   "1.83": 3,
+   "1.00": 1
+  },
+  "crop": 8,
+  "rotated": 8,
+  "fixed": 4,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(0, 0, 0)"
+ },
+ {
+  "id": 6357495,
+  "title": "Horizon",
+  "cats": "company_website/microsites/presentations/photo_stories/longreads",
+  "by": "Jeppe Christensen",
+  "price": 59,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6357495/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 21,
+  "visible": 21,
+  "kinds": {
+   "background": 1,
+   "picture": 11,
+   "lottie": 1,
+   "text-v3": 8
+  },
+  "marginL": 8,
+  "marginR": -262,
+  "contentW": 629,
+  "colEdges": [
+   11,
+   105,
+   193,
+   282,
+   370,
+   459,
+   547
+  ],
+  "type": [
+   {
+    "spec": "Inter|11|13|400",
+    "n": 1,
+    "boxW": 89
+   },
+   {
+    "spec": "Inter|8|9|400",
+    "n": 1,
+    "boxW": 31
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {},
+  "pics": 11,
+  "aspect": {
+   "0.88": 1,
+   "0.69": 10
+  },
+  "crop": 11,
+  "rotated": 20,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(225, 222, 219)",
+    "rgb(0, 0, 0)"
+   ],
+   "hover": [
+    "rgb(103, 101, 99) ",
+    "rgba(225, 222, 219, 0.8) ",
+    "rgba(0, 0, 0, 0.7) "
+   ],
+   "current": [
+    "rgb(225, 222, 219)",
+    "rgb(0, 0, 0)",
+    "rgb(0, 128, 255)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(19, 18, 18)"
+ },
+ {
+  "id": 5738206,
+  "title": "Planet Earth",
+  "cats": "longreads",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/PlanetEarth/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 41,
+  "visible": 41,
+  "kinds": {
+   "background": 1,
+   "shape": 19,
+   "picture": 3,
+   "button": 5,
+   "text-v3": 13
+  },
+  "marginL": 4,
+  "marginR": 4,
+  "contentW": 367,
+  "colEdges": [
+   4,
+   34,
+   77,
+   115,
+   152,
+   189,
+   207,
+   262
+  ],
+  "type": [
+   {
+    "spec": "custom_146194|130|123|400",
+    "n": 1,
+    "boxW": 58
+   },
+   {
+    "spec": "Inter|14|18|400",
+    "n": 1,
+    "boxW": 276
+   },
+   {
+    "spec": "Inter|10|10|400",
+    "n": 1,
+    "boxW": 41
+   },
+   {
+    "spec": "Inter|8|12|400",
+    "n": 7,
+    "boxW": 107
+   },
+   {
+    "spec": "Inter|8|11|400",
+    "n": 1,
+    "boxW": 19
+   }
+  ],
+  "typeCount": 5,
+  "fonts": [
+   "Inter",
+   "custom_146194"
+  ],
+  "radii": {
+   "100px": 4,
+   "15px": 1,
+   "164px": 5
+  },
+  "pics": 3,
+  "aspect": {
+   "1.34": 1,
+   "3.03": 1,
+   "1.64": 1
+  },
+  "crop": 1,
+  "rotated": 3,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(51, 51, 51)",
+    "rgb(255, 77, 0)",
+    "rgba(51, 51, 51, 0.25)"
+   ],
+   "hover": [
+    "rgba(51, 51, 51, 0.6) ",
+    "rgba(255, 77, 0, 0.8) ",
+    "rgba(51, 51, 51, 0.25) "
+   ],
+   "current": [
+    "rgb(255, 77, 0)",
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(250, 250, 250)"
+ },
+ {
+  "id": 5697659,
+  "title": "Ansel",
+  "cats": "microsites/longreads",
+  "by": "Ansel",
+  "price": 25,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/5697659/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 11,
+  "visible": 11,
+  "kinds": {
+   "background": 1,
+   "button": 6,
+   "shape": 3,
+   "text-v3": 1
+  },
+  "marginL": 146,
+  "marginR": 150,
+  "contentW": 79,
+  "colEdges": [
+   148
+  ],
+  "type": [
+   {
+    "spec": "kmgg|61|53|500",
+    "n": 2,
+    "boxW": 44
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "kmgg"
+  ],
+  "radii": {
+   "8px": 1,
+   "79px": 4
+  },
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 10,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(235, 255, 54)"
+ },
+ {
+  "id": 5648674,
+  "title": "Paper Archive",
+  "cats": "microsites",
+  "by": "sainthelenastudio",
+  "price": 23,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/5648674/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 29,
+  "visible": 29,
+  "kinds": {
+   "background": 1,
+   "picture": 27,
+   "text-v3": 1
+  },
+  "marginL": 18,
+  "marginR": 13,
+  "contentW": 344,
+  "colEdges": [
+   18,
+   60,
+   95,
+   110,
+   144,
+   176,
+   193,
+   210,
+   283
+  ],
+  "type": [
+   {
+    "spec": "Instrument Serif|73|56|400",
+    "n": 2,
+    "boxW": 79
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "Instrument Serif"
+  ],
+  "radii": {},
+  "pics": 27,
+  "aspect": {
+   "0.93": 1,
+   "0.98": 1,
+   "0.94": 2,
+   "0.97": 2,
+   "2.00": 1,
+   "1.00": 4,
+   "1.03": 2,
+   "1.02": 5,
+   "1.01": 3,
+   "0.99": 1,
+   "0.91": 1,
+   "1.51": 1,
+   "1.16": 1,
+   "1.34": 1,
+   "1.06": 1
+  },
+  "crop": 27,
+  "rotated": 26,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(20, 20, 18)"
+ },
+ {
+  "id": 5654159,
+  "title": "TKYO WKND",
+  "cats": "photo_stories",
+  "by": "Driftime®",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/5654159/",
+  "pageH": 861,
+  "screens": 1.06,
+  "hscroll": 1024,
+  "widgets": 36,
+  "visible": 36,
+  "kinds": {
+   "background": 1,
+   "button": 6,
+   "text-v3": 13,
+   "picture": 4,
+   "shape": 11,
+   "slideshow": 1
+  },
+  "marginL": 0,
+  "marginR": 0,
+  "contentW": 375,
+  "colEdges": [
+   36,
+   84,
+   139,
+   152,
+   172,
+   197,
+   243,
+   289
+  ],
+  "type": [
+   {
+    "spec": "Inter|30|36|400",
+    "n": 2,
+    "boxW": 50
+   },
+   {
+    "spec": "Inter|18|22|400",
+    "n": 3,
+    "boxW": 77
+   },
+   {
+    "spec": "Inter|12|20|400",
+    "n": 4,
+    "boxW": 95
+   },
+   {
+    "spec": "Inter|10|18|400",
+    "n": 2,
+    "boxW": 47
+   },
+   {
+    "spec": "Inter|10|16|400",
+    "n": 6,
+    "boxW": 77
+   },
+   {
+    "spec": "Inter|8|12|400",
+    "n": 1,
+    "boxW": 95
+   }
+  ],
+  "typeCount": 6,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {},
+  "pics": 4,
+  "aspect": {
+   "1.28": 1,
+   "1.29": 1,
+   "1.30": 1,
+   "1.31": 1
+  },
+  "crop": 4,
+  "rotated": 9,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(233, 234, 248)"
+ },
+ {
+  "id": 5217634,
+  "title": "Lucid",
+  "cats": "photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/lucid/",
+  "pageH": 2593,
+  "screens": 3.19,
+  "hscroll": 1024,
+  "widgets": 90,
+  "visible": 90,
+  "kinds": {
+   "background": 1,
+   "picture": 11,
+   "text-v3": 49,
+   "shape": 26,
+   "button": 3
+  },
+  "marginL": 23,
+  "marginR": 22,
+  "contentW": 330,
+  "colEdges": [
+   23,
+   79,
+   107,
+   135,
+   147,
+   161,
+   215,
+   246,
+   318
+  ],
+  "type": [
+   {
+    "spec": "zrjk|12|16|400",
+    "n": 19,
+    "boxW": 105
+   },
+   {
+    "spec": "vmdj|12|16|400",
+    "n": 4,
+    "boxW": 9
+   },
+   {
+    "spec": "zrjk|10|14|400",
+    "n": 1,
+    "boxW": 50
+   }
+  ],
+  "typeCount": 3,
+  "fonts": [
+   "zrjk",
+   "vmdj"
+  ],
+  "radii": {
+   "999px": 3,
+   "100px": 1,
+   "14px": 2,
+   "10px": 1,
+   "32px": 2,
+   "16px": 2,
+   "12px": 2
+  },
+  "pics": 11,
+  "aspect": {
+   "1.00": 3,
+   "25.29": 1,
+   "1.50": 1,
+   "0.50": 3,
+   "1.22": 1,
+   "1.60": 1,
+   "1.74": 1
+  },
+  "crop": 11,
+  "rotated": 11,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(123, 107, 93)"
+   ],
+   "hover": [
+    "rgb(19, 19, 19) "
+   ],
+   "current": [
+    "rgb(0, 128, 255)"
+   ]
+  },
+  "underline": false,
+  "transitions": {
+   "0.5s": 1
+  },
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 5647067,
+  "title": "Ancient Artifacts",
+  "cats": "presentations/longreads",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/ancientartifacts/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 6,
+  "visible": 6,
+  "kinds": {
+   "background": 1,
+   "text-v3": 4,
+   "iframe": 1
+  },
+  "marginL": 7,
+  "marginR": 7,
+  "contentW": 361,
+  "colEdges": [
+   7,
+   122,
+   315
+  ],
+  "type": [
+   {
+    "spec": "Gothic A1|12|12|700",
+    "n": 2,
+    "boxW": 53
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "Gothic A1"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 5,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(117, 113, 108)",
+    "rgb(39, 39, 39)"
+   ],
+   "hover": [
+    "rgba(255, 134, 20, 0.8) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(177, 169, 158)"
+ },
+ {
+  "id": 5017761,
+  "title": "Newold",
+  "cats": "presentations",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/newold/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 13,
+  "visible": 13,
+  "kinds": {
+   "background": 1,
+   "picture": 5,
+   "shape": 2,
+   "text-v3": 5
+  },
+  "marginL": 7,
+  "marginR": 7,
+  "contentW": 361,
+  "colEdges": [
+   7,
+   24,
+   61,
+   100,
+   161,
+   201,
+   298
+  ],
+  "type": [
+   {
+    "spec": "Inter Tight|145|201|400",
+    "n": 1,
+    "boxW": 285
+   },
+   {
+    "spec": "Inter Tight|25|30|400",
+    "n": 1,
+    "boxW": 176
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Inter Tight"
+  ],
+  "radii": {},
+  "pics": 5,
+  "aspect": {
+   "1.00": 5
+  },
+  "crop": 5,
+  "rotated": 12,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(255, 239, 206)",
+    "rgb(139, 126, 116)"
+   ],
+   "hover": [
+    "rgba(255, 239, 206, 0.8) ",
+    "rgba(139, 126, 116, 0.8) "
+   ],
+   "current": [
+    "rgb(255, 239, 206)",
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(139, 126, 116)"
+ },
+ {
+  "id": 4867307,
+  "title": "Stolen Hearts",
+  "cats": "",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/stolenhearts/",
+  "pageH": 1283,
+  "screens": 1.58,
+  "hscroll": 1024,
+  "widgets": 60,
+  "visible": 60,
+  "kinds": {
+   "background": 1,
+   "picture": 7,
+   "shape": 14,
+   "text-v3": 38
+  },
+  "marginL": 7,
+  "marginR": 7,
+  "contentW": 361,
+  "colEdges": [
+   7,
+   68,
+   129,
+   165,
+   188,
+   224,
+   252,
+   313
+  ],
+  "type": [
+   {
+    "spec": "Inter|100|77|400",
+    "n": 6,
+    "boxW": 213
+   },
+   {
+    "spec": "Inter|21|27|400",
+    "n": 1,
+    "boxW": 329
+   },
+   {
+    "spec": "Inter|9|10|400",
+    "n": 8,
+    "boxW": 116
+   },
+   {
+    "spec": "Inter|9|12|400",
+    "n": 8,
+    "boxW": 117
+   },
+   {
+    "spec": "Inter|8|9|400",
+    "n": 16,
+    "boxW": 85
+   }
+  ],
+  "typeCount": 5,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {},
+  "pics": 7,
+  "aspect": {
+   "1.55": 7
+  },
+  "crop": 7,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(233, 234, 236)"
+ },
+ {
+  "id": 4703012,
+  "title": "Lumina",
+  "cats": "photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/lumina/",
+  "pageH": 1459,
+  "screens": 1.8,
+  "hscroll": 1024,
+  "widgets": 73,
+  "visible": 73,
+  "kinds": {
+   "background": 1,
+   "picture": 9,
+   "text-v3": 18,
+   "shape": 42,
+   "button": 2,
+   "form": 1
+  },
+  "marginL": -26,
+  "marginR": -26,
+  "contentW": 427,
+  "colEdges": [
+   -26,
+   9,
+   19,
+   69,
+   94,
+   129,
+   156,
+   189,
+   209,
+   219,
+   229,
+   240
+  ],
+  "type": [
+   {
+    "spec": "Inter|61|68|400",
+    "n": 2,
+    "boxW": 237
+   },
+   {
+    "spec": "Inter|51|60|400",
+    "n": 4,
+    "boxW": 142
+   },
+   {
+    "spec": "Inter|46|50|400",
+    "n": 6,
+    "boxW": 207
+   },
+   {
+    "spec": "Inter|44|48|400",
+    "n": 2,
+    "boxW": 182
+   },
+   {
+    "spec": "Inter|20|36|400",
+    "n": 3,
+    "boxW": 178
+   },
+   {
+    "spec": "Inter|19|25|400",
+    "n": 1,
+    "boxW": 47
+   }
+  ],
+  "typeCount": 6,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {
+   "5px": 1,
+   "17px": 11,
+   "30px 30px 30px 0px": 3,
+   "130px": 1,
+   "100px": 1,
+   "23px": 10
+  },
+  "pics": 9,
+  "aspect": {
+   "1.00": 4,
+   "2.89": 1,
+   "0.83": 1,
+   "1.63": 2,
+   "0.85": 1
+  },
+  "crop": 8,
+  "rotated": 4,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(0, 0, 0)",
+    "rgb(255, 255, 255)"
+   ],
+   "hover": [
+    "rgba(0, 0, 0, 0.75) ",
+    "rgb(217, 217, 217) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {
+   "0.1s": 1
+  },
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 5743242,
+  "title": "Nomo",
+  "cats": "photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/nomo/",
+  "pageH": 1114,
+  "screens": 1.37,
+  "hscroll": 1024,
+  "widgets": 51,
+  "visible": 51,
+  "kinds": {
+   "background": 1,
+   "button": 2,
+   "picture": 8,
+   "text-v3": 18,
+   "shape": 21,
+   "form": 1
+  },
+  "marginL": 0,
+  "marginR": 5,
+  "contentW": 370,
+  "colEdges": [
+   0,
+   11,
+   189,
+   251,
+   312
+  ],
+  "type": [
+   {
+    "spec": "gzjd|56|56|600",
+    "n": 1,
+    "boxW": 41
+   },
+   {
+    "spec": "vvdm|24|32|400",
+    "n": 2,
+    "boxW": 119
+   },
+   {
+    "spec": "wtqc|18|24|500",
+    "n": 9,
+    "boxW": 119
+   }
+  ],
+  "typeCount": 3,
+  "fonts": [
+   "vvdm",
+   "wtqc",
+   "gzjd"
+  ],
+  "radii": {
+   "100px": 2
+  },
+  "pics": 8,
+  "aspect": {
+   "4.60": 1,
+   "1.00": 7
+  },
+  "crop": 7,
+  "rotated": 4,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {
+   "0.6s": 2
+  },
+  "bg": "rgb(251, 251, 251)"
+ },
+ {
+  "id": 4493616,
+  "title": "Grid",
+  "cats": "company_website/microsites",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/grids/",
+  "pageH": 829,
+  "screens": 1.02,
+  "hscroll": 1024,
+  "widgets": 21,
+  "visible": 21,
+  "kinds": {
+   "background": 1,
+   "picture": 7,
+   "text-v3": 13
+  },
+  "marginL": 11,
+  "marginR": 11,
+  "contentW": 353,
+  "colEdges": [
+   11,
+   90,
+   130,
+   189,
+   249,
+   299,
+   308
+  ],
+  "type": [
+   {
+    "spec": "Inter|13|15|400",
+    "n": 10,
+    "boxW": 194
+   },
+   {
+    "spec": "Inter|9|10|400",
+    "n": 1,
+    "boxW": 27
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {},
+  "pics": 7,
+  "aspect": {
+   "0.68": 1,
+   "1.50": 2,
+   "1.00": 1,
+   "2.33": 1,
+   "0.84": 1,
+   "1.45": 1
+  },
+  "crop": 7,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(225, 222, 219)"
+   ],
+   "hover": [
+    "rgb(225, 222, 219) ",
+    "rgba(225, 222, 219, 0.1) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)",
+    "rgb(225, 222, 219)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(19, 18, 18)"
+ },
+ {
+  "id": 4446231,
+  "title": "A—Bureau",
+  "cats": "microsites",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/abureau/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 23,
+  "visible": 23,
+  "kinds": {
+   "background": 1,
+   "shape": 5,
+   "text-v3": 14,
+   "picture": 3
+  },
+  "marginL": 9,
+  "marginR": 7,
+  "contentW": 359,
+  "colEdges": [
+   9,
+   100,
+   283,
+   328
+  ],
+  "type": [
+   {
+    "spec": "Inter|30|36|400",
+    "n": 1,
+    "boxW": 84
+   },
+   {
+    "spec": "Inter|10|12|400",
+    "n": 5,
+    "boxW": 83
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {
+   "20px": 5
+  },
+  "pics": 3,
+  "aspect": {
+   "2.03": 2,
+   "2.04": 1
+  },
+  "crop": 3,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(25, 25, 25)",
+    "rgb(255, 255, 255)"
+   ],
+   "hover": [
+    "rgba(25, 25, 25, 0.8) ",
+    "rgba(25, 25, 25, 0.4) ",
+    "rgb(255, 255, 255) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 4198967,
+  "title": "Portico",
+  "cats": "presentations",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/portico/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 5,
+  "visible": 5,
+  "kinds": {
+   "background": 1,
+   "text-v3": 4
+  },
+  "marginL": 3,
+  "marginR": 7,
+  "contentW": 365,
+  "colEdges": [
+   3,
+   127
+  ],
+  "type": [
+   {
+    "spec": "Graphik|20|24|400",
+    "n": 1,
+    "boxW": 76
+   },
+   {
+    "spec": "Graphik|10|12|400",
+    "n": 1,
+    "boxW": 148
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Graphik"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 4,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(185, 185, 181)"
+   ],
+   "hover": [
+    "rgb(185, 185, 181) "
+   ],
+   "current": [
+    "rgb(0, 128, 255)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(22, 22, 21)"
+ },
+ {
+  "id": 4354475,
+  "title": "Edge",
+  "cats": "presentations",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/edge/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 2,
+  "visible": 2,
+  "kinds": {
+   "background": 1,
+   "text-v3": 1
+  },
+  "marginL": 3,
+  "marginR": 92,
+  "contentW": 280,
+  "colEdges": [
+   3
+  ],
+  "type": [
+   {
+    "spec": "wtqc|160|140|400",
+    "n": 1,
+    "boxW": 253
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "wtqc"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 1,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(28, 50, 75)"
+   ],
+   "hover": [
+    "rgba(28, 50, 75, 0.53) "
+   ],
+   "current": [
+    "rgb(28, 50, 75)"
+   ]
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 4362205,
+  "title": "Boxy",
+  "cats": "company_website/photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/boxy/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 10,
+  "visible": 10,
+  "kinds": {
+   "background": 1,
+   "shots": 1,
+   "text-v3": 7,
+   "button": 1
+  },
+  "marginL": 7,
+  "marginR": -36,
+  "contentW": 404,
+  "colEdges": [
+   7,
+   148,
+   302
+  ],
+  "type": [
+   {
+    "spec": "Graphik|12|16|500",
+    "n": 2,
+    "boxW": 146
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "Graphik"
+  ],
+  "radii": {
+   "45px": 1
+  },
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(255, 199, 39)",
+    "rgb(22, 29, 33)"
+   ],
+   "hover": [
+    "rgba(255, 199, 39, 0.8) ",
+    "rgba(22, 29, 33, 0.8) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 4362208,
+  "title": "Light",
+  "cats": "company_website/photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/light/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 3,
+  "visible": 3,
+  "kinds": {
+   "background": 1,
+   "text-v3": 2
+  },
+  "marginL": 84,
+  "marginR": 91,
+  "contentW": 200,
+  "colEdges": [
+   84,
+   108
+  ],
+  "type": [
+   {
+    "spec": "wtqc|80|80|400",
+    "n": 1,
+    "boxW": 158
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "wtqc"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(248, 248, 248)",
+    "rgb(24, 24, 24)"
+   ],
+   "hover": [
+    "rgba(248, 248, 248, 0.8) ",
+    "rgba(24, 24, 24, 0.8) "
+   ],
+   "current": [
+    "rgb(248, 248, 248)",
+    "rgb(24, 24, 24)"
+   ]
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(248, 248, 248)"
+ },
+ {
+  "id": 4362200,
+  "title": "App Mood",
+  "cats": "photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/appmood/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 7,
+  "visible": 7,
+  "kinds": {
+   "background": 1,
+   "picture": 3,
+   "text-v3": 3
+  },
+  "marginL": 67,
+  "marginR": 67,
+  "contentW": 241,
+  "colEdges": [
+   67,
+   90,
+   115,
+   152,
+   194
+  ],
+  "type": [
+   {
+    "spec": "Inter|13|17|700",
+    "n": 2,
+    "boxW": 196
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {},
+  "pics": 3,
+  "aspect": {
+   "0.46": 3
+  },
+  "crop": 3,
+  "rotated": 2,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(209, 216, 226)"
+ },
+ {
+  "id": 4358412,
+  "title": "Lavender Presentation",
+  "cats": "presentations",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/lavender/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 6,
+  "visible": 6,
+  "kinds": {
+   "background": 1,
+   "shape": 3,
+   "text-v3": 2
+  },
+  "marginL": 65,
+  "marginR": 67,
+  "contentW": 243,
+  "colEdges": [
+   65,
+   130
+  ],
+  "type": [
+   {
+    "spec": "Graphik|12|15|400",
+    "n": 1,
+    "boxW": 114
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "Graphik"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 4,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(255, 255, 255)"
+   ],
+   "hover": [
+    "rgba(255, 255, 255, 0.52) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(0, 0, 0)"
+ },
+ {
+  "id": 4290246,
+  "title": "Designer’s Bingo",
+  "cats": "presentations/photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/bingo/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 61,
+  "visible": 61,
+  "kinds": {
+   "background": 1,
+   "picture": 1,
+   "shape": 32,
+   "text-v3": 27
+  },
+  "marginL": 5,
+  "marginR": 7,
+  "contentW": 363,
+  "colEdges": [
+   5,
+   167,
+   208,
+   247,
+   287,
+   327
+  ],
+  "type": [
+   {
+    "spec": "Graphik|10|12|500",
+    "n": 22,
+    "boxW": 41
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "Graphik"
+  ],
+  "radii": {},
+  "pics": 1,
+  "aspect": {
+   "1.01": 1
+  },
+  "crop": 0,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {
+   "0.1s": 24
+  },
+  "bg": "rgb(47, 47, 47)"
+ },
+ {
+  "id": 5647141,
+  "title": "Kaoline",
+  "cats": "presentations",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/kaoline/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 4,
+  "visible": 4,
+  "kinds": {
+   "background": 1,
+   "shape": 1,
+   "text-v3": 2
+  },
+  "marginL": 7,
+  "marginR": 7,
+  "contentW": 361,
+  "colEdges": [
+   7,
+   70,
+   89
+  ],
+  "type": [
+   {
+    "spec": "Austin|190|190|400",
+    "n": 1,
+    "boxW": 235
+   },
+   {
+    "spec": "sftn|10|14|400",
+    "n": 1,
+    "boxW": 197
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Austin",
+   "sftn"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 3,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(250, 245, 235)",
+    "rgb(0, 0, 0)",
+    "rgb(49, 38, 38)"
+   ],
+   "hover": [
+    "rgb(250, 245, 235) ",
+    "rgb(0, 0, 0) ",
+    "rgb(49, 38, 38) "
+   ],
+   "current": [
+    "rgb(250, 245, 235)",
+    "rgb(0, 0, 0)",
+    "rgb(49, 38, 38)"
+   ]
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(49, 38, 38)"
+ },
+ {
+  "id": 5647155,
+  "title": "Impresso",
+  "cats": "presentations",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/impresso/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 4,
+  "visible": 4,
+  "kinds": {
+   "background": 1,
+   "shots": 1,
+   "text-v3": 2
+  },
+  "marginL": 21,
+  "marginR": 20,
+  "contentW": 334,
+  "colEdges": [
+   21,
+   100
+  ],
+  "type": [
+   {
+    "spec": "Graphik|24|30|400",
+    "n": 1,
+    "boxW": 82
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "Graphik"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(255, 255, 255)",
+    "rgb(0, 0, 0)"
+   ],
+   "hover": [
+    "rgb(255, 255, 255) ",
+    "rgb(0, 0, 0) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 4141363,
+  "title": "Arcana",
+  "cats": "presentations",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/arcana/",
+  "pageH": 403,
+  "screens": 0.5,
+  "hscroll": 1024,
+  "widgets": 12,
+  "visible": 12,
+  "kinds": {
+   "background": 1,
+   "shape": 2,
+   "text-v3": 3,
+   "picture": 6
+  },
+  "marginL": 4,
+  "marginR": 4,
+  "contentW": 367,
+  "colEdges": [
+   4,
+   71,
+   84,
+   128,
+   180,
+   249,
+   308
+  ],
+  "type": [
+   {
+    "spec": "sftn|16|18|400",
+    "n": 3,
+    "boxW": 225
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "sftn"
+  ],
+  "radii": {
+   "110px": 1
+  },
+  "pics": 6,
+  "aspect": {
+   "0.81": 1,
+   "0.94": 3,
+   "0.73": 1,
+   "0.79": 1
+  },
+  "crop": 0,
+  "rotated": 4,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(0, 172, 49)",
+    "rgb(0, 64, 255)",
+    "rgba(255, 255, 255, 0.6)"
+   ],
+   "hover": [
+    "rgb(25, 0, 255) ",
+    "rgb(255, 255, 255) ",
+    "rgba(0, 64, 255, 0.5) "
+   ],
+   "current": [
+    "rgb(25, 0, 255)",
+    "rgb(0, 0, 0)",
+    "rgb(0, 64, 255)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(254, 150, 3)"
+ },
+ {
+  "id": 5647146,
+  "title": "Suprematica",
+  "cats": "photo_stories/longreads",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/suprematika/",
+  "pageH": 1631,
+  "screens": 2.01,
+  "hscroll": 1024,
+  "widgets": 26,
+  "visible": 26,
+  "kinds": {
+   "background": 1,
+   "shape": 6,
+   "text-v3": 11,
+   "picture": 7,
+   "form": 1
+  },
+  "marginL": -176,
+  "marginR": 11,
+  "contentW": 540,
+  "colEdges": [
+   -176,
+   -138,
+   12,
+   48,
+   132,
+   192,
+   252
+  ],
+  "type": [
+   {
+    "spec": "wtqc|36|48|500",
+    "n": 1,
+    "boxW": 343
+   },
+   {
+    "spec": "wtqc|20|30|500",
+    "n": 4,
+    "boxW": 171
+   },
+   {
+    "spec": "wtqc|16|24|500",
+    "n": 10,
+    "boxW": 202
+   }
+  ],
+  "typeCount": 3,
+  "fonts": [
+   "wtqc"
+  ],
+  "radii": {
+   "60px": 1
+  },
+  "pics": 7,
+  "aspect": {
+   "1.00": 6,
+   "0.11": 1
+  },
+  "crop": 7,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(232, 15, 0)"
+   ],
+   "hover": [
+    "rgb(0, 0, 0) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 5743252,
+  "title": "Blue",
+  "cats": "microsites/photo_stories",
+  "by": "Sasha Mikhedov",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/5743252/",
+  "pageH": 1912,
+  "screens": 2.35,
+  "hscroll": 1024,
+  "widgets": 86,
+  "visible": 86,
+  "kinds": {
+   "background": 1,
+   "picture": 11,
+   "shape": 62,
+   "button": 2,
+   "form": 1,
+   "text-v3": 9
+  },
+  "marginL": 0,
+  "marginR": 7,
+  "contentW": 368,
+  "colEdges": [
+   7,
+   99,
+   191,
+   253,
+   283,
+   311
+  ],
+  "type": [
+   {
+    "spec": "Druk Condensed|90|100|800",
+    "n": 3,
+    "boxW": 177
+   },
+   {
+    "spec": "gzjd|16|16|600",
+    "n": 1,
+    "boxW": 84
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "gzjd",
+   "Druk Condensed"
+  ],
+  "radii": {
+   "100%": 2
+  },
+  "pics": 11,
+  "aspect": {
+   "1.64": 1,
+   "1.01": 1,
+   "0.78": 1,
+   "4.73": 2,
+   "97.20": 1,
+   "46.29": 1,
+   "31.35": 1,
+   "31.45": 1,
+   "46.43": 1,
+   "57.35": 1
+  },
+  "crop": 3,
+  "rotated": 1,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(13, 82, 161)"
+   ],
+   "hover": [
+    "rgb(13, 82, 161) ",
+    "rgba(13, 82, 161, 0.6) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 3922546,
+  "title": "Trickster",
+  "cats": "photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/trickster/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 4,
+  "visible": 4,
+  "kinds": {
+   "background": 1,
+   "text-v3": 1,
+   "shape": 1,
+   "slideshow": 1
+  },
+  "marginL": 22,
+  "marginR": 0,
+  "contentW": 353,
+  "colEdges": [
+   22,
+   188
+  ],
+  "type": [
+   {
+    "spec": "sftn|28|30|400",
+    "n": 2,
+    "boxW": 129
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "sftn"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 3,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(255, 255, 255)"
+   ],
+   "hover": [
+    "rgba(255, 255, 255, 0.5) "
+   ],
+   "current": [
+    "rgba(255, 255, 255, 0.5)",
+    "rgb(255, 255, 255)"
+   ]
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(177, 0, 62)"
+ },
+ {
+  "id": 3910269,
+  "title": "Super8",
+  "cats": "photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/super8/",
+  "pageH": 1778,
+  "screens": 2.19,
+  "hscroll": 1024,
+  "widgets": 70,
+  "visible": 70,
+  "kinds": {
+   "background": 1,
+   "text-v3": 51,
+   "shape": 17,
+   "picture": 1
+  },
+  "marginL": 6,
+  "marginR": 6,
+  "contentW": 363,
+  "colEdges": [
+   6,
+   15,
+   25,
+   53,
+   64,
+   84,
+   100,
+   118,
+   156,
+   190,
+   201,
+   210
+  ],
+  "type": [
+   {
+    "spec": "Graphik|24|26|300",
+    "n": 2,
+    "boxW": 60
+   },
+   {
+    "spec": "Graphik|11|13|400",
+    "n": 20,
+    "boxW": 209
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Graphik"
+  ],
+  "radii": {},
+  "pics": 1,
+  "aspect": {
+   "4.45": 1
+  },
+  "crop": 1,
+  "rotated": 4,
+  "fixed": 1,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(0, 0, 0)",
+    "rgb(255, 250, 0)"
+   ],
+   "hover": [
+    "rgb(0, 0, 0) ",
+    "rgb(255, 250, 0) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(0, 0, 0)"
+ },
+ {
+  "id": 3580571,
+  "title": "Website Elements Kit",
+  "cats": "longreads",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/website-elements-kit/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 9,
+  "visible": 9,
+  "kinds": {
+   "background": 1,
+   "shape": 1,
+   "button": 1,
+   "text-v3": 5,
+   "picture": 1
+  },
+  "marginL": 7,
+  "marginR": 7,
+  "contentW": 361,
+  "colEdges": [
+   7,
+   19,
+   68,
+   223
+  ],
+  "type": [
+   {
+    "spec": "tscy|106|100|400",
+    "n": 1,
+    "boxW": 334
+   },
+   {
+    "spec": "tscy|14|16|500",
+    "n": 1,
+    "boxW": 6
+   },
+   {
+    "spec": "wwdp|14|16|900",
+    "n": 3,
+    "boxW": 32
+   }
+  ],
+  "typeCount": 3,
+  "fonts": [
+   "tscy",
+   "wwdp"
+  ],
+  "radii": {
+   "40px": 1,
+   "55px": 1
+  },
+  "pics": 1,
+  "aspect": {
+   "1.00": 1
+  },
+  "crop": 1,
+  "rotated": 8,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(0, 0, 0)",
+    "rgb(0, 72, 255)",
+    "rgb(255, 255, 255)"
+   ],
+   "hover": [
+    "rgba(0, 0, 0, 0.7) ",
+    "rgb(0, 72, 255) ",
+    "rgb(255, 255, 255) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(0, 72, 255)"
+ },
+ {
+  "id": 3597881,
+  "title": "Miracle",
+  "cats": "presentations",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/miracle/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 5,
+  "visible": 5,
+  "kinds": {
+   "background": 1,
+   "text-v3": 2,
+   "slideshow": 2
+  },
+  "marginL": 3,
+  "marginR": 2,
+  "contentW": 370,
+  "colEdges": [
+   3,
+   189,
+   282
+  ],
+  "type": [
+   {
+    "spec": "Proto Grotesk|254|184|300",
+    "n": 1,
+    "boxW": 375
+   },
+   {
+    "spec": "sftn|29|36|400",
+    "n": 1,
+    "boxW": 179
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Proto Grotesk",
+   "sftn"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 4,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(255, 110, 19)"
+   ],
+   "hover": [
+    "rgb(255, 255, 255) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 110, 19)"
+ },
+ {
+  "id": 3293769,
+  "title": "Highline",
+  "cats": "company_website/photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/3293769/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 28,
+  "visible": 28,
+  "kinds": {
+   "background": 1,
+   "shape": 5,
+   "form": 1,
+   "text-v3": 17,
+   "picture": 4
+  },
+  "marginL": -3,
+  "marginR": 4,
+  "contentW": 374,
+  "colEdges": [
+   7,
+   100,
+   130,
+   188,
+   253,
+   283
+  ],
+  "type": [
+   {
+    "spec": "EB Garamond|30|30|500",
+    "n": 2,
+    "boxW": 68
+   },
+   {
+    "spec": "EB Garamond|24|30|600",
+    "n": 1,
+    "boxW": 32
+   },
+   {
+    "spec": "Graphik|16|20|400",
+    "n": 4,
+    "boxW": 177
+   }
+  ],
+  "typeCount": 3,
+  "fonts": [
+   "Graphik",
+   "EB Garamond"
+  ],
+  "radii": {},
+  "pics": 4,
+  "aspect": {
+   "0.93": 1,
+   "1.38": 1,
+   "1.14": 1,
+   "1.29": 1
+  },
+  "crop": 4,
+  "rotated": 3,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(254, 250, 224)"
+ },
+ {
+  "id": 3356344,
+  "title": "Productivity",
+  "cats": "photo_stories/longreads",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/productivity/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 30,
+  "visible": 30,
+  "kinds": {
+   "background": 1,
+   "shape": 17,
+   "picture": 1,
+   "text-v3": 11
+  },
+  "marginL": 6,
+  "marginR": 30,
+  "contentW": 339,
+  "colEdges": [
+   6,
+   191
+  ],
+  "type": [
+   {
+    "spec": "Graphik|18|20|500",
+    "n": 2,
+    "boxW": 118
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "Graphik"
+  ],
+  "radii": {},
+  "pics": 1,
+  "aspect": {
+   "4.36": 1
+  },
+  "crop": 0,
+  "rotated": 3,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 89, 0)"
+ },
+ {
+  "id": 3357336,
+  "title": "Resource",
+  "cats": "photo_stories/longreads",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/resource/",
+  "pageH": 1794,
+  "screens": 2.21,
+  "hscroll": 1024,
+  "widgets": 73,
+  "visible": 73,
+  "kinds": {
+   "background": 1,
+   "text-v3": 39,
+   "shape": 31,
+   "form": 1,
+   "picture": 1
+  },
+  "marginL": 6,
+  "marginR": 7,
+  "contentW": 362,
+  "colEdges": [
+   6,
+   191
+  ],
+  "type": [
+   {
+    "spec": "Graphik|40|40|400",
+    "n": 2,
+    "boxW": 135
+   },
+   {
+    "spec": "Graphik|18|20|500",
+    "n": 9,
+    "boxW": 177
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Graphik"
+  ],
+  "radii": {},
+  "pics": 1,
+  "aspect": {
+   "4.36": 1
+  },
+  "crop": 0,
+  "rotated": 3,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 3290427,
+  "title": "Abb-d",
+  "cats": "longreads",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/abb-d/",
+  "pageH": 3126,
+  "screens": 3.85,
+  "hscroll": 1024,
+  "widgets": 51,
+  "visible": 51,
+  "kinds": {
+   "background": 1,
+   "shape": 41,
+   "text-v3": 6,
+   "picture": 3
+  },
+  "marginL": -4,
+  "marginR": -14,
+  "contentW": 393,
+  "colEdges": [
+   -4,
+   28,
+   62,
+   125,
+   188,
+   250
+  ],
+  "type": [
+   {
+    "spec": "Graphik|100|100|400",
+    "n": 1,
+    "boxW": 283
+   },
+   {
+    "spec": "Graphik|66|66|400",
+    "n": 1,
+    "boxW": 190
+   },
+   {
+    "spec": "Graphik|26|30|400",
+    "n": 1,
+    "boxW": 368
+   },
+   {
+    "spec": "Graphik|16|22|400",
+    "n": 2,
+    "boxW": 180
+   }
+  ],
+  "typeCount": 4,
+  "fonts": [
+   "Graphik"
+  ],
+  "radii": {},
+  "pics": 3,
+  "aspect": {
+   "1.76": 1,
+   "1.06": 1,
+   "0.78": 1
+  },
+  "crop": 3,
+  "rotated": 30,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(0, 0, 0)",
+    "rgb(255, 255, 255)"
+   ],
+   "hover": [
+    "rgb(0, 0, 0) ",
+    "rgb(255, 255, 255) "
+   ],
+   "current": [
+    "rgb(0, 128, 255)",
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 5647150,
+  "title": "Fraser",
+  "cats": "longreads",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/fraser/",
+  "pageH": 1532,
+  "screens": 1.89,
+  "hscroll": 1024,
+  "widgets": 16,
+  "visible": 16,
+  "kinds": {
+   "background": 1,
+   "picture": 4,
+   "slideshow": 1,
+   "text-v3": 10
+  },
+  "marginL": 6,
+  "marginR": 7,
+  "contentW": 362,
+  "colEdges": [
+   6,
+   190
+  ],
+  "type": [
+   {
+    "spec": "Graphik|70|60|400",
+    "n": 3,
+    "boxW": 177
+   },
+   {
+    "spec": "Graphik|15|20|400",
+    "n": 20,
+    "boxW": 177
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Graphik"
+  ],
+  "radii": {},
+  "pics": 4,
+  "aspect": {
+   "1.50": 2,
+   "0.71": 1,
+   "1.00": 1
+  },
+  "crop": 3,
+  "rotated": 6,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgba(0, 0, 0, 0.5)",
+    "rgb(0, 0, 0)"
+   ],
+   "hover": [
+    "rgba(0, 0, 0, 0.5) ",
+    "rgb(0, 0, 0) "
+   ],
+   "current": [
+    "rgb(0, 128, 255)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(240, 240, 240)"
+ },
+ {
+  "id": 3290425,
+  "title": "Cennydd",
+  "cats": "longreads",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/cennydd/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 6,
+  "visible": 5,
+  "kinds": {
+   "background": 1,
+   "shape": 3,
+   "text-v3": 2
+  },
+  "marginL": -2,
+  "marginR": 33,
+  "contentW": 344,
+  "colEdges": [
+   -2
+  ],
+  "type": [
+   {
+    "spec": "wtqc|20|24|400",
+    "n": 2,
+    "boxW": 182
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "wtqc"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 2,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(255, 255, 255)"
+   ],
+   "hover": [
+    "rgb(0, 0, 0) "
+   ],
+   "current": [
+    "rgb(0, 128, 255)"
+   ]
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(238, 88, 53)"
+ },
+ {
+  "id": 3273810,
+  "title": "Shift",
+  "cats": "longreads",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/shift/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 5,
+  "visible": 5,
+  "kinds": {
+   "background": 1,
+   "text-v3": 3,
+   "picture": 1
+  },
+  "marginL": 4,
+  "marginR": 11,
+  "contentW": 360,
+  "colEdges": [
+   4,
+   24,
+   238
+  ],
+  "type": [
+   {
+    "spec": "wtqc|120|100|400",
+    "n": 4,
+    "boxW": 260
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "wtqc"
+  ],
+  "radii": {},
+  "pics": 1,
+  "aspect": {
+   "2.17": 1
+  },
+  "crop": 0,
+  "rotated": 4,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgba(13, 59, 102, 0.2)",
+    "rgb(13, 59, 102)",
+    "rgb(248, 248, 248)"
+   ],
+   "hover": [
+    "rgb(13, 59, 102) ",
+    "rgb(248, 248, 248) "
+   ],
+   "current": [
+    "rgb(13, 59, 102)",
+    "rgba(13, 59, 102, 0.4)",
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(13, 59, 102)"
+ },
+ {
+  "id": 3107304,
+  "title": "Eileen",
+  "cats": "longreads",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/eileen/",
+  "pageH": 1981,
+  "screens": 2.44,
+  "hscroll": 1024,
+  "widgets": 7,
+  "visible": 7,
+  "kinds": {
+   "background": 1,
+   "picture": 2,
+   "text-v3": 4
+  },
+  "marginL": 31,
+  "marginR": -21,
+  "contentW": 365,
+  "colEdges": [
+   31,
+   191
+  ],
+  "type": [
+   {
+    "spec": "Inter|28|30|400",
+    "n": 21,
+    "boxW": 302
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {},
+  "pics": 2,
+  "aspect": {
+   "3.12": 1,
+   "1.00": 1
+  },
+  "crop": 2,
+  "rotated": 1,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(22, 22, 22)"
+ },
+ {
+  "id": 3290378,
+  "title": "Intro",
+  "cats": "photo_stories/longreads",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/intro/",
+  "pageH": 813,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 32,
+  "visible": 32,
+  "kinds": {
+   "background": 1,
+   "shape": 10,
+   "button": 7,
+   "text-v3": 8,
+   "picture": 6
+  },
+  "marginL": 37,
+  "marginR": 37,
+  "contentW": 301,
+  "colEdges": [
+   37,
+   95,
+   107,
+   191,
+   200,
+   249
+  ],
+  "type": [
+   {
+    "spec": "Proto Grotesk|18|20|400",
+    "n": 1,
+    "boxW": 140
+   },
+   {
+    "spec": "Proto Grotesk|14|20|300",
+    "n": 10,
+    "boxW": 137
+   },
+   {
+    "spec": "Proto Grotesk|14|20|400",
+    "n": 1,
+    "boxW": 100
+   }
+  ],
+  "typeCount": 3,
+  "fonts": [
+   "Proto Grotesk"
+  ],
+  "radii": {
+   "77px": 2,
+   "10px": 7,
+   "75px": 5
+  },
+  "pics": 6,
+  "aspect": {
+   "2.51": 2,
+   "2.53": 1,
+   "2.50": 2,
+   "1.00": 1
+  },
+  "crop": 5,
+  "rotated": 2,
+  "fixed": 2,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(238, 240, 255)"
+   ],
+   "hover": [
+    "rgb(238, 240, 255) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {
+   "0.5s": 9
+  },
+  "bg": "rgb(238, 240, 255)"
+ },
+ {
+  "id": 3006744,
+  "title": "Fugu",
+  "cats": "company_website",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/fugu/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 6,
+  "visible": 6,
+  "kinds": {
+   "background": 1,
+   "button": 1,
+   "shape": 1,
+   "text-v3": 3
+  },
+  "marginL": 7,
+  "marginR": 7,
+  "contentW": 361,
+  "colEdges": [
+   7,
+   123,
+   165
+  ],
+  "type": [],
+  "typeCount": 0,
+  "fonts": [],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 5,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgba(0, 0, 0, 0.48)",
+    "rgb(0, 0, 0)",
+    "rgb(0, 64, 255)"
+   ],
+   "hover": [
+    "rgb(0, 0, 0) ",
+    "rgba(0, 64, 255, 0.5) ",
+    "rgb(255, 255, 255) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)",
+    "rgb(0, 64, 255)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 5743265,
+  "title": "Cloud",
+  "cats": "",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/cloud/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 12,
+  "visible": 12,
+  "kinds": {
+   "background": 1,
+   "text-v3": 8,
+   "picture": 2,
+   "shape": 1
+  },
+  "marginL": 7,
+  "marginR": 36,
+  "contentW": 332,
+  "colEdges": [
+   7,
+   36,
+   106,
+   191,
+   264
+  ],
+  "type": [
+   {
+    "spec": "wtqc|290|300|500",
+    "n": 1,
+    "boxW": 268
+   },
+   {
+    "spec": "wtqc|20|25|500",
+    "n": 3,
+    "boxW": 147
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "wtqc"
+  ],
+  "radii": {},
+  "pics": 2,
+  "aspect": {
+   "1.65": 1,
+   "1.71": 1
+  },
+  "crop": 2,
+  "rotated": 6,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(0, 64, 255)",
+    "rgb(255, 255, 255)",
+    "rgba(255, 255, 255, 0.6)"
+   ],
+   "hover": [
+    "rgba(0, 64, 255, 0.5) ",
+    "rgba(255, 255, 255, 0.5) ",
+    "rgb(255, 255, 255) "
+   ],
+   "current": [
+    "rgb(0, 64, 255)",
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(0, 64, 255)"
+ },
+ {
+  "id": 2929108,
+  "title": "Makeithappen",
+  "cats": "photo_stories",
+  "by": "Ana Kuznetsova",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/makeithappen/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 24,
+  "visible": 24,
+  "kinds": {
+   "background": 1,
+   "text-v3": 11,
+   "shape": 11,
+   "picture": 1
+  },
+  "marginL": 0,
+  "marginR": 0,
+  "contentW": 375,
+  "colEdges": [
+   0,
+   68,
+   130,
+   184,
+   283
+  ],
+  "type": [
+   {
+    "spec": "wtqc|60|60|400",
+    "n": 8,
+    "boxW": 192
+   },
+   {
+    "spec": "wtqc|16|20|400",
+    "n": 4,
+    "boxW": 50
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "wtqc"
+  ],
+  "radii": {},
+  "pics": 1,
+  "aspect": {
+   "4.32": 1
+  },
+  "crop": 0,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 2541413,
+  "title": "Rainforest",
+  "cats": "photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/rainforest/",
+  "pageH": 886,
+  "screens": 1.09,
+  "hscroll": 1024,
+  "widgets": 28,
+  "visible": 28,
+  "kinds": {
+   "background": 1,
+   "shape": 2,
+   "text-v3": 16,
+   "button": 3,
+   "picture": 6
+  },
+  "marginL": 5,
+  "marginR": 6,
+  "contentW": 364,
+  "colEdges": [
+   5,
+   32,
+   67,
+   81,
+   189,
+   203,
+   331
+  ],
+  "type": [
+   {
+    "spec": "Graphik|70|70|900",
+    "n": 2,
+    "boxW": 180
+   },
+   {
+    "spec": "Graphik|24|30|500",
+    "n": 1,
+    "boxW": 179
+   },
+   {
+    "spec": "Graphik|16|20|500",
+    "n": 1,
+    "boxW": 61
+   }
+  ],
+  "typeCount": 3,
+  "fonts": [
+   "Graphik"
+  ],
+  "radii": {
+   "200px": 1,
+   "78px": 1,
+   "127px": 2,
+   "100px": 1
+  },
+  "pics": 6,
+  "aspect": {
+   "0.57": 1,
+   "0.50": 1,
+   "1.00": 2,
+   "1.70": 2
+  },
+  "crop": 6,
+  "rotated": 4,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 2541405,
+  "title": "Lotta B",
+  "cats": "microsites",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/lottab/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 3,
+  "visible": 3,
+  "kinds": {
+   "background": 1,
+   "text-v3": 2
+  },
+  "marginL": 9,
+  "marginR": 9,
+  "contentW": 357,
+  "colEdges": [
+   9,
+   249
+  ],
+  "type": [
+   {
+    "spec": "Graphik|36|36|500",
+    "n": 3,
+    "boxW": 177
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "Graphik"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 2,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(34, 34, 34)",
+    "rgb(0, 0, 0)"
+   ],
+   "hover": [
+    "rgb(255, 0, 161) "
+   ],
+   "current": [
+    "rgb(255, 0, 161)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 2541402,
+  "title": "Barista",
+  "cats": "company_website/photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/barista/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 9,
+  "visible": 9,
+  "kinds": {
+   "background": 1,
+   "text-v3": 7,
+   "form": 1
+  },
+  "marginL": 11,
+  "marginR": 10,
+  "contentW": 354,
+  "colEdges": [
+   11,
+   103,
+   147,
+   251,
+   281
+  ],
+  "type": [
+   {
+    "spec": "Druk Condensed|96|96|400",
+    "n": 3,
+    "boxW": 54
+   },
+   {
+    "spec": "lfzn|16|18|400",
+    "n": 4,
+    "boxW": 109
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "lfzn",
+   "Druk Condensed"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 8,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(88, 49, 1)"
+ },
+ {
+  "id": 2541403,
+  "title": "Bloom",
+  "cats": "company_website/photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/bloom/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 9,
+  "visible": 9,
+  "kinds": {
+   "background": 1,
+   "form": 1,
+   "text-v3": 5,
+   "picture": 1,
+   "shape": 1
+  },
+  "marginL": 11,
+  "marginR": 11,
+  "contentW": 353,
+  "colEdges": [
+   11,
+   191,
+   228
+  ],
+  "type": [
+   {
+    "spec": "zwtf|24|24|900",
+    "n": 3,
+    "boxW": 29
+   },
+   {
+    "spec": "zwtf|14|18|400",
+    "n": 2,
+    "boxW": 110
+   },
+   {
+    "spec": "Graphik|10|12|500",
+    "n": 1,
+    "boxW": 32
+   }
+  ],
+  "typeCount": 3,
+  "fonts": [
+   "zwtf",
+   "Graphik"
+  ],
+  "radii": {
+   "30px": 1
+  },
+  "pics": 1,
+  "aspect": {
+   "1.53": 1
+  },
+  "crop": 1,
+  "rotated": 8,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(94, 80, 63)"
+ },
+ {
+  "id": 2541401,
+  "title": "Rosa",
+  "cats": "company_website/photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/rosa/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 12,
+  "visible": 12,
+  "kinds": {
+   "background": 1,
+   "text-v3": 7,
+   "form": 1,
+   "shape": 3
+  },
+  "marginL": 13,
+  "marginR": 13,
+  "contentW": 349,
+  "colEdges": [
+   13,
+   192
+  ],
+  "type": [
+   {
+    "spec": "Dala Floda|30|24|400",
+    "n": 4,
+    "boxW": 89
+   },
+   {
+    "spec": "Graphik|10|12|500",
+    "n": 2,
+    "boxW": 54
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Graphik",
+   "Dala Floda"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 11,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(243, 177, 187)"
+ },
+ {
+  "id": 2541398,
+  "title": "Classic",
+  "cats": "photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/classic/",
+  "pageH": 1099,
+  "screens": 1.35,
+  "hscroll": 1024,
+  "widgets": 33,
+  "visible": 33,
+  "kinds": {
+   "background": 1,
+   "text-v3": 21,
+   "shape": 4,
+   "button": 2,
+   "picture": 5
+  },
+  "marginL": 4,
+  "marginR": 4,
+  "contentW": 367,
+  "colEdges": [
+   4,
+   15,
+   45,
+   74,
+   96,
+   118,
+   133,
+   155,
+   191,
+   250,
+   279,
+   297
+  ],
+  "type": [
+   {
+    "spec": "Playfair Display|84|84|600",
+    "n": 3,
+    "boxW": 228
+   },
+   {
+    "spec": "Playfair Display|48|48|600",
+    "n": 1,
+    "boxW": 187
+   },
+   {
+    "spec": "Georgia|18|24|400",
+    "n": 6,
+    "boxW": 179
+   },
+   {
+    "spec": "Graphik|12|18|400",
+    "n": 2,
+    "boxW": 106
+   }
+  ],
+  "typeCount": 4,
+  "fonts": [
+   "Playfair Display",
+   "Georgia",
+   "Graphik"
+  ],
+  "radii": {
+   "104px": 1,
+   "66px": 1
+  },
+  "pics": 5,
+  "aspect": {
+   "0.85": 1,
+   "0.67": 1,
+   "1.00": 3
+  },
+  "crop": 2,
+  "rotated": 7,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(124, 0, 12)"
+ },
+ {
+  "id": 2541397,
+  "title": "Warm",
+  "cats": "photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/warm/",
+  "pageH": 1191,
+  "screens": 1.47,
+  "hscroll": 1024,
+  "widgets": 18,
+  "visible": 18,
+  "kinds": {
+   "background": 1,
+   "shape": 2,
+   "text-v3": 10,
+   "picture": 5
+  },
+  "marginL": 4,
+  "marginR": 4,
+  "contentW": 367,
+  "colEdges": [
+   4,
+   15,
+   103,
+   123,
+   133,
+   243
+  ],
+  "type": [
+   {
+    "spec": "sftn|36|36|500",
+    "n": 4,
+    "boxW": 112
+   },
+   {
+    "spec": "sftn|18|24|500",
+    "n": 4,
+    "boxW": 108
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "sftn"
+  ],
+  "radii": {},
+  "pics": 5,
+  "aspect": {
+   "0.76": 1,
+   "0.85": 1,
+   "1.36": 1,
+   "1.00": 1,
+   "0.72": 1
+  },
+  "crop": 5,
+  "rotated": 5,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(221, 221, 221)"
+ },
+ {
+  "id": 2541396,
+  "title": "Dark",
+  "cats": "company_website/photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/dark/",
+  "pageH": 1442,
+  "screens": 1.78,
+  "hscroll": 1024,
+  "widgets": 21,
+  "visible": 21,
+  "kinds": {
+   "background": 1,
+   "text-v3": 12,
+   "picture": 6,
+   "shape": 2
+  },
+  "marginL": -7,
+  "marginR": 7,
+  "contentW": 375,
+  "colEdges": [
+   -7,
+   13,
+   133,
+   247
+  ],
+  "type": [
+   {
+    "spec": "lfzn|36|36|400",
+    "n": 11,
+    "boxW": 112
+   },
+   {
+    "spec": "lfzn|18|24|500",
+    "n": 4,
+    "boxW": 75
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "lfzn"
+  ],
+  "radii": {},
+  "pics": 6,
+  "aspect": {
+   "1.00": 1,
+   "0.63": 3,
+   "0.65": 2
+  },
+  "crop": 5,
+  "rotated": 6,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(34, 34, 34)"
+ },
+ {
+  "id": 2541409,
+  "title": "Half-full",
+  "cats": "microsites",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/full/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 7,
+  "visible": 7,
+  "kinds": {
+   "background": 1,
+   "text-v3": 5,
+   "picture": 1
+  },
+  "marginL": 7,
+  "marginR": 6,
+  "contentW": 362,
+  "colEdges": [
+   7,
+   187,
+   199
+  ],
+  "type": [
+   {
+    "spec": "Spectral|24|30|500",
+    "n": 2,
+    "boxW": 158
+   },
+   {
+    "spec": "Spectral|16|20|500",
+    "n": 4,
+    "boxW": 147
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Spectral"
+  ],
+  "radii": {},
+  "pics": 1,
+  "aspect": {
+   "0.23": 1
+  },
+  "crop": 1,
+  "rotated": 6,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(235, 235, 235)"
+ },
+ {
+  "id": 2541411,
+  "title": "Half-empty",
+  "cats": "microsites",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/half/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 7,
+  "visible": 7,
+  "kinds": {
+   "background": 1,
+   "picture": 1,
+   "text-v3": 5
+  },
+  "marginL": 7,
+  "marginR": 7,
+  "contentW": 361,
+  "colEdges": [
+   7,
+   186,
+   199
+  ],
+  "type": [
+   {
+    "spec": "Spectral|24|30|500",
+    "n": 2,
+    "boxW": 158
+   },
+   {
+    "spec": "Spectral|16|20|500",
+    "n": 4,
+    "boxW": 147
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Spectral"
+  ],
+  "radii": {},
+  "pics": 1,
+  "aspect": {
+   "0.23": 1
+  },
+  "crop": 1,
+  "rotated": 6,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(17, 17, 17)"
+ },
+ {
+  "id": 2541416,
+  "title": "Ursuli 2",
+  "cats": "presentations",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/ursuli2/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 5,
+  "visible": 5,
+  "kinds": {
+   "background": 1,
+   "text-v3": 2,
+   "picture": 2
+  },
+  "marginL": 0,
+  "marginR": 21,
+  "contentW": 354,
+  "colEdges": [
+   0,
+   133
+  ],
+  "type": [
+   {
+    "spec": "ftnk|60|60|500",
+    "n": 1,
+    "boxW": 77
+   },
+   {
+    "spec": "lfzn|24|30|400",
+    "n": 3,
+    "boxW": 42
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "ftnk",
+   "lfzn"
+  ],
+  "radii": {},
+  "pics": 2,
+  "aspect": {
+   "0.63": 1,
+   "0.66": 1
+  },
+  "crop": 1,
+  "rotated": 4,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 2541407,
+  "title": "Lotta A",
+  "cats": "microsites",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/lottaa/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 4,
+  "visible": 4,
+  "kinds": {
+   "background": 1,
+   "shape": 1,
+   "text-v3": 2
+  },
+  "marginL": 9,
+  "marginR": 129,
+  "contentW": 237,
+  "colEdges": [
+   9,
+   129
+  ],
+  "type": [
+   {
+    "spec": "wdqb|48|48|400",
+    "n": 1,
+    "boxW": 90
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "wdqb"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 3,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(20, 33, 61)"
+   ],
+   "hover": [
+    "rgb(252, 163, 17) "
+   ],
+   "current": [
+    "rgb(20, 33, 61)"
+   ]
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(229, 229, 229)"
+ },
+ {
+  "id": 2541412,
+  "title": "Rooftop",
+  "cats": "company_website/photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/rooftop123/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 21,
+  "visible": 21,
+  "kinds": {
+   "background": 1,
+   "text-v3": 13,
+   "picture": 4,
+   "shape": 2,
+   "form": 1
+  },
+  "marginL": 0,
+  "marginR": 7,
+  "contentW": 368,
+  "colEdges": [
+   0,
+   191,
+   314
+  ],
+  "type": [
+   {
+    "spec": "yszk|34|40|400",
+    "n": 5,
+    "boxW": 162
+   },
+   {
+    "spec": "wtqc|15|20|500",
+    "n": 6,
+    "boxW": 146
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "wtqc",
+   "yszk"
+  ],
+  "radii": {},
+  "pics": 4,
+  "aspect": {
+   "0.67": 1,
+   "1.00": 3
+  },
+  "crop": 4,
+  "rotated": 5,
+  "fixed": 2,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(230, 57, 70)",
+    "rgb(29, 53, 87)",
+    "rgb(255, 255, 255)"
+   ],
+   "hover": [
+    "rgb(29, 53, 87) ",
+    "rgb(230, 57, 70) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)",
+    "rgb(255, 255, 255)",
+    "rgba(255, 255, 255, 0.5)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 2541417,
+  "title": "Tundra",
+  "cats": "presentations",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/tundra/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 8,
+  "visible": 8,
+  "kinds": {
+   "background": 1,
+   "picture": 1,
+   "text-v3": 4,
+   "shape": 2
+  },
+  "marginL": 15,
+  "marginR": -88,
+  "contentW": 448,
+  "colEdges": [
+   15,
+   132,
+   142
+  ],
+  "type": [
+   {
+    "spec": "Druk Condensed|120|100|800",
+    "n": 2,
+    "boxW": 109
+   },
+   {
+    "spec": "Graphik|12|15|500",
+    "n": 2,
+    "boxW": 94
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Druk Condensed",
+   "Graphik"
+  ],
+  "radii": {},
+  "pics": 1,
+  "aspect": {
+   "1.33": 1
+  },
+  "crop": 1,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 2457081,
+  "title": "Eclipse",
+  "cats": "microsites",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/eclipse/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 13,
+  "visible": 13,
+  "kinds": {
+   "background": 1,
+   "text-v3": 9,
+   "picture": 1,
+   "shape": 2
+  },
+  "marginL": -23,
+  "marginR": -57,
+  "contentW": 455,
+  "colEdges": [
+   -23,
+   11,
+   87,
+   190,
+   299
+  ],
+  "type": [
+   {
+    "spec": "Druk Wide|120|120|900",
+    "n": 2,
+    "boxW": 315
+   },
+   {
+    "spec": "Graphik|24|30|500",
+    "n": 10,
+    "boxW": 170
+   },
+   {
+    "spec": "Inknut Antiqua|24|30|400",
+    "n": 1,
+    "boxW": 32
+   }
+  ],
+  "typeCount": 3,
+  "fonts": [
+   "Graphik",
+   "Druk Wide",
+   "Inknut Antiqua"
+  ],
+  "radii": {},
+  "pics": 1,
+  "aspect": {
+   "1.20": 1
+  },
+  "crop": 0,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(253, 197, 0)"
+   ],
+   "hover": [
+    "rgb(255, 255, 255) "
+   ],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(34, 34, 34)"
+ },
+ {
+  "id": 2426059,
+  "title": "Sapphire",
+  "cats": "presentations",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/sapphire/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 5,
+  "visible": 5,
+  "kinds": {
+   "background": 1,
+   "shape": 1,
+   "text-v3": 3
+  },
+  "marginL": 22,
+  "marginR": 22,
+  "contentW": 331,
+  "colEdges": [
+   22,
+   90,
+   108,
+   157
+  ],
+  "type": [
+   {
+    "spec": "kqdn|180|180|300",
+    "n": 1,
+    "boxW": 173
+   },
+   {
+    "spec": "wtqc|12|15|400",
+    "n": 2,
+    "boxW": 160
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "kqdn",
+   "wtqc"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 4,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(95, 15, 64)"
+ },
+ {
+  "id": 2390529,
+  "title": "Sunshine",
+  "cats": "microsites",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/sunshine/",
+  "pageH": 1718,
+  "screens": 2.12,
+  "hscroll": 1024,
+  "widgets": 29,
+  "visible": 29,
+  "kinds": {
+   "background": 1,
+   "text-v3": 21,
+   "shape": 2,
+   "slideshow": 5
+  },
+  "marginL": 9,
+  "marginR": 10,
+  "contentW": 356,
+  "colEdges": [
+   31,
+   190,
+   200
+  ],
+  "type": [
+   {
+    "spec": "Druk Wide|80|70|700",
+    "n": 2,
+    "boxW": 143
+   },
+   {
+    "spec": "hmqz|35|40|400",
+    "n": 3,
+    "boxW": 157
+   },
+   {
+    "spec": "Druk Wide|30|30|700",
+    "n": 1,
+    "boxW": 134
+   },
+   {
+    "spec": "hmqz|24|30|400",
+    "n": 1,
+    "boxW": 77
+   }
+  ],
+  "typeCount": 4,
+  "fonts": [
+   "Druk Wide",
+   "hmqz"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 6,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(238, 186, 11)"
+   ],
+   "hover": [
+    "rgb(7, 42, 200) "
+   ],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 6248752,
+  "title": "Unveil",
+  "cats": "microsites/photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/6248752/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 17,
+  "visible": 17,
+  "kinds": {
+   "background": 1,
+   "shape": 13,
+   "slideshow": 1,
+   "text-v3": 2
+  },
+  "marginL": 4,
+  "marginR": 0,
+  "contentW": 371,
+  "colEdges": [
+   4,
+   26,
+   82,
+   121,
+   190,
+   303,
+   318
+  ],
+  "type": [
+   {
+    "spec": "Courier New|9|10|700",
+    "n": 1,
+    "boxW": 9
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "Courier New"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 16,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 5647058,
+  "title": "Portfolio Workbench",
+  "cats": "microsites",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/Portfolioworkbench/",
+  "pageH": 1030,
+  "screens": 1.27,
+  "hscroll": 1024,
+  "widgets": 59,
+  "visible": 59,
+  "kinds": {
+   "background": 1,
+   "shape": 25,
+   "text-v3": 19,
+   "picture": 14
+  },
+  "marginL": 2,
+  "marginR": 2,
+  "contentW": 371,
+  "colEdges": [
+   3,
+   12,
+   29,
+   138,
+   187,
+   196,
+   310
+  ],
+  "type": [
+   {
+    "spec": "Inter Tight|80|75|400",
+    "n": 1,
+    "boxW": 264
+   },
+   {
+    "spec": "Inter|38|40|400",
+    "n": 1,
+    "boxW": 46
+   },
+   {
+    "spec": "Inter|10|12|400",
+    "n": 18,
+    "boxW": 178
+   }
+  ],
+  "typeCount": 3,
+  "fonts": [
+   "Inter Tight",
+   "Inter"
+  ],
+  "radii": {},
+  "pics": 14,
+  "aspect": {
+   "2.35": 1,
+   "1.80": 7,
+   "1.79": 6
+  },
+  "crop": 13,
+  "rotated": 4,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgba(0, 0, 0, 0.5)",
+    "rgb(0, 0, 0)",
+    "rgb(255, 255, 255)"
+   ],
+   "hover": [
+    "rgba(0, 0, 0, 0.8) ",
+    "rgba(0, 0, 0, 0.5) ",
+    "rgb(119, 119, 119) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(40, 40, 40)"
+ },
+ {
+  "id": 5875488,
+  "title": "Visual Practice",
+  "cats": "microsites",
+  "by": "Varvara Godovikova",
+  "price": 25,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/5875488/",
+  "pageH": 869,
+  "screens": 1.07,
+  "hscroll": 1024,
+  "widgets": 45,
+  "visible": 45,
+  "kinds": {
+   "background": 1,
+   "text-v3": 32,
+   "picture": 10,
+   "?": 2
+  },
+  "marginL": -88,
+  "marginR": -218,
+  "contentW": 681,
+  "colEdges": [
+   -88,
+   3,
+   25,
+   65,
+   127,
+   186,
+   410
+  ],
+  "type": [
+   {
+    "spec": "Inter|13|13|400",
+    "n": 1,
+    "boxW": 16
+   },
+   {
+    "spec": "Inter|13|14|400",
+    "n": 2,
+    "boxW": 64
+   },
+   {
+    "spec": "Inter|12|12|400",
+    "n": 13,
+    "boxW": 91
+   }
+  ],
+  "typeCount": 3,
+  "fonts": [
+   "Inter"
+  ],
+  "radii": {},
+  "pics": 10,
+  "aspect": {
+   "1.50": 1,
+   "1.33": 1,
+   "0.67": 1,
+   "0.69": 1,
+   "1.78": 1,
+   "1.29": 1,
+   "0.71": 1,
+   "1.44": 1,
+   "1.75": 2
+  },
+  "crop": 10,
+  "rotated": 7,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(0, 0, 0)",
+    "rgb(255, 255, 255)",
+    "rgb(232, 98, 35)"
+   ],
+   "hover": [
+    "rgb(232, 98, 35) ",
+    "rgb(255, 0, 161) ",
+    "rgb(0, 0, 0) "
+   ],
+   "current": [
+    "rgb(255, 0, 161)",
+    "rgb(68, 0, 255)",
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 5658420,
+  "title": "CLICK",
+  "cats": "microsites",
+  "by": "Marta Grisolia",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/5658420/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 7,
+  "visible": 7,
+  "kinds": {
+   "background": 1,
+   "text-v3": 6
+  },
+  "marginL": 94,
+  "marginR": 94,
+  "contentW": 187,
+  "colEdges": [
+   94,
+   103,
+   136
+  ],
+  "type": [],
+  "typeCount": 0,
+  "fonts": [],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(213, 255, 136)",
+    "rgb(255, 255, 255)"
+   ],
+   "hover": [
+    "rgba(213, 255, 136, 0.8) ",
+    "rgb(213, 255, 136) ",
+    "rgba(255, 255, 255, 0.8) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(0, 0, 0)"
+ },
+ {
+  "id": 2390532,
+  "title": "Flagpole",
+  "cats": "microsites",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/flagpole/",
+  "pageH": 1849,
+  "screens": 2.28,
+  "hscroll": 1024,
+  "widgets": 34,
+  "visible": 34,
+  "kinds": {
+   "background": 1,
+   "text-v3": 26,
+   "shape": 2,
+   "slideshow": 5
+  },
+  "marginL": 14,
+  "marginR": 15,
+  "contentW": 346,
+  "colEdges": [
+   14,
+   73,
+   308
+  ],
+  "type": [
+   {
+    "spec": "wtqc|40|40|700",
+    "n": 1,
+    "boxW": 115
+   },
+   {
+    "spec": "wtqc|16|20|500",
+    "n": 3,
+    "boxW": 112
+   },
+   {
+    "spec": "wtqc|12|15|500",
+    "n": 4,
+    "boxW": 61
+   }
+  ],
+  "typeCount": 3,
+  "fonts": [
+   "wtqc"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 1,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(0, 0, 0)",
+    "rgb(255, 255, 255)"
+   ],
+   "hover": [
+    "rgb(255, 182, 39) "
+   ],
+   "current": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 2390531,
+  "title": "Buttercup",
+  "cats": "microsites",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/buttercup/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 5,
+  "visible": 5,
+  "kinds": {
+   "background": 1,
+   "shape": 1,
+   "text-v3": 3
+  },
+  "marginL": 12,
+  "marginR": 9,
+  "contentW": 354,
+  "colEdges": [
+   12,
+   41,
+   132
+  ],
+  "type": [
+   {
+    "spec": "Stratos|168|140|700",
+    "n": 1,
+    "boxW": 344
+   },
+   {
+    "spec": "Spectral|26|30|500",
+    "n": 2,
+    "boxW": 111
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Stratos",
+   "Spectral"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 4,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [
+    "rgb(0, 0, 0)"
+   ],
+   "hover": [
+    "rgb(255, 182, 39) "
+   ],
+   "current": [
+    "rgb(255, 182, 39)"
+   ]
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 2144019,
+  "title": "Moonlight",
+  "cats": "microsites",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/moonlight/",
+  "pageH": 905,
+  "screens": 1.11,
+  "hscroll": 1024,
+  "widgets": 11,
+  "visible": 11,
+  "kinds": {
+   "background": 1,
+   "shape": 5,
+   "text-v3": 5
+  },
+  "marginL": 7,
+  "marginR": 7,
+  "contentW": 361,
+  "colEdges": [
+   7,
+   191
+  ],
+  "type": [
+   {
+    "spec": "vkzk|14|20|500",
+    "n": 5,
+    "boxW": 139
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "vkzk"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 2,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 237, 78)"
+ },
+ {
+  "id": 2080161,
+  "title": "Dew",
+  "cats": "microsites",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/dew/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 30,
+  "visible": 30,
+  "kinds": {
+   "background": 1,
+   "shape": 22,
+   "text-v3": 6,
+   "slideshow": 1
+  },
+  "marginL": 15,
+  "marginR": 15,
+  "contentW": 345,
+  "colEdges": [
+   15,
+   188,
+   274
+  ],
+  "type": [
+   {
+    "spec": "wtqc|30|40|400",
+    "n": 29,
+    "boxW": 85
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "wtqc"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 4,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 1961938,
+  "title": "Read Me: Magazine",
+  "cats": "longreads",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/readme/",
+  "pageH": 913,
+  "screens": 1.12,
+  "hscroll": 1024,
+  "widgets": 15,
+  "visible": 15,
+  "kinds": {
+   "background": 1,
+   "text-v3": 10,
+   "picture": 3,
+   "shape": 1
+  },
+  "marginL": 8,
+  "marginR": 4,
+  "contentW": 363,
+  "colEdges": [
+   8,
+   152,
+   188,
+   229
+  ],
+  "type": [
+   {
+    "spec": "Druk Condensed|240|240|900",
+    "n": 1,
+    "boxW": 131
+   },
+   {
+    "spec": "Spectral|32|36|500",
+    "n": 2,
+    "boxW": 145
+   },
+   {
+    "spec": "Spectral|24|30|500",
+    "n": 8,
+    "boxW": 143
+   },
+   {
+    "spec": "Spectral SC|24|30|500",
+    "n": 1,
+    "boxW": 9
+   },
+   {
+    "spec": "Graphik|11|12|500",
+    "n": 1,
+    "boxW": 21
+   }
+  ],
+  "typeCount": 5,
+  "fonts": [
+   "Druk Condensed",
+   "Graphik",
+   "Spectral",
+   "Spectral SC"
+  ],
+  "radii": {},
+  "pics": 3,
+  "aspect": {
+   "0.04": 2,
+   "1.53": 1
+  },
+  "crop": 3,
+  "rotated": 8,
+  "fixed": 2,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 1961839,
+  "title": "Read Me: Web",
+  "cats": "longreads",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/readme-web/",
+  "pageH": 7619,
+  "screens": 9.38,
+  "hscroll": 1024,
+  "widgets": 66,
+  "visible": 66,
+  "kinds": {
+   "background": 1,
+   "text-v3": 36,
+   "picture": 22,
+   "slideshow": 4,
+   "shape": 3
+  },
+  "marginL": 7,
+  "marginR": 7,
+  "contentW": 361,
+  "colEdges": [
+   7,
+   35,
+   128,
+   168,
+   192,
+   221,
+   253,
+   287,
+   302
+  ],
+  "type": [
+   {
+    "spec": "Graphik|109|102|900",
+    "n": 1,
+    "boxW": 185
+   },
+   {
+    "spec": "Graphik|52|68|700",
+    "n": 2,
+    "boxW": 361
+   },
+   {
+    "spec": "Graphik|52|68|800",
+    "n": 5,
+    "boxW": 226
+   },
+   {
+    "spec": "IBM Plex Serif|22|34|400",
+    "n": 75,
+    "boxW": 239
+   },
+   {
+    "spec": "Graphik|22|34|400",
+    "n": 5,
+    "boxW": 239
+   },
+   {
+    "spec": "Graphik|22|34|800",
+    "n": 2,
+    "boxW": 47
+   },
+   {
+    "spec": "Graphik|22|26|700",
+    "n": 1,
+    "boxW": 25
+   },
+   {
+    "spec": "IBM Plex Serif|15|20|400",
+    "n": 1,
+    "boxW": 237
+   }
+  ],
+  "typeCount": 9,
+  "fonts": [
+   "Graphik",
+   "IBM Plex Serif"
+  ],
+  "radii": {},
+  "pics": 22,
+  "aspect": {
+   "1.47": 1,
+   "1.41": 6,
+   "1.00": 6,
+   "0.80": 2,
+   "0.49": 1,
+   "0.53": 1,
+   "0.58": 1,
+   "1.48": 1,
+   "7.12": 2,
+   "4.39": 1
+  },
+  "crop": 21,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 1834966,
+  "title": "Evergreen",
+  "cats": "presentations",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/evergreen/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 6,
+  "visible": 6,
+  "kinds": {
+   "background": 1,
+   "text-v3": 5
+  },
+  "marginL": 7,
+  "marginR": 12,
+  "contentW": 356,
+  "colEdges": [
+   7,
+   193,
+   283
+  ],
+  "type": [
+   {
+    "spec": "Druk Condensed|860|750|400",
+    "n": 1,
+    "boxW": 364
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "Druk Condensed"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 4,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(0, 61, 229)"
+ },
+ {
+  "id": 1725074,
+  "title": "Stories",
+  "cats": "longreads",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/stories/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 9,
+  "visible": 9,
+  "kinds": {
+   "background": 1,
+   "text-v3": 4,
+   "picture": 2,
+   "button": 1,
+   "shape": 1
+  },
+  "marginL": 14,
+  "marginR": 5,
+  "contentW": 356,
+  "colEdges": [
+   14,
+   104,
+   188
+  ],
+  "type": [
+   {
+    "spec": "Graphik|108|96|400",
+    "n": 2,
+    "boxW": 145
+   },
+   {
+    "spec": "Graphik|9|12|400",
+    "n": 1,
+    "boxW": 69
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "Graphik"
+  ],
+  "radii": {
+   "5px": 1
+  },
+  "pics": 2,
+  "aspect": {
+   "4.33": 1,
+   "1.00": 1
+  },
+  "crop": 1,
+  "rotated": 1,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 1741452,
+  "title": "Link hub",
+  "cats": "photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/link-hub/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 3,
+  "visible": 3,
+  "kinds": {
+   "background": 1,
+   "button": 2
+  },
+  "marginL": 0,
+  "marginR": 0,
+  "contentW": 375,
+  "colEdges": [
+   0,
+   187
+  ],
+  "type": [],
+  "typeCount": 0,
+  "fonts": [],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 2,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 1697924,
+  "title": "Artisan",
+  "cats": "microsites",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/artisan/",
+  "pageH": 2123,
+  "screens": 2.61,
+  "hscroll": 1024,
+  "widgets": 27,
+  "visible": 27,
+  "kinds": {
+   "background": 1,
+   "shape": 2,
+   "text-v3": 17,
+   "picture": 6,
+   "form": 1
+  },
+  "marginL": 0,
+  "marginR": 0,
+  "contentW": 375,
+  "colEdges": [
+   0,
+   9,
+   70,
+   193,
+   255,
+   316
+  ],
+  "type": [
+   {
+    "spec": "Stratos|32|40|400",
+    "n": 8,
+    "boxW": 175
+   },
+   {
+    "spec": "Stratos|18|26|700",
+    "n": 1,
+    "boxW": 32
+   },
+   {
+    "spec": "Spectral|16|20|400",
+    "n": 3,
+    "boxW": 56
+   },
+   {
+    "spec": "Stratos|11|14|400",
+    "n": 1,
+    "boxW": 32
+   }
+  ],
+  "typeCount": 4,
+  "fonts": [
+   "Stratos",
+   "Spectral"
+  ],
+  "radii": {},
+  "pics": 6,
+  "aspect": {
+   "1.14": 1,
+   "1.80": 1,
+   "0.98": 1,
+   "0.67": 1,
+   "2.01": 1,
+   "1.48": 1
+  },
+  "crop": 6,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(234, 234, 234)"
+ },
+ {
+  "id": 1601027,
+  "title": "Bureau",
+  "cats": "company_website/microsites",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/bureau/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 7,
+  "visible": 7,
+  "kinds": {
+   "background": 1,
+   "text-v3": 6
+  },
+  "marginL": 22,
+  "marginR": 22,
+  "contentW": 331,
+  "colEdges": [
+   22,
+   108,
+   279
+  ],
+  "type": [
+   {
+    "spec": "sftn|64|80|400",
+    "n": 1,
+    "boxW": 131
+   },
+   {
+    "spec": "sftn|16|20|400",
+    "n": 1,
+    "boxW": 49
+   },
+   {
+    "spec": "sftn|12|15|400",
+    "n": 1,
+    "boxW": 66
+   }
+  ],
+  "typeCount": 3,
+  "fonts": [
+   "sftn"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 6,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 1358533,
+  "title": "Mars",
+  "cats": "presentations",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/mars/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 10,
+  "visible": 10,
+  "kinds": {
+   "background": 1,
+   "text-v3": 7,
+   "picture": 2
+  },
+  "marginL": -49,
+  "marginR": -52,
+  "contentW": 476,
+  "colEdges": [
+   -49,
+   21,
+   248,
+   385
+  ],
+  "type": [
+   {
+    "spec": "Graphik|80|80|800",
+    "n": 1,
+    "boxW": 197
+   },
+   {
+    "spec": "Graphik|16|20|400",
+    "n": 4,
+    "boxW": 66
+   },
+   {
+    "spec": "Graphik|16|20|800",
+    "n": 1,
+    "boxW": 15
+   },
+   {
+    "spec": "Georgia|13|16|400",
+    "n": 4,
+    "boxW": 42
+   }
+  ],
+  "typeCount": 4,
+  "fonts": [
+   "Graphik",
+   "Georgia"
+  ],
+  "radii": {},
+  "pics": 2,
+  "aspect": {
+   "1.00": 2
+  },
+  "crop": 2,
+  "rotated": 2,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(17, 17, 17)"
+ },
+ {
+  "id": 1335340,
+  "title": "Sleek",
+  "cats": "microsites",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/sleek/",
+  "pageH": 1838,
+  "screens": 2.26,
+  "hscroll": 1024,
+  "widgets": 20,
+  "visible": 20,
+  "kinds": {
+   "background": 1,
+   "text-v3": 12,
+   "picture": 6,
+   "shape": 1
+  },
+  "marginL": 15,
+  "marginR": 15,
+  "contentW": 345,
+  "colEdges": [
+   15,
+   132,
+   192,
+   250,
+   309
+  ],
+  "type": [
+   {
+    "spec": "NWT Bodoni|48|60|400",
+    "n": 1,
+    "boxW": 270
+   },
+   {
+    "spec": "ftnk|16|20|600",
+    "n": 1,
+    "boxW": 42
+   },
+   {
+    "spec": "ftnk|16|20|400",
+    "n": 1,
+    "boxW": 16
+   },
+   {
+    "spec": "ftnk|12|15|400",
+    "n": 1,
+    "boxW": 52
+   }
+  ],
+  "typeCount": 4,
+  "fonts": [
+   "NWT Bodoni",
+   "ftnk"
+  ],
+  "radii": {},
+  "pics": 6,
+  "aspect": {
+   "1.56": 1,
+   "0.68": 1,
+   "1.52": 1,
+   "1.73": 1,
+   "0.83": 1,
+   "1.82": 1
+  },
+  "crop": 6,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(0, 0, 0)"
+   ],
+   "hover": [
+    "rgb(96, 96, 96) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 1301125,
+  "title": "Marble",
+  "cats": "photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/marble/",
+  "pageH": 1472,
+  "screens": 1.81,
+  "hscroll": 1024,
+  "widgets": 69,
+  "visible": 69,
+  "kinds": {
+   "background": 1,
+   "button": 6,
+   "picture": 7,
+   "shape": 23,
+   "text-v3": 31,
+   "form": 1
+  },
+  "marginL": 13,
+  "marginR": 1,
+  "contentW": 361,
+  "colEdges": [
+   13,
+   47,
+   62,
+   95,
+   124,
+   133,
+   148,
+   193,
+   253,
+   319,
+   334
+  ],
+  "type": [
+   {
+    "spec": "Graphik|85|80|800",
+    "n": 4,
+    "boxW": 219
+   },
+   {
+    "spec": "Graphik|85|80|700",
+    "n": 4,
+    "boxW": 142
+   },
+   {
+    "spec": "Graphik|24|30|700",
+    "n": 6,
+    "boxW": 46
+   },
+   {
+    "spec": "Graphik|16|20|400",
+    "n": 29,
+    "boxW": 184
+   },
+   {
+    "spec": "Graphik|16|20|700",
+    "n": 2,
+    "boxW": 40
+   },
+   {
+    "spec": "Graphik|13|16|400",
+    "n": 1,
+    "boxW": 49
+   }
+  ],
+  "typeCount": 6,
+  "fonts": [
+   "Graphik"
+  ],
+  "radii": {
+   "90px": 6
+  },
+  "pics": 7,
+  "aspect": {
+   "1.00": 2,
+   "4.05": 2,
+   "0.50": 1,
+   "1.65": 1,
+   "4.16": 1
+  },
+  "crop": 5,
+  "rotated": 5,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(33, 33, 33)"
+ },
+ {
+  "id": 54970,
+  "title": "Fountainhead",
+  "cats": "microsites",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/fountainhead/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 4,
+  "visible": 4,
+  "kinds": {
+   "background": 1,
+   "text-v3": 2,
+   "lottie": 1
+  },
+  "marginL": 17,
+  "marginR": 44,
+  "contentW": 314,
+  "colEdges": [
+   17,
+   38
+  ],
+  "type": [
+   {
+    "spec": "tscy|32|34|500",
+    "n": 1,
+    "boxW": 56
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "tscy"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 2,
+  "fixed": 0,
+  "pageClass": "page-with-fixeds-sticky",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(216, 216, 216)"
+ },
+ {
+  "id": 39176,
+  "title": "Blacksquare",
+  "cats": "longreads",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/black-square/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 6,
+  "visible": 6,
+  "kinds": {
+   "background": 1,
+   "shape": 3,
+   "picture": 1,
+   "text-v3": 1
+  },
+  "marginL": 0,
+  "marginR": 0,
+  "contentW": 375,
+  "colEdges": [
+   0,
+   118,
+   182
+  ],
+  "type": [
+   {
+    "spec": "ftnk|74|90|700",
+    "n": 1,
+    "boxW": 156
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "ftnk"
+  ],
+  "radii": {},
+  "pics": 1,
+  "aspect": {
+   "1.01": 1
+  },
+  "crop": 1,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(0, 0, 0)"
+ },
+ {
+  "id": 37691,
+  "title": "Squot",
+  "cats": "longreads",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/squot/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 5,
+  "visible": 5,
+  "kinds": {
+   "background": 1,
+   "shape": 1,
+   "text-v3": 3
+  },
+  "marginL": 13,
+  "marginR": 13,
+  "contentW": 349,
+  "colEdges": [
+   13,
+   42,
+   130
+  ],
+  "type": [
+   {
+    "spec": "cmzp|25|25|700",
+    "n": 3,
+    "boxW": 76
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "cmzp"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 10479,
+  "title": "Swash",
+  "cats": "photo_stories",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/swash/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 5,
+  "visible": 5,
+  "kinds": {
+   "background": 1,
+   "shape": 1,
+   "text-v3": 3
+  },
+  "marginL": 109,
+  "marginR": 109,
+  "contentW": 157,
+  "colEdges": [
+   109,
+   125
+  ],
+  "type": [
+   {
+    "spec": "qtnq|46|52|400",
+    "n": 1,
+    "boxW": 124
+   },
+   {
+    "spec": "gkhs|18|24|400",
+    "n": 1,
+    "boxW": 126
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "gkhs",
+   "qtnq"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [],
+   "hover": [],
+   "current": []
+  },
+  "underline": false,
+  "transitions": {},
+  "bg": "rgb(0, 0, 0)"
+ },
+ {
+  "id": 36704,
+  "title": "Snowfruit",
+  "cats": "presentations",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/snowfruit/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 4,
+  "visible": 4,
+  "kinds": {
+   "background": 1,
+   "text-v3": 3
+  },
+  "marginL": 42,
+  "marginR": 42,
+  "contentW": 291,
+  "colEdges": [
+   42,
+   72,
+   101
+  ],
+  "type": [
+   {
+    "spec": "hmqz|24|29|400",
+    "n": 2,
+    "boxW": 64
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "hmqz"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(255, 255, 255)"
+   ],
+   "hover": [
+    "rgb(255, 255, 255) "
+   ],
+   "current": [
+    "rgb(0, 120, 255)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(239, 253, 246)"
+ },
+ {
+  "id": 36712,
+  "title": "Peppermint",
+  "cats": "presentations",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/peppermint/",
+  "pageH": 375,
+  "screens": 0.46,
+  "hscroll": 1024,
+  "widgets": 4,
+  "visible": 4,
+  "kinds": {
+   "background": 1,
+   "text-v3": 2,
+   "picture": 1
+  },
+  "marginL": 13,
+  "marginR": 26,
+  "contentW": 336,
+  "colEdges": [
+   13,
+   128
+  ],
+  "type": [
+   {
+    "spec": "tmmf|60|60|700",
+    "n": 1,
+    "boxW": 88
+   },
+   {
+    "spec": "cmzp|13|16|700",
+    "n": 1,
+    "boxW": 37
+   }
+  ],
+  "typeCount": 2,
+  "fonts": [
+   "tmmf",
+   "cmzp"
+  ],
+  "radii": {},
+  "pics": 1,
+  "aspect": {
+   "1.53": 1
+  },
+  "crop": 1,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(26, 25, 25)"
+   ],
+   "hover": [
+    "rgb(240, 117, 64) "
+   ],
+   "current": [
+    "rgb(0, 120, 255)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ },
+ {
+  "id": 5647154,
+  "title": "Nomad",
+  "cats": "longreads",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/nomad/",
+  "pageH": 711,
+  "screens": 0.88,
+  "hscroll": 1024,
+  "widgets": 9,
+  "visible": 9,
+  "kinds": {
+   "background": 1,
+   "text-v3": 4,
+   "picture": 1,
+   "slideshow": 1,
+   "shape": 2
+  },
+  "marginL": 15,
+  "marginR": 15,
+  "contentW": 345,
+  "colEdges": [
+   15,
+   46,
+   109,
+   125
+  ],
+  "type": [
+   {
+    "spec": "Parkinson|18|23|400",
+    "n": 1,
+    "boxW": 7
+   },
+   {
+    "spec": "Parkinson|15|22|400",
+    "n": 4,
+    "boxW": 157
+   },
+   {
+    "spec": "Parkinson|11|14|500",
+    "n": 1,
+    "boxW": 53
+   }
+  ],
+  "typeCount": 3,
+  "fonts": [
+   "Parkinson"
+  ],
+  "radii": {},
+  "pics": 1,
+  "aspect": {
+   "1.00": 1
+  },
+  "crop": 0,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(0, 0, 0)"
+   ],
+   "hover": [
+    "rgb(0, 0, 0) "
+   ],
+   "current": [
+    "rgb(0, 120, 255)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(0, 0, 0)"
+ },
+ {
+  "id": 36708,
+  "title": "Pragmatic",
+  "cats": "presentations",
+  "by": "Readymag",
+  "price": 0,
+  "vw": 375,
+  "zoom": 1,
+  "canvas": 375,
+  "url": "/designs/pragmatic/",
+  "pageH": 812,
+  "screens": 1,
+  "hscroll": 1024,
+  "widgets": 3,
+  "visible": 3,
+  "kinds": {
+   "background": 1,
+   "text-v3": 2
+  },
+  "marginL": 10,
+  "marginR": 10,
+  "contentW": 355,
+  "colEdges": [
+   10
+  ],
+  "type": [
+   {
+    "spec": "cmzp|17|21|700",
+    "n": 1,
+    "boxW": 55
+   }
+  ],
+  "typeCount": 1,
+  "fonts": [
+   "cmzp"
+  ],
+  "radii": {},
+  "pics": 0,
+  "aspect": {},
+  "crop": 0,
+  "rotated": 0,
+  "fixed": 0,
+  "pageClass": "",
+  "linkStates": {
+   "base": [
+    "rgb(0, 0, 0)"
+   ],
+   "hover": [
+    "rgba(0, 0, 0, 0.8) "
+   ],
+   "current": [
+    "rgb(0, 0, 0)"
+   ]
+  },
+  "underline": true,
+  "transitions": {},
+  "bg": "rgb(255, 255, 255)"
+ }
+]

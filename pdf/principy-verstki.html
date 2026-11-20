@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Принципы вёрстки — краткая версия</title>
+<style>
+@page { size: A4; margin: 18mm 16mm 16mm; }
+:root{
+  --ink:#141414; --muted:#5A5A5A; --faint:#8A8A8A;
+  --line:#D6D6D6; --rule:#1A1A1A; --accent:#C2440A;
+}
+*{box-sizing:border-box}
+html{-webkit-print-color-adjust:exact; print-color-adjust:exact}
+body{
+  margin:0; color:var(--ink); background:#fff;
+  font:400 10.5pt/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-variant-numeric:tabular-nums;
+}
+h1,h2,h3{margin:0; font-weight:600; letter-spacing:-0.01em}
+p{margin:0}
+.page{page-break-after:always; page-break-inside:avoid}
+.page:last-child{page-break-after:auto}
+
+/* титул */
+.cover{display:flex; flex-direction:column; justify-content:space-between; min-height:245mm}
+.cover .top .kick{font-size:8.5pt; letter-spacing:.16em; text-transform:uppercase; color:var(--accent)}
+.cover h1{font-size:44pt; line-height:.98; letter-spacing:-0.03em; margin-top:8mm; max-width:150mm}
+.cover .lede{margin-top:7mm; max-width:120mm; font-size:11.5pt; line-height:1.45; color:var(--muted)}
+.cover .facts{display:grid; grid-template-columns:repeat(3,1fr); gap:6mm; margin-top:12mm; border-top:1.2pt solid var(--rule); padding-top:5mm}
+.cover .facts div .n{font-size:22pt; font-weight:600; letter-spacing:-0.02em}
+.cover .facts div .c{font-size:8.5pt; color:var(--muted); line-height:1.35; margin-top:1.5mm}
+.cover .bottom{font-size:8.5pt; color:var(--faint); border-top:.6pt solid var(--line); padding-top:3mm}
+
+/* разделы */
+.sec{page-break-inside:avoid; margin-bottom:9mm}
+.sec-top{display:flex; align-items:baseline; gap:4mm; border-bottom:1.2pt solid var(--rule); padding-bottom:2mm}
+.sec-top .num{font-size:8.5pt; letter-spacing:.14em; color:var(--accent); font-weight:600}
+.sec-top h2{font-size:15pt; letter-spacing:-0.02em}
+.sec .body{margin-top:3.5mm; display:grid; grid-template-columns:1fr 1fr; gap:6mm}
+.sec .body.one{grid-template-columns:1fr}
+.sec p + p{margin-top:2.5mm}
+.lead{font-size:11pt; line-height:1.4}
+.muted{color:var(--muted)}
+.rule-box{border-left:1.6pt solid var(--accent); padding-left:3.5mm}
+.rule-box .lbl{font-size:8pt; letter-spacing:.12em; text-transform:uppercase; color:var(--accent); font-weight:600}
+.rule-box p{margin-top:1.5mm; font-size:10pt}
+
+table{width:100%; border-collapse:collapse; font-size:9pt; margin-top:3mm}
+th,td{text-align:left; padding:1.6mm 2mm; border-bottom:.6pt solid var(--line)}
+th{font-size:7.5pt; letter-spacing:.08em; text-transform:uppercase; color:var(--faint); font-weight:500}
+td.n,th.n{text-align:right; white-space:nowrap}
+tr:last-child td{border-bottom:0}
+.big{font-size:9pt}
+code{font-family:"SF Mono", Menlo, Consolas, monospace; font-size:8.5pt; background:#F2F2F2; padding:0 1mm}
+
+.chk{columns:2; column-gap:8mm; font-size:9.5pt}
+.chk li{margin-bottom:1.8mm; break-inside:avoid}
+ul{margin:3mm 0 0; padding-left:5mm}
+
+h3.sub{font-size:10pt; margin-top:4mm; margin-bottom:1.5mm}
+.foot{position:fixed; bottom:6mm; left:0; right:0; font-size:7.5pt; color:var(--faint); text-align:center}
+</style>
+</head>
+<body>
+
+<!-- ТИТУЛ -->
+<section class="page cover">
+  <div class="top">
+    <div class="kick">Справочник · «Сайт всех» · ноябрь 2026</div>
+    <h1>Принципы вёрстки</h1>
+    <p class="lede">Короткая версия. Всё, что ниже, получено измерением живых страниц:
+      126 шаблонов официального каталога Readymag, снятых в двух вьюпортах, и разбор
+      интерфейса самого Readymag. Подробности, таблицы по каждому шаблону и проверочные
+      списки — в репозитории.</p>
+    <div class="facts">
+      <div><div class="n">126</div><div class="c">шаблонов обмерено в живом DOM</div></div>
+      <div><div class="n">2</div><div class="c">вьюпорта: 1024&nbsp;×&nbsp;900 и 375&nbsp;×&nbsp;812</div></div>
+      <div><div class="n">10</div><div class="c">шаблонов разобрано вручную: прокрутка, наведение, переходы</div></div>
+    </div>
+
+    <h3 style="font-size:11pt; margin-top:14mm">Что показал каталог целиком</h3>
+    <table style="margin-top:3mm">
+      <tbody>
+        <tr><td>Медианное число начертаний на первой странице</td><td class="n"><b>2</b></td><td style="width:45%" class="muted">в четыре укладываются 92 % шаблонов, больше восьми нет ни у одного</td></tr>
+        <tr><td>Шаблонов, где есть хоть одно скругление</td><td class="n"><b>27 %</b></td><td class="muted">прямой угол — норма, а не бедность</td></tr>
+        <tr><td>Изображений, кадрированных через <code>cover</code></td><td class="n"><b>81 %</b></td><td class="muted">но к одному формату приводят только 29 % шаблонов</td></tr>
+        <tr><td>Длительность перехода 0,2 с</td><td class="n"><b>97 %</b></td><td class="muted">1338 виджетов из 1375</td></tr>
+        <tr><td>Шаблонов с закреплённой рамой</td><td class="n"><b>51 %</b></td><td class="muted">в среднем шесть закреплённых элементов</td></tr>
+        <tr><td>Отмечают текущий раздел</td><td class="n"><b>52 %</b></td><td class="muted">половина авторов не показывает, где человек находится</td></tr>
+        <tr><td>Медианное левое поле</td><td class="n"><b>19 px</b></td><td class="muted">при холсте 1024 — около 1,9 % ширины</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="bottom">
+    Числа даны в единицах холста. Пометка «измерено» означает значение из
+    <code>getComputedStyle</code> или <code>getBoundingClientRect</code>.
+  </div>
+</section>
+
+<!-- 1 -->
+<section class="page">
+  <div class="sec">
+    <div class="sec-top"><span class="num">01</span><h2>Холст и масштаб</h2></div>
+    <div class="body">
+      <div>
+        <p class="lead">Страница Readymag — не поток, а холст фиксированной ширины.
+          Контейнер несёт <code>zoom = ширина окна / ширина холста</code>, виджеты стоят
+          в координатах холста.</p>
+        <p class="muted">Внутри десктопа брейкпоинтов нет: страница просто растёт.
+          На телефоне масштабирования нет вовсе — холст совпадает с шириной окна.</p>
+        <table>
+          <thead><tr><th>Шаблон</th><th class="n">Холст</th><th class="n">zoom при 1440</th></tr></thead>
+          <tbody>
+            <tr><td>Editorial Stack, Calendar, Nordic</td><td class="n">1024</td><td class="n">1,40625</td></tr>
+            <tr><td>Read Me: Magazine</td><td class="n">1440</td><td class="n">1,0</td></tr>
+            <tr><td>Neonflux</td><td class="n">1920</td><td class="n">0,533</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <div class="rule-box">
+          <div class="lbl">Правило</div>
+          <p>Число из чужого макета ничего не значит без холста. Прежде чем переносить размер,
+             переведите его в долю ширины: поле 64 при холсте 1024 — это 6,25 %.</p>
+        </div>
+        <h3 class="sub">Почему это важно именно нам</h3>
+        <p class="muted">Один и тот же кегль, записанный в шаблоне, на мониторе вырастает,
+          а на телефоне остаётся как есть. Девять пикселей подписи превращаются в 12,7 px
+          на экране 1440 и остаются девятью в руке. Отсюда почти все беды с мелким текстом
+          в чужих макетах.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-top"><span class="num">02</span><h2>Сетка, поля, колонки</h2></div>
+    <div class="body">
+      <div>
+        <p class="lead">Поле — не стиль, а функция содержания.</p>
+        <table>
+          <thead><tr><th>Шаблон</th><th class="n">Поле</th><th class="n">Доля</th></tr></thead>
+          <tbody>
+            <tr><td>Portfolio Workbench — контактный лист</td><td class="n">8</td><td class="n">0,8 %</td></tr>
+            <tr><td>Calendar — сетка недели</td><td class="n">14</td><td class="n">1,4 %</td></tr>
+            <tr><td>Grid · A—BUREAU — три колонки</td><td class="n">30</td><td class="n">2,9 %</td></tr>
+            <tr><td>Editorial Stack — коллаж</td><td class="n">64</td><td class="n">6,3 %</td></tr>
+            <tr><td>Nordic — меню для чтения</td><td class="n">174</td><td class="n">17 %</td></tr>
+          </tbody>
+        </table>
+        <p class="muted" style="margin-top:3mm">Сетка данных жмётся к краю, текст для чтения
+          уходит в середину, коллаж требует воздуха. Разброс — в двадцать раз.</p>
+      </div>
+      <div>
+        <h3 class="sub">Колонки</h3>
+        <table>
+          <thead><tr><th>Шаблон</th><th class="n">Колонок</th><th class="n">Ширина</th><th class="n">Межколонник</th></tr></thead>
+          <tbody>
+            <tr><td>Calendar</td><td class="n">7</td><td class="n">127</td><td class="n">18</td></tr>
+            <tr><td>A—BUREAU</td><td class="n">3</td><td class="n">315</td><td class="n">10</td></tr>
+            <tr><td>Portfolio Workbench</td><td class="n">2</td><td class="n">501</td><td class="n">3</td></tr>
+            <tr><td>Planet Earth</td><td class="n">4 неравные</td><td class="n">303/200/198/298</td><td class="n">1–2</td></tr>
+          </tbody>
+        </table>
+        <div class="rule-box" style="margin-top:4mm">
+          <div class="lbl">Правило</div>
+          <p>Левый край шапки, секций и подвала совпадает на всех ширинах. Блоки, вынесенные
+             за это поле, перечислены явно, и их не больше двух-трёх.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 2 -->
+<section class="page">
+  <div class="sec">
+    <div class="sec-top"><span class="num">03</span><h2>Типографика и мера строки</h2></div>
+    <div class="body one">
+      <p class="lead">Главное измерение исследования. Read Me: Magazine пересчитывает шкалу
+        на телефон <b>непропорционально</b>: дисплей ужимают на 15 %, основной текст на 33 %,
+        служебный не трогают вовсе. Мера строки при этом остаётся прежней.</p>
+    </div>
+    <div class="body">
+      <div>
+        <table>
+          <thead><tr><th>Роль</th><th class="n">Десктоп</th><th class="n">Телефон</th><th class="n">Коэфф.</th></tr></thead>
+          <tbody>
+            <tr><td>дисплей Druk Condensed</td><td class="n">240 / 240</td><td class="n">204 / 204</td><td class="n">0,85</td></tr>
+            <tr><td>лид Spectral</td><td class="n">32 / 36</td><td class="n">21 / 24</td><td class="n">0,66</td></tr>
+            <tr><td>текст Spectral</td><td class="n">24 / 30</td><td class="n">16 / 20</td><td class="n">0,67</td></tr>
+            <tr><td>служебное Graphik</td><td class="n">11 / 12</td><td class="n">11 / 12</td><td class="n">1,00</td></tr>
+            <tr><td><b>мера строки</b></td><td class="n">≈ 34 знака</td><td class="n">≈ 35 знаков</td><td class="n">1,00</td></tr>
+          </tbody>
+        </table>
+        <p class="muted" style="margin-top:3mm">Интерлиньяж корпуса сохранён точно:
+          30/24 = 20/16 = 1,25.</p>
+      </div>
+      <div>
+        <div class="rule-box">
+          <div class="lbl">Правило</div>
+          <p>Кегль пересчитывают под меру строки, а не наоборот. Интерлиньяж корпуса 1,25
+             и не зависит от ширины. Служебный текст на телефоне не уменьшают.</p>
+        </div>
+        <h3 class="sub">Сколько размеров нужно</h3>
+        <table>
+          <thead><tr><th>Шаблон</th><th class="n">Размеров</th><th class="n">Крайние</th></tr></thead>
+          <tbody>
+            <tr><td>Unveil</td><td class="n">1</td><td class="n">9</td></tr>
+            <tr><td>Nordic</td><td class="n">2</td><td class="n">12 и 118</td></tr>
+            <tr><td>Planet Earth</td><td class="n">4</td><td class="n">8 … 130</td></tr>
+            <tr><td>Read Me: Magazine</td><td class="n">4</td><td class="n">11 … 240</td></tr>
+          </tbody>
+        </table>
+        <p class="muted" style="margin-top:3mm">Иерархию создаёт не число ступеней,
+          а разрыв между ними: соседние роли отличаются в полтора-два раза,
+          дисплей отрывается от корпуса в десять и более.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-top"><span class="num">04</span><h2>Кадр и изображения</h2></div>
+    <div class="body">
+      <div>
+        <p class="lead">Две стратегии, и выбор между ними — ответ на вопрос
+          «что здесь главное».</p>
+        <table>
+          <thead><tr><th>Что главное</th><th>Как кадрируем</th></tr></thead>
+          <tbody>
+            <tr><td>Перечень, равноправие</td><td>единый кадр, <code>cover</code>: 25 снимков 239×298, зазор 0</td></tr>
+            <tr><td>Сам снимок</td><td>свободный кадр: колонки 315, высоты 315 / 210 / 465</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <div class="rule-box">
+          <div class="lbl">Правило 4 / 40</div>
+          <p>От низа кадра до подписи — 4 px, от подписи до следующего блока — 40.
+             Отношение примерно 1 : 10: подпись приклеена к своему кадру и не слипается
+             с соседней парой.</p>
+        </div>
+        <p class="muted" style="margin-top:3mm">Кегль подписи на телефоне не уменьшаем.
+          Если не помещается — сокращаем текст подписи, а не шрифт.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3 -->
+<section class="page">
+  <div class="sec">
+    <div class="sec-top"><span class="num">05</span><h2>Состояния и наведение</h2></div>
+    <div class="body">
+      <div>
+        <p class="lead">Ни в одном из разобранных шаблонов наведение не меняет размер
+          и положение. Обратная связь — только цвет и прозрачность, 0,1–0,2 с.</p>
+        <table>
+          <thead><tr><th>Состояние</th><th>Значение</th></tr></thead>
+          <tbody>
+            <tr><td>обычное</td><td>цвет текста, без подчёркивания</td></tr>
+            <tr><td>наведение</td><td>тот же цвет с альфой <b>0,6</b></td></tr>
+            <tr><td>текущий раздел</td><td>акцентный цвет — единственное место акцента</td></tr>
+            <tr><td>недоступно</td><td>альфа <b>0,25</b> плюс пояснение</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <div class="rule-box">
+          <div class="lbl">Правило</div>
+          <p>Четыре состояния вместо двух. Наведение — гашение того же цвета, а не подстановка
+             другого. Текущий раздел отмечаем акцентным текстом, а не заливкой.
+             Недоступный пункт показываем и объясняем.</p>
+        </div>
+        <p class="muted" style="margin-top:3mm">Подчёркивание рисуют фоном-градиентом
+          <code>0 100% / 1px 1px repeat-x</code>, а не <code>text-decoration</code> — линия
+          встаёт ровно в 1 px под базовой линией.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-top"><span class="num">06</span><h2>Навигация и переходы</h2></div>
+    <div class="body">
+      <div>
+        <p class="lead">Переходов между разделами нет. Замер каждые 60–80 мс: прозрачность
+          не меняется, страница подменяется мгновенно.</p>
+        <p class="muted">Ощущение, что ничего не дёрнулось, создаёт не анимация, а то,
+          что шапка и навигация нарисованы на каждой странице в одних и тех же координатах.
+          Постоянная рама, сменное содержимое.</p>
+        <h3 class="sub">Закреплённая рама у длинного текста</h3>
+        <p class="muted">Прокрутка менялась 0 → 1592 px; координаты заголовка, оглавления
+          из пяти частей и фактурной полосы не изменились ни на пиксель. Движется только
+          колонка текста.</p>
+      </div>
+      <div>
+        <div class="rule-box">
+          <div class="lbl">Правило</div>
+          <p>У длинного материала слева остаётся название и оглавление по частям,
+             справа едет текст. Текущую часть подсвечиваем — в самом шаблоне этого нет,
+             и это его недоработка, а не приём.</p>
+        </div>
+        <h3 class="sub">Прокрутка переносит в следующий раздел</h3>
+        <p class="muted">Домотав обложку календаря, попадаешь на страницу января: адрес
+          меняется сам, разрыва не видно. Двенадцать месяцев читаются как одна лента,
+          но на каждый можно дать ссылку.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4 -->
+<section class="page">
+  <div class="sec">
+    <div class="sec-top"><span class="num">07</span><h2>Телефон</h2></div>
+    <div class="body">
+      <div>
+        <p class="lead">В шаблонах телефон — вторая раскладка, сделанная руками:
+          у каждого виджета свой блок координат для узкого экрана.</p>
+        <table>
+          <thead><tr><th>Способ</th><th>Где измерено</th></tr></thead>
+          <tbody>
+            <tr><td>Колонки → одна колонка</td><td>A—BUREAU: 3×315 → 1×328, высота ×1,56</td></tr>
+            <tr><td>Сетка остаётся, видна частично</td><td>Calendar: неделя 934 px листается вбок</td></tr>
+            <tr><td>Элемент уходит из рамы в поток</td><td>Read Me: оглавление переезжает под лид</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <div class="rule-box">
+          <div class="lbl">Что обязано вырасти</div>
+          <p>Главное действие: кнопка занимает 66 % ширины на десктопе и 87 % на телефоне.
+             Это единственный элемент, который на узком экране получает больше места.</p>
+        </div>
+        <div class="rule-box" style="margin-top:4mm">
+          <div class="lbl">Что обязано не уменьшаться</div>
+          <p>Служебный текст, подписи к фотографиям и поля по краям. Тач-цель считаем
+             по шагу строки, а не по высоте текста: 48 px шага дают норму сами собой.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-top"><span class="num">08</span><h2>Кнопки и скругления</h2></div>
+    <div class="body">
+      <div>
+        <p class="lead">Скругление кодирует слой интерфейса, а не размер объекта.
+          Восемь пикселей стоят и на кнопке 126×32, и на карточке 1333×629.</p>
+        <table>
+          <thead><tr><th>Слой</th><th class="n">Радиус</th></tr></thead>
+          <tbody>
+            <tr><td>шапка и главные действия</td><td class="n">пилюля</td></tr>
+            <tr><td>фильтры</td><td class="n">пилюля</td></tr>
+            <tr><td>превью, теги</td><td class="n">4</td></tr>
+            <tr><td>карточки и кнопки продукта</td><td class="n">8</td></tr>
+          </tbody>
+        </table>
+        <p class="muted" style="margin-top:3mm">Радиус карточки равен зазору сетки:
+          и то и другое — 8.</p>
+      </div>
+      <div>
+        <div class="rule-box">
+          <div class="lbl">Пропорции кнопки</div>
+          <p>Высота = 2,5 кегля. Боковой отступ = 1,5 кегля — он привязан к шрифту,
+             а не к высоте. При кегле 16 это кнопка 40 с отступами 24.</p>
+        </div>
+        <p class="muted" style="margin-top:3mm">Толщину обводки подбирают под масштаб:
+          0,711 px на холсте дают ровно один физический пиксель после зума 1,40625.</p>
+        <p class="muted" style="margin-top:2.5mm">Открытое меню не добавляет ещё одну плашку
+          с тенью: фон за списком уходит в <code>blur(10px)</code>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5 -->
+<section class="page">
+  <div class="sec">
+    <div class="sec-top"><span class="num">09</span><h2>Чего не делать</h2></div>
+    <div class="body">
+      <div>
+        <ul class="big">
+          <li><b>Перехватывать колесо мыши.</b> Вертикальная прокрутка, двигающая ленту вбок,
+            по-разному ведёт себя на тачпаде, мыши и телефоне.</li>
+          <li><b>Подменять содержимое рывком.</b> Предыдущая страница остаётся видимой,
+            пока грузится следующая.</li>
+          <li><b>Держать один кегль на весь сайт.</b> Красиво на витрине из пяти слов,
+            нечитаемо на связном тексте.</li>
+          <li><b>Делать тач-цели по 24–26 px.</b> Норма — 44, считаем по шагу строки.</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="big">
+          <li><b>Снимать контур фокуса.</b> <code>outline: none</code> ломает клавиатурную
+            навигацию.</li>
+          <li><b>Скруглять большие подложки.</b> Трёх значений радиуса и пилюли хватает.</li>
+          <li><b>Наклонять фотографии.</b> У нас фотография — документ, а не оформление.</li>
+          <li><b>Вкладывать карточку в карточку</b> и заводить отдельные палитры
+            для разделов.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-top"><span class="num">10</span><h2>Проверка перед сдачей страницы</h2></div>
+    <ul class="chk">
+      <li>Левый край шапки, секций и подвала совпадает на 375, 768, 1024, 1440, 1880.</li>
+      <li>Горизонтальной прокрутки у страницы нет ни на одной ширине.</li>
+      <li>В одном экране не больше четырёх начертаний.</li>
+      <li>Мера строки одинаковая на десктопе и на телефоне.</li>
+      <li>Интерлиньяж корпуса 1,25 и не зависит от ширины.</li>
+      <li>Служебный текст и подписи на телефоне не уменьшены.</li>
+      <li>В блоке либо все кадры одного формата, либо все свободные — без смеси.</li>
+      <li>Кадр → подпись 4 px, подпись → следующий блок 40 px.</li>
+      <li>Ни одно состояние не меняет размер и положение.</li>
+      <li>У ссылки описаны четыре состояния, текущий раздел — акцентным текстом.</li>
+      <li>Видимый контур фокуса есть, hover — внутри <code>@media (hover: hover)</code>.</li>
+      <li>Шаг пункта меню на телефоне не меньше 44 px.</li>
+      <li>Главное действие на телефоне занимает почти всю строку.</li>
+      <li>Радиус карточки совпадает с зазором сетки.</li>
+      <li>Светлая и тёмная темы проверены обе.</li>
+      <li>Для каждой секции записано, что на телефоне уходит вниз.</li>
+    </ul>
+  </div>
+
+  <p class="muted" style="margin-top:10mm; font-size:9pt; border-top:.6pt solid var(--line); padding-top:3mm">
+    Подробные разборы, таблицы по каждому из 126 шаблонов, исходные замеры и скрипт,
+    которым они сняты, — в репозитории веб-вёрстки. Там же визуальный атлас с парами
+    «десктоп / телефон» и живыми кнопками, воспроизведёнными по замерам.
+  </p>
+</section>
+
+</body>
+</html>
