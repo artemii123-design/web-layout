@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Репозиторий веб-вёрстки</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --paper:#FAFAFB; --surface:#F1F1F4; --ink:#16161A; --muted:#67676F; --faint:#9A9AA3;
+  --line:#E3E3E9; --rule:#C9C9D2; --accent:#EC520B; --accent-ink:#C2440A;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#121110; --surface:#1B1917; --ink:#EFEBE4; --muted:#9E978B; --faint:#78726A;
+    --line:#2C2823; --rule:#3C372F; --accent:#FF6A1F; --accent-ink:#FF9153;
+    color-scheme:dark;
+  }
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font:400 16px/1.55 "Inter", system-ui, sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:860px; margin:0 auto; padding-left:max(16px, env(safe-area-inset-left,0px)); padding-right:max(16px, env(safe-area-inset-right,0px)); padding-block:0}
+header{border-bottom:1px solid var(--rule); padding-block:56px 26px}
+.kicker{font-family:"IBM Plex Mono",monospace; font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent-ink)}
+h1{margin:14px 0 0; font-size:clamp(34px,6vw,58px); line-height:1; letter-spacing:-0.035em; font-weight:600}
+.lede{margin-top:18px; max-width:62ch; color:var(--muted); font-size:clamp(15px,2vw,18px)}
+.facts{display:flex; flex-wrap:wrap; gap:8px 26px; margin-top:22px; font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--faint)}
+h2{margin:44px 0 0; font-size:13px; font-family:"IBM Plex Mono",monospace; letter-spacing:.12em; text-transform:uppercase; color:var(--faint); font-weight:500}
+.cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line); margin-top:14px}
+a.card{display:flex; flex-direction:column; gap:6px; background:var(--paper); padding:18px 18px 20px; text-decoration:none; color:inherit; transition:background-color .15s}
+a.card:hover{background:var(--surface)}
+a.card .t{font-weight:500; font-size:16px}
+a.card .d{font-size:13.5px; color:var(--muted); line-height:1.45}
+ul.list{list-style:none; margin:14px 0 0; padding:0; border-top:1px solid var(--line)}
+ul.list li{border-bottom:1px solid var(--line)}
+ul.list a{display:flex; gap:14px; align-items:baseline; padding:11px 2px; text-decoration:none; color:inherit}
+ul.list a:hover .t{color:var(--accent-ink)}
+ul.list .n{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--faint); min-width:24px}
+ul.list .t{font-size:15.5px}
+ul.list .d{font-size:13.5px; color:var(--muted); margin-left:auto; text-align:right}
+@media (max-width:620px){ul.list .d{display:none}}
+footer{margin-top:52px; border-top:1px solid var(--line); padding-block:22px 64px; color:var(--muted); font-size:13.5px}
+footer a{color:var(--accent-ink)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="kicker">Справочник · «Сайт всех»</div>
+  <h1>Репозиторий веб-вёрстки</h1>
+  <p class="lede">Принципы вёрстки с числами: что измерено, на каком материале и как это
+    применять. Первый заход — официальный каталог шаблонов Readymag, обмеренный в живом DOM.</p>
+  <div class="facts">
+    <span>126 шаблонов</span><span>2 вьюпорта</span><span>10 разборов вручную</span><span>ноябрь 2026</span>
+  </div>
+</header>
+
+<h2>Открыть</h2>
+<div class="cards">
+  <a class="card" href="atlas/index.html">
+    <span class="t">Визуальный атлас</span>
+    <span class="d">Пары «десктоп / телефон», схемы и живые кнопки, воспроизведённые по замерам</span>
+  </a>
+  <a class="card" href="pdf/principy-verstki.pdf">
+    <span class="t">Принципы в PDF</span>
+    <span class="d">Короткая версия на пять страниц: главные числа и правила</span>
+  </a>
+  <a class="card" href="data/SUMMARY.md">
+    <span class="t">Сводка по каталогу</span>
+    <span class="d">Статистика по всем 126 шаблонам: холсты, поля, кегли, скругления, состояния</span>
+  </a>
+</div>
+
+<h2>Принципы</h2>
+<ul class="list">
+  <li><a href="principles/01-holst-i-masshtab.md"><span class="n">01</span><span class="t">Холст и масштаб</span><span class="d">откуда берутся числа в чужих макетах</span></a></li>
+  <li><a href="principles/02-setka-polya-kolonki.md"><span class="n">02</span><span class="t">Сетка, поля, колонки</span><span class="d">поле как функция содержания</span></a></li>
+  <li><a href="principles/03-tipografika-i-mera.md"><span class="n">03</span><span class="t">Типографика и мера строки</span><span class="d">кегль пересчитывают под меру</span></a></li>
+  <li><a href="principles/04-kadr-i-izobrazheniya.md"><span class="n">04</span><span class="t">Кадр и изображения</span><span class="d">единый кадр против свободного</span></a></li>
+  <li><a href="principles/05-sostoyaniya-i-navedenie.md"><span class="n">05</span><span class="t">Состояния и наведение</span><span class="d">четыре состояния вместо двух</span></a></li>
+  <li><a href="principles/06-navigatsiya-i-perehody.md"><span class="n">06</span><span class="t">Навигация и переходы</span><span class="d">постоянная рама, сменное содержимое</span></a></li>
+  <li><a href="principles/07-telefon.md"><span class="n">07</span><span class="t">Телефон</span><span class="d">что обязано вырасти, что не уменьшаться</span></a></li>
+  <li><a href="principles/08-knopki-i-skrugleniya.md"><span class="n">08</span><span class="t">Кнопки и скругления</span><span class="d">радиус кодирует слой, а не размер</span></a></li>
+  <li><a href="principles/09-granitsy.md"><span class="n">09</span><span class="t">Границы</span><span class="d">чего не делать и почему</span></a></li>
+</ul>
+
+<h2>Материалы</h2>
+<ul class="list">
+  <li><a href="templates/field-notes.md"><span class="n">—</span><span class="t">Полевые заметки</span><span class="d">десять шаблонов: прокрутка, наведение, переходы</span></a></li>
+  <li><a href="interface/readymag-ui.md"><span class="n">—</span><span class="t">Интерфейс Readymag</span><span class="d">кнопки, скругления, состояния</span></a></li>
+  <li><a href="data/table.md"><span class="n">—</span><span class="t">Таблица по каждому шаблону</span><span class="d">холст, высота, поля, начертания</span></a></li>
+  <li><a href="SOURCES.md"><span class="n">—</span><span class="t">Источники и метод</span><span class="d">как снимались замеры</span></a></li>
+</ul>
+
+<footer>
+  Снимки экрана приведены как материал разбора; права на шаблоны принадлежат их авторам,
+  указанным рядом с каждым. Исходный каталог —
+  <a href="https://readymag.com/templates">readymag.com/templates</a>.
+</footer>
+
+</div>
+</body>
+</html>
